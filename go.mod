@@ -3,7 +3,7 @@ module github.com/spring-2024/baka-invade
 go 1.20
 
 require (
-	github.com/m-hosoi/gg v1.3.0
+	github.com/caris-events/gg v0.0.0-20230813142135-c8e9c10fd21b
 	github.com/otiai10/copy v1.12.0
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/sabloger/sitemap-generator v1.2.1

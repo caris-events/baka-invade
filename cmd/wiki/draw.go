@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/m-hosoi/gg"
+	"github.com/caris-events/gg"
 	"golang.org/x/image/draw"
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/opentype"
