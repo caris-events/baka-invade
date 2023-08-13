@@ -1,0 +1,30 @@
+#
+code      : perfect_hotta
+grand_code: perfect
+
+#
+fullname_zh: 幻塔
+fullname_en: Tower of Fantasy
+subnames   : [TOF, Hotta]
+
+#
+categories: [GA]
+type      : game
+owner     : chinese
+
+#
+website    : https://www.hotta.com.tw/main.html
+description: |
+    [[perfect_hotta]] 是由 [[perfect]] 旗下的 Hotta Studio 所開發的多人線上開放世界遊戲，內容與風格主要抄襲 [[genshin_impact]]。在台灣由 [[perfect_iwplay]] 代理。
+
+#
+informations:
+    - date       : 2022-08-11
+      invasion   : support
+      description: |
+          [[perfect_hotta]] 在替角色命名時，任何有關「台灣」的關鍵字都被封鎖，但仍可提及「中國」。亦有 bahamut 玩家因敏感詞彙而在公開聊天頻道被禁言數年。
+
+    - date       : 2022-12-06
+      direction  : chinese_gov
+      description: |
+          [[perfect_hotta]] 接獲中國政府限娛令要求，為了哀悼《江澤民》逝世而暫停營運一天，包含已購買月卡的所有玩家都不能遊玩。

@@ -1,0 +1,21 @@
+#
+code      : perfect_iwplay
+grand_code: perfect
+
+#
+fullname_zh: 艾玩天地
+fullname_en: Iwplay World
+subnames   :
+
+#
+categories: [GA]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.iwplay.com.tw/
+description: |
+    [[perfect_iwplay]] 是偽裝成台灣遊戲公司的中國公司。以代理中國遊戲為名義，藉此管道直營中國遊戲給台灣玩家遊玩，如：[[perfect_hotta]]。
+
+#
+informations:

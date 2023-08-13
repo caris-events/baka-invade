@@ -1,0 +1,27 @@
+#
+code      : perfect
+grand_code:
+
+#
+fullname_zh: 完美世界
+fullname_en: Perfect World Games
+subnames   : [完美時空, Perfect World Entertainment]
+
+#
+categories: [GA]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.wanmei.com/
+description: |
+    [[perfect]] 是一間遊戲公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[perfect]] 的主要股東包括中國商人《池宇峰》，其他股東全為中資或中國商人。
+
