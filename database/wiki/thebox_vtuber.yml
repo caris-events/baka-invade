@@ -1,0 +1,25 @@
+#
+code      : thebox_vtuber
+grand_code:
+
+#
+fullname_zh: 箱箱 The Box
+fullname_en: The Box
+subnames   : [箱箱]
+
+#
+categories: [EN]
+type      : brand
+owner     : taiwanese
+
+#
+website    : https://www.facebook.com/profile.php?id=100084534447294
+description: |
+    [[thebox_vtuber]] 是自 2022 年因合約糾紛而從 [[cloudhorizon_vtuber]] 分家出來的台灣虛擬實況主工作室。
+
+#
+informations:
+    - date       : 2022-10-13
+      description: |
+          [[thebox_vtuber]] 與 [[perfect_hotta]] 宣佈合作，[[thebox_vtuber]] 表示所有旗下藝人：《森森鈴蘭》、《瑪格麗特．諾爾絲》、《柴崎楓音》都會參與。
+      invasion: indirect

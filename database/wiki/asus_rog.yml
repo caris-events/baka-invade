@@ -1,0 +1,21 @@
+#
+code      : asus_rog
+grand_code: asus
+
+#
+fullname_zh: 玩家國度
+fullname_en: Republic of Games
+subnames   : [敗家之眼, ROG]
+
+#
+categories: [MP, PC]
+type      : brand
+owner     : taiwanese
+
+#
+website    : https://rog.asus.com/tw/
+description: |
+    [[asus_rog]] 是為電競遊戲而成立的子品牌，主要販售商品有電腦、主機板、路由器、手機、耳機與輸入裝置。
+
+#
+informations:

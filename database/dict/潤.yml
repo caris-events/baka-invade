@@ -1,0 +1,25 @@
+#
+word      : 潤
+bopomofo  : ㄖㄨㄣˋ
+
+#
+description: |
+    跑走或是逃離某個地方，意指英文的 Run。中國禁止提及「移民」網友而改用「潤」暗喻。
+
+#
+examples:
+    - words      : [移民]
+      description: |
+          離開某個國家而前往新的地方定居。
+      correct    : |
+          中國我真的待不下，想{{移民}}了！
+      incorrect  : |
+          中國我真的待不下，{{潤}}了！
+
+    - words      : [快逃, Run]
+      description: |
+          逃離某個地方。
+      correct    : |
+          上海都開始封控了，{{快逃}}！
+      incorrect  : |
+          上海都開始封控了，{{潤}}！

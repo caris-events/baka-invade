@@ -1,0 +1,15 @@
+#
+word      : 小姊姊
+bopomofo  : ㄒㄧㄠˇ ㄐㄧㄝˇ ㄐㄧㄝ˙
+
+#
+description: |
+    美麗好看、身材苗條的女性。
+
+#
+examples:
+    - words      : [正妹]
+      correct    : |
+          最近我的動態牆上面都是一堆{{正妹}}照。
+      incorrect  : |
+          最近我的動態牆上面都是一堆{{小姊姊}}的照片。

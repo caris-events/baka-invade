@@ -1,0 +1,421 @@
+.b-disclaimer-icon {
+    height: 22px !important;
+    margin-left: 3px;
+    vertical-align: text-bottom;
+    opacity: 0.8;
+}
+
+/**
+ * Global
+ */
+
+.b-text-relaxed {
+    line-height: 1.9;
+}
+
+.b-bg-white {
+    background: var(--ts-gray-50);
+}
+
+.b-divider:last-child {
+    display: none;
+}
+
+.b-related-logo {
+    width: 80px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    .b-related-logo {
+        background: white;
+        border-radius: 0.8rem;
+        padding: 0.5rem;
+        height: 80px;
+    }
+}
+
+.b-related-logo img {
+    object-fit: contain;
+    width: auto !important;
+    max-height: 65px !important;
+    max-width: 90% !important;
+}
+
+.b-title-icon {
+    min-width: 22px;
+    display: inline-block;
+    text-align: left;
+}
+
+/**
+ * Header
+ */
+
+.b-headerfull-logo img {
+    width: 180px;
+    margin-top: 0.15rem;
+    max-width: 100%;
+}
+
+.b-headerbasic-logo img {
+    width: 150px;
+    max-width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+    .b-headerfull-logo img,
+    .b-headerbasic-logo img,
+    .b-headermob-logo img {
+        filter: invert(1);
+    }
+}
+
+.b-headermob-logo img {
+    width: 100px;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+/**
+ * Index
+ */
+
+.b-index-grid {
+    --gap: 5rem !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+    .b-index-grid {
+        --gap: 0rem !important;
+    }
+}
+
+/**
+ * About
+ */
+
+.b-about-quote {
+    font-size: var(--ts-font-size-24px) !important;
+    font-weight: bold !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .b-about-quote {
+        font-size: var(--ts-font-size-20px) !important;
+    }
+}
+
+.b-about-flag {
+    width: calc(4 / 3 * 1.6rem) !important;
+    height: 1.6rem !important;
+    margin: 0 0.5rem !important;
+}
+
+/**
+ * Wiki
+ */
+
+.b-wiki-slate {
+    min-height: 130px;
+}
+
+.b-wiki-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+}
+
+.b-wiki-logo img {
+    max-height: 90px;
+    max-width: 100%;
+    width: auto;
+}
+
+.b-wiki-article {
+    line-height: 2;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .b-wiki-slate {
+        min-height: 100px;
+    }
+
+    .b-wiki-logo {
+        margin: 0 auto;
+        height: 90px;
+        width: 90px;
+    }
+}
+
+.b-wiki-mobicon.is-circle-question-icon {
+    color: var(--ts-gray-500) !important;
+}
+
+.b-wiki-mobicon.is-triangle-exclamation-icon {
+    color: var(--ts-negative-500) !important;
+}
+
+.b-wiki-indicator {
+    border: 3px solid var(--ts-gray-300) !important;
+}
+.b-wiki-indicator .ts-header {
+    margin-top: 0.25rem;
+}
+.b-wiki-indicator .symbol .ts-icon::before {
+    content: "\f059" !important;
+}
+
+.b-wiki-indicator-danger {
+    border: 3px solid var(--ts-negative-500) !important;
+}
+.b-wiki-indicator-danger .symbol .ts-icon {
+    opacity: 1 !important;
+    color: var(--ts-negative-500) !important;
+}
+.b-wiki-indicator-danger .symbol .ts-icon::before {
+    content: "\f071" !important;
+}
+
+.b-wiki-suggested-logo {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.b-wiki-suggested-logo img {
+    object-fit: contain;
+    width: auto !important;
+    max-height: 65px !important;
+    max-width: 100% !important;
+}
+
+.b-wiki-date {
+    width: 70px;
+}
+
+.b-wiki-checklist .item.is-warning::before {
+    background: var(--ts-tonal-negative-400) !important;
+    color: var(--ts-tonal-negative-800) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .b-wiki-logo {
+        background: white;
+        border-radius: 0.8rem;
+        padding: 0.5rem;
+    }
+    .b-wiki-suggested-logo {
+        background: white;
+        border-radius: 0.8rem;
+        padding: 0.5rem;
+        width: 90px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.b-wiki-table :is(thead, tbody, tfoot, tr, th, td) {
+    font-size: 15px !important;
+}
+
+/**
+ * Search
+ */
+
+.b-wiki-filtermob {
+    border-top: 0 !important;
+}
+
+/**
+ * Dict
+ */
+
+.b-dict-mark {
+    text-decoration: underline wavy var(--ts-gray-500);
+    text-underline-offset: 2px;
+    padding: 0 0.2rem;
+}
+
+.b-dict-word {
+    text-decoration: underline dotted var(--ts-gray-500);
+    text-underline-offset: 2px;
+    padding: 0 0.2rem;
+    z-index: 1;
+}
+
+.b-dict-loadmore {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.b-dict-corner {
+    font-size: 130px;
+    position: absolute;
+    bottom: -71px;
+    right: -26px;
+    font-weight: bold;
+    color: var(--ts-gray-300);
+    opacity: 0.4;
+    user-select: none;
+    pointer-events: none;
+}
+
+.b-dict-danger,
+.b-dict-info {
+    font-size: 16px;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    z-index: 1;
+}
+
+.b-dict-info {
+    color: #00adea;
+}
+
+.b-dict-danger {
+    color: var(--ts-negative-500);
+}
+
+.b-dict-danger .ts-icon,
+.b-dict-info .ts-icon {
+    font-size: 19px;
+    margin-right: 0.5rem;
+    margin-top: 3px;
+}
+
+.b-dict-desc {
+    width: 50%;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.b-dict-slate {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--ts-gray-300);
+    overflow: hidden;
+}
+
+.b-dict-chars {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.b-dict-char {
+    display: inline-flex;
+    min-width: 90px;
+    min-height: 95px;
+    gap: 0.5rem;
+    border: 3px solid var(--ts-gray-300);
+    padding: 0.8em;
+    line-height: 1;
+    border-radius: 1rem;
+    z-index: 1;
+    background: var(--ts-gray-50);
+}
+
+.b-dict-chinese {
+    flex: 1;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-dict-bopomofo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-dict-bopomofo:has(.b-dict-accent) {
+    margin-right: 0.5rem;
+}
+
+.b-dict-sign {
+    font-weight: bold;
+}
+
+.b-dict-accent {
+    position: absolute;
+    top: 50%;
+    right: -12px;
+    transform: translateY(-50%);
+    font-size: 22px;
+}
+
+.b-dict-badgemob {
+    margin-top: -4px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .b-dict-danger,
+    .b-dict-info {
+        line-height: unset;
+        font-size: 14px;
+        display: block;
+    }
+
+    .b-dict-danger .ts-icon,
+    .b-dict-info .ts-icon {
+        margin-top: -1px;
+        font-size: 17px;
+    }
+
+    .b-dict-chars {
+        gap: 0.5rem;
+    }
+
+    .b-dict-char {
+        min-width: 0;
+        min-height: 0;
+        padding: 0;
+        background: 0;
+        border: 0;
+        gap: 0.25rem;
+    }
+
+    .b-dict-chinese {
+        font-size: 30px;
+    }
+
+    .b-dict-bopomofo {
+        font-size: 12px;
+    }
+
+    .b-dict-accent {
+        font-size: 18px;
+    }
+
+    .b-dict-corner {
+        font-size: 45px;
+        right: -8px;
+        bottom: -22px;
+        opacity: 0.3;
+    }
+
+    .b-dict-desc {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .b-dict-slate {
+        background: var(--ts-gray-50);
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}

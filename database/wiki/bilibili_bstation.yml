@@ -1,0 +1,21 @@
+#
+code      : bilibili_bstation
+grand_code: bilibili
+
+#
+fullname_zh:
+fullname_en: Bstation
+subnames   :
+
+#
+categories: [AP]
+type      : software
+owner     : chinese
+
+#
+website    : https://www.bilibili.tv/id
+description: |
+    [[bilibili_bstation]] 是 [[bilibili]] 專為印尼與東南亞市場所成立的中國漫畫、影片、直播網站平台，其網站界面主要抄襲 YouTube。台灣目前被封鎖而無法拜訪該平台。
+
+#
+informations:

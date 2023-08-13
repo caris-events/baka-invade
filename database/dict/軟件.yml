@@ -1,0 +1,15 @@
+#
+word      : 軟件
+bopomofo  : ㄖㄨㄢˇ ㄐㄧㄢˋ
+
+#
+description: |
+    電腦的套裝程式，通常使用之前會需要先安裝。
+
+#
+examples:
+    - words      : [軟體]
+      correct    : |
+          網路上有許多{{軟體}}可以下載。
+      incorrect  : |
+          [[互聯網]]上有許多{{軟件}}可以下載。

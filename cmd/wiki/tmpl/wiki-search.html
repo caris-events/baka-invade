@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-TW" class="is-secondary">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>笨他侵略</title>
+        <!-- Tocas UI -->
+        <link rel="stylesheet" href="./../assets/tocas/tocas.min.css" />
+        <script src="./../assets/tocas/tocas.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+
+        <!-- Assets -->
+        <link rel="stylesheet" href="./../assets/styles/style.css" />
+        <script src="./../assets/scripts/relation_data.js"></script>
+        <script src="./../assets/scripts/random_data.js"></script>
+        <script src="./../assets/scripts/random_store.js"></script>
+        <script src="./../assets/scripts/objects.js"></script>
+        <script src="./../assets/scripts/wiki_store.js"></script>
+
+        <!-- Dependencies -->
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.11.1/cdn.min.js" defer></script>
+
+        <!-- Meta -->
+        <meta
+            name="description"
+            content="這個網路資料庫記載了目前與中共政府有關的企業、團體與服務還有它們的侵略性行為（例如：言論審查、侵害人權），我們仍在盡可能地完善這些資料。"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="笨他侵略" />
+        <meta
+            name="twitter:description"
+            content="這個網路資料庫記載了目前與中共政府有關的企業、團體與服務還有它們的侵略性行為（例如：言論審查、侵害人權），我們仍在盡可能地完善這些資料。"
+        />
+        <meta name="twitter:image" content="https://v4.tocas-ui.com/zh-tw/assets/images/og.png" />
+        <meta property="og:title" content="笨他侵略" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://v4.tocas-ui.com/zh-tw/assets/images/og.png" />
+        <meta property="og:url" content="https://v4.tocas-ui.com/zh-tw/getting-started.html" />
+        <meta property="og:image:width" content="1280" />
+        <meta property="og:image:height" content="720" />
+        <meta
+            property="og:description"
+            content="這個網路資料庫記載了目前與中共政府有關的企業、團體與服務還有它們的侵略性行為（例如：言論審查、侵害人權），我們仍在盡可能地完善這些資料。"
+        />
+    </head>
+    <body x-data="search_store">
+        <!-- 穹頂 -->
+        <div class="b-bg-white mobile:u-bottom-padded-small tablet+:u-bottom-padded-large">
+            <div class="ts-container u-vertically-padded">
+                <!-- 頂部列 -->
+                <div class="ts-grid is-middle-aligned">
+                    <!-- 左側 -->
+                    <div class="column is-fluid">
+                        <div class="ts-wrap is-relaxed is-middle-aligned">
+                            <a href="./../" class="ts-image b-headermob-logo tablet+:u-hidden">
+                                <img src="./../assets/images/logo-text.svg" alt="笨他侵略的商標圖片" />
+                            </a>
+                            <a class="ts-text is-undecorated mobile:u-hidden" href="./../">首頁</a>
+                            <a class="ts-text is-undecorated" href="./../about">關於</a>
+                            <a class="ts-text is-undecorated" href="./../dict/search">字典</a>
+                        </div>
+                    </div>
+                    <!-- / 左側 -->
+
+                    <!-- 右側 -->
+                    <div class="column">
+                        <div class="ts-wrap is-middle-aligned">
+                            <a class="ts-text is-undecorated" target="_blank" rel="noopener noreferrer" href="https://github.com/caris-events/baka-invade">
+                                <span class="ts-icon is-brand is-github-icon is-large is-end-spaced"></span>
+                                <span class="mobile:u-hidden">GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- / 右側 -->
+                </div>
+                <!-- / 頂部列 -->
+
+                <div class="ts-grid tablet+:is-relaxed mobile:u-top-spaced tablet+:u-top-spaced-big">
+                    <!-- Logo -->
+                    <div class="column is-4-wide mobile:u-hidden">
+                        <a href="./../" class="ts-image b-headerfull-logo">
+                            <img src="./../assets/images/logo-text.svg" alt="笨他侵略的商標圖片" />
+                        </a>
+                    </div>
+                    <!-- / Logo -->
+
+                    <!-- 搜尋欄位 -->
+                    <div class="column is-fluid">
+                        <!-- 輸入欄位 -->
+                        <div class="ts-input is-solid tablet+:is-large">
+                            <input x-on:input="search" x-model="keyword" type="search" placeholder="搜尋組織、產品…" />
+                        </div>
+                        <!-- / 輸入欄位 -->
+
+                        <!-- 隨機條目 -->
+                        <div class="ts-wrap u-top-spaced tablet-:u-hidden" x-data="random_store">
+                            <span>隨機條目：</span>
+                            <template x-for="object of keyword_objects">
+                                <a class="ts-text is-undecorated" x-bind:href="`./../${object.code}`" x-text="object.n"></a>
+                            </template>
+                        </div>
+                        <!-- / 隨機條目 -->
+                    </div>
+                    <!-- / 搜尋欄位 -->
+
+                    <!-- 附屬功能 -->
+                    <div class="column">
+                        <button x-on:click="search" class="ts-button mobile:is-icon tablet+:is-large">
+                            <span class="ts-icon is-magnifying-glass-icon"></span>
+                        </button>
+                    </div>
+                    <!-- / 附屬功能 -->
+                </div>
+            </div>
+        </div>
+        <!-- / 穹頂 -->
+
+        <div class="ts-divider"></div>
+
+        <!-- 主要內容 -->
+        <div class="ts-container mobile:is-fitted tablet:u-vertically-padded-large desktop+:u-vertically-padded-big">
+            <div class="ts-grid mobile:is-stacked tablet+:is-relaxed">
+                <div class="column tablet:is-5-wide desktop+:is-4-wide">
+                    <!-- 篩選條件 -->
+                    <div class="ts-box mobile:u-hidden">
+                        <div class="ts-content">
+                            <div class="ts-grid is-middle-aligned">
+                                <div class="column is-fluid">
+                                    <div class="ts-header">篩選分類</div>
+                                </div>
+                                <div class="column">
+                                    <button
+                                        x-bind:class="{'is-outlined':selected_categories.length === 0, 'is-disabled':selected_categories.length === 0}"
+                                        x-on:click="resetFilter"
+                                        class="ts-button is-short is-dense is-outlined"
+                                    >
+                                        重設
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="ts-wrap is-vertical is-compact u-top-spaced-small">
+                                <template x-for="(code, index) in relations.categories">
+                                    <label class="ts-checkbox">
+                                        <input type="checkbox" x-on:change="search" x-model="selected_categories" x-bind:value="code" />
+                                        <span
+                                            x-text="`${relations.category_texts[index]} ${filtered_categories_count[index] ? '(' + filtered_categories_count[index] + ')' : ''}`"
+                                        ></span>
+                                    </label>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / 篩選條件 -->
+
+                    <!-- 篩選條件：手機 -->
+                    <div class="ts-box b-wiki-filtermob tablet+:u-hidden mobile:u-edged">
+                        <div class="ts-content">
+                            <details class="ts-accordion">
+                                <summary>篩選條件</summary>
+                                <div class="ts-grid is-middle-aligned">
+                                    <div class="column is-fluid">
+                                        <div class="ts-header">篩選分類</div>
+                                    </div>
+                                    <div class="column">
+                                        <button
+                                            x-bind:class="{'is-outlined':selected_categories.length === 0, 'is-disabled':selected_categories.length === 0}"
+                                            x-on:click="resetFilter"
+                                            class="ts-button is-short is-dense is-outlined"
+                                        >
+                                            重設
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="ts-wrap is-compact u-top-spaced">
+                                    <template x-for="(code, index) in relations.categories">
+                                        <label class="ts-chip is-toggle is-circular">
+                                            <input type="checkbox" x-on:change="search" x-model="selected_categories" x-bind:value="code" />
+                                            <div class="content">
+                                                <span
+                                                    x-text="`${relations.category_texts[index]} ${filtered_categories_count[index] ? '(' + filtered_categories_count[index] + ')' : ''}`"
+                                                ></span>
+                                            </div>
+                                        </label>
+                                    </template>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                    <!-- / 篩選條件：手機 -->
+                </div>
+
+                <!-- 左側 -->
+                <div class="column tablet:is-11-wide desktop+:is-12-wide">
+                    <template x-if="selected_related_code !== ''">
+                        <div class="ts-snackbar mobile:u-edged u-bottom-spaced-large" style="display: flex">
+                            <div class="content" style="flex: 1">
+                                目前搜尋範圍被限制在與《<span x-text="objects[object_codes.indexOf(selected_related_code)].n"></span>》相關的項目及服務。
+                            </div>
+                            <button class="action" x-on:click="resetRelatedCode">重設搜尋條件</button>
+                        </div>
+                    </template>
+
+                    <template x-if="showing_results.length > 0 || is_loading">
+                        <div class="ts-box mobile:u-edged b-index-searchs">
+                            <!-- 每筆資料 -->
+                            <template x-for="(result, index) in showing_results">
+                                <div>
+                                    <a x-bind:href="`./../${object_codes[result.c]}`" class="ts-content tablet+:is-horizontally-padded">
+                                        <div class="ts-grid is-middle-aligned">
+                                            <!-- Logo 欄位-->
+                                            <div class="column">
+                                                <div class="ts-image b-related-logo">
+                                                    <img x-bind:src="`./../${object_codes[result.c]}/${object_codes[result.c]}.jpg`" x-bind:alt="`${result.n}的商標圖片`" />
+                                                </div>
+                                            </div>
+                                            <!-- / Logo 欄位-->
+
+                                            <!-- 資訊欄位 -->
+                                            <div class="column is-fluid">
+                                                <!-- 組織名稱 -->
+                                                <div class="ts-text is-large">
+                                                    <span x-text="result.n"></span>
+                                                    <template x-if="result.s !== ''">
+                                                        <span x-text="`（${result.s}）`" class="ts-text is-secondary is-small mobile:u-hidden"></span>
+                                                    </template>
+                                                </div>
+                                                <!-- / 組織名稱 -->
+
+                                                <!-- 組織持有者 -->
+                                                <div class="ts-meta is-secondary">
+                                                    <span class="item" x-text="`${relations.owner_texts[result.o]}${relations.type_texts[result.t]}`"> </span>
+                                                </div>
+                                                <!-- / 組織持有者 -->
+                                            </div>
+                                            <!-- / 資訊欄位 -->
+
+                                            <!-- 箭頭圖示 -->
+                                            <div class="column">
+                                                <span class="ts-icon is-chevron-right-icon is-large is-secondary u-end-spaced"></span>
+                                            </div>
+                                            <!-- / 箭頭圖示 -->
+                                        </div>
+                                    </a>
+                                    <template x-if="index !== showing_results.length-1 || (index === showing_results.length-1 && unshowing_results.length > 0)">
+                                        <div class="ts-divider"></div>
+                                    </template>
+                                </div>
+                            </template>
+                            <!-- / 每筆資料 -->
+
+                            <!-- 載入更多 -->
+                            <template x-if="!is_loading && unshowing_results.length > 0">
+                                <button x-on:click="showMore" class="ts-text is-link is-undecorated" style="width: 100%">
+                                    <div class="ts-content is-secondary is-center-aligned ts-text is-link is-undecorated">載入更多項目…</div>
+                                </button>
+                            </template>
+                            <!-- / 載入更多 -->
+
+                            <!-- 正在搜尋 -->
+                            <template x-if="is_loading">
+                                <div class="ts-content is-secondary is-center-aligned">
+                                    <div class="ts-loading is-centered"></div>
+                                    <div class="ts-text is-center-aligned is-secondary u-bottom-spaced-small">正在搜尋</div>
+                                </div>
+                            </template>
+                            <!-- / 正在搜尋 -->
+                        </div>
+                    </template>
+
+                    <!-- 沒有關聯內容 -->
+                    <template x-if="!is_loading && showing_results.length === 0">
+                        <div class="ts-content is-tertiary is-rounded is-fitted mobile:u-edged">
+                            <div class="ts-blankslate is-secondary">
+                                <div class="header">找不到任何項目</div>
+                            </div>
+                        </div>
+                    </template>
+                    <!-- / 沒有關聯內容 -->
+
+                    <!-- 使用聲明 -->
+                    {{ template "disclaimer" }}
+                    <!-- / 使用聲明 -->
+                </div>
+                <!-- / 左側 -->
+            </div>
+        </div>
+        <!-- / 主要內容 -->
+    </body>
+</html>

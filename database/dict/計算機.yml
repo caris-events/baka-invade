@@ -1,0 +1,17 @@
+#
+word      : 計算機
+bopomofo  : ㄐㄧˋ ㄙㄨㄢˋ ㄐㄧ
+
+#
+description: |
+    個人或是辦公用的電腦，被用作娛樂或是各種行業的數位裝置，手機也算是可攜式電腦。
+distinguish: |
+    隨手可得的小型數學計算機
+
+#
+examples:
+    - words      : [電腦]
+      correct    : |
+          我剛買了最新的{{電腦}}。
+      incorrect  : |
+          我剛買了最新的{{計算機}}。

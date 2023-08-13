@@ -1,0 +1,25 @@
+#
+word      : 寄
+bopomofo  : ㄐㄧˋ
+
+#
+distinguish: |
+    寄送物品的行為
+
+#
+examples:
+    - words      : [完蛋了]
+      description: |
+          事情非常慘，近乎到沒救的地步。
+      correct    : |
+          我不小心把重要的資料刪除了，這下子{{完蛋了}}。
+      incorrect  : |
+          我不小心把重要的資料刪除了，{{寄}}了。
+
+    - words      : [GG]
+      description: |
+          通常指遊戲結束，隊伍雙方會互稱 Good Game（打的漂亮）來勉勵對方。
+      correct    : |
+          {{GG}}
+      incorrect  : |
+          {{寄}}

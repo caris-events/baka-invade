@@ -1,0 +1,23 @@
+#
+word      : 視頻
+bopomofo  : ㄕˋ ㄆㄧㄣˊ
+
+#
+description: |
+    通常泛指「影片」，但也有人稱其為低俗的中國影片（如：抖音視頻）。
+
+#
+examples:
+    - words      : [影片]
+      description: |
+          會動且帶有聲音的多媒體影像。
+      correct    : |
+          YouTube 有許多搞笑的{{影片}}。
+      incorrect  : |
+          YouTube 有許多搞笑的{{視頻}}。
+
+    - words      : [視頻]
+      description: |
+          低俗、沒有內容素質的中國影片。
+      correct    : |
+          本店禁止顧客觀賞抖音{{視頻}}。

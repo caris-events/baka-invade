@@ -1,0 +1,17 @@
+#
+word      : 走心
+bopomofo  : ㄗㄡˇ ㄒㄧㄣ
+
+#
+description: |
+    某些事物走進心裡而令人在意。
+
+#
+examples:
+    - words      : [在意, 介意, 放在心上]
+      description: |
+          不斷地令人想起而無法釋懷，事情總是懸在心上。
+      correct    : |
+          那些傷人的話聽聽就好，別太{{在意}}。
+      incorrect  : |
+          那些傷人的話聽聽就好，別{{走心}}了。

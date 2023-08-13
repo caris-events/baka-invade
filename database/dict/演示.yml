@@ -1,0 +1,15 @@
+#
+word      : 演示
+bopomofo  : ㄧㄢˇ ㄕˋ
+
+#
+description: |
+    示範某個東西，供大家參考或效仿。
+
+#
+examples:
+    - words      : [範例, 展示, 示範]
+      correct    : |
+          蘋果公司在 WWDC 的技術{{展示}}中{{示範}}了 Vision Pro 能做的事情。
+      incorrect  : |
+          蘋果公司在 WWDC 的技術{{演示}}中{{演示}}了 Vision Pro 能做的事情。

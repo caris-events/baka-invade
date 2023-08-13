@@ -1,0 +1,25 @@
+#
+code      : cloudhorizon_vtuber
+grand_code:
+
+#
+fullname_zh: 雲際線工作室
+fullname_en: Cloud Horizon
+subnames   : [雲際線]
+
+#
+categories: [EN]
+type      : brand
+owner     : taiwanese
+
+#
+website    : https://www.cloudhorizon.tw/
+description: |
+    [[cloudhorizon_vtuber]] 是自 2021 年成立的台灣虛擬實況主工作室，部份旗下藝人於 2022 年分家成為 [[thebox_vtuber]]。
+
+#
+informations:
+    - date       : 2021-09-22
+      description: |
+          [[cloudhorizon_vtuber]] 表示旗下藝人《悠白 Ubye》曾收到 [[bilibili]] 進駐邀約但都已回絕，且未來也沒有任何進駐打算。
+      direction: untracked

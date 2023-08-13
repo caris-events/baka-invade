@@ -1,0 +1,30 @@
+#
+code      : asus
+grand_code:
+
+#
+fullname_zh: 華碩電腦
+fullname_en: ASUSTeK Computer
+subnames   : [華碩, ASUS, 共碩]
+
+#
+categories: [IT, MP, PC]
+type      : company
+owner     : taiwanese
+
+#
+website    : https://asus.com/
+description: |
+    [[asus]] 是源自臺灣科技公司，現今是最大的電腦品牌之一。
+
+#
+informations:
+    - income     : chinese
+      description: |
+          相較於其他國家，[[asus]] 在中國有更多品牌且提供更多客製化主機板與電腦硬體（如：天選系列）。
+
+    - date       : 2020-12-17
+      invasion   : support
+      direction  : chinese
+      description: |
+          [[asus]] 曾與 [[cover_hololive]] 合作旗下 [[asus_rog]] 電競工商，但 [[cover_hololive]] 實況主將台灣稱為國家，為此 [[asus]] 於微博堅持表示自己是「中國公司」並取消其合作關係。

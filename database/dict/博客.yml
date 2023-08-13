@@ -1,0 +1,15 @@
+#
+word      : 博客
+bopomofo  : ㄅㄛˊ ㄎㄜˋ
+
+#
+description: |
+    是可以撰寫長篇文章的個人網站，也稱作 Blog。有提供這種服務的網站像是 WordPress 或 Google Blogger。
+
+#
+examples:
+    - words      : [部落格]
+      correct    : |
+          我會經常在{{部落格}}更新我的日常生活，歡迎訂閱！
+      incorrect  : |
+          我會經常在{{博客}}更新我的日常生活，歡迎訂閱！

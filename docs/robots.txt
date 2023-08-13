@@ -1,0 +1,3 @@
+Sitemap: https://baka-invade.org/sitemap.xml.gz
+User-agent: *
+Disallow:

@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-TW" class="is-secondary">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ .Name }} - 笨他侵略</title>
+        <!-- Tocas UI -->
+        <link rel="stylesheet" href="./../assets/tocas/tocas.min.css" />
+        <script src="./../assets/tocas/tocas.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+
+        <!-- Assets -->
+        <link rel="stylesheet" href="./../assets/styles/style.css" />
+        <script src="./../assets/scripts/relation_data.js"></script>
+        <script src="./../assets/scripts/random_data.js"></script>
+        <script src="./../assets/scripts/random_store.js"></script>
+
+        <!-- Dependencies -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.11.1/cdn.min.js" defer></script>
+
+        <!-- Meta -->
+        <meta name="description" content="{{ .Summary }}" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="{{ .Name }} - 笨他侵略" />
+        <meta name="twitter:description" content="{{ .Summary }}" />
+        <meta name="twitter:image" content="https://baka-invade.org/{{ .Code }}/{{ .Code }}_cover.png" />
+        <meta property="og:title" content="{{ .Name }} - 笨他侵略" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://baka-invade.org/{{ .Code }}/{{ .Code }}_cover.png" />
+        <meta property="og:url" content="https://baka-invade.org/{{ .Code }}" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="600" />
+        <meta property="og:description" content="{{ .Summary }}" />
+    </head>
+    <body>
+        <!-- 穹頂 -->
+        <div class="b-bg-white">
+            <div class="ts-container mobile:u-vertically-padded tablet+:u-vertically-padded-large">
+                <!-- 電腦版本 -->
+                <div class="ts-grid is-middle-aligned mobile:u-hidden">
+                    <!-- Logo -->
+                    <div class="column desktop+:is-5-wide">
+                        <div class="ts-wrap is-middle-aligned">
+                            <a href="./../" class="ts-image b-headerbasic-logo">
+                                <img src="./../assets/images/logo-text.svg" alt="笨他侵略的商標圖片" />
+                            </a>
+                            <a href="./../search" class="ts-button is-short is-ghost">列表</a>
+                        </div>
+                    </div>
+                    <!-- / Logo -->
+
+                    <!-- 搜尋欄位 -->
+                    <div class="column tablet:is-fluid desktop+:is-6-wide">
+                        <form action="./../search" method="GET">
+                            <div class="ts-input is-solid is-start-icon">
+                                <span class="ts-icon is-magnifying-glass-icon"></span>
+                                <input type="search" name="q" placeholder="搜尋組織、產品…" />
+                            </div>
+                        </form>
+                    </div>
+                    <!-- / 搜尋欄位 -->
+
+                    <!-- 附屬功能 -->
+                    <div class="column desktop+:is-5-wide">
+                        <div class="ts-wrap is-end-aligned">
+                            <a href="./../dict/search" class="ts-button is-short is-ghost">字典</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/caris-events/baka-invade" class="ts-button is-outlined">
+                                <span class="ts-icon is-brand is-github-icon is-large is-end-spaced"></span>GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <!-- / 附屬功能 -->
+                </div>
+                <!-- / 電腦版本 -->
+
+                <!-- 手機版本 -->
+                <div class="ts-grid is-middle-aligned tablet+:u-hidden">
+                    <!-- 左側 -->
+                    <div class="column is-fluid">
+                        <div class="ts-wrap is-relaxed is-middle-aligned">
+                            <a href="./../" class="ts-image b-headermob-logo">
+                                <img src="./../assets/images/logo-text.svg" alt="笨他侵略的商標圖片" />
+                            </a>
+                            <a class="ts-text is-undecorated" href="./../search">列表</a>
+                            <a class="ts-text is-undecorated" href="./../dict/search">字典</a>
+                        </div>
+                    </div>
+                    <!-- / 左側 -->
+
+                    <!-- 右側 -->
+                    <div class="column">
+                        <div class="ts-wrap is-middle-aligned">
+                            <a class="ts-text is-undecorated" target="_blank" rel="noopener noreferrer" href="https://github.com/caris-events/baka-invade">
+                                <span class="ts-icon is-brand is-github-icon is-large is-end-spaced"></span>
+                                <span class="mobile:u-hidden">GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- / 右側 -->
+                </div>
+                <!-- / 手機版本 -->
+            </div>
+        </div>
+        <!-- / 穹頂 -->
+
+        <div class="ts-divider"></div>
+
+        <!-- 矚目看板 -->
+        <div class="b-bg-white">
+            <div class="ts-container mobile:u-vertically-padded tablet+:u-vertically-padded-large">
+                <div class="ts-grid is-middle-aligned tablet+:is-relaxed b-wiki-slate">
+                    <!-- Logo 欄位-->
+                    <div class="column">
+                        <div class="ts-image b-wiki-logo">
+                            <img src="{{ .Code }}.jpg" alt="{{ .Name }}的商標圖片" />
+                        </div>
+                    </div>
+                    <!-- / Logo 欄位-->
+
+                    <!-- 資訊欄位 -->
+                    <div class="column is-fluid">
+                        <!-- 組織名稱 -->
+                        <div class="ts-text is-heavy mobile:is-large tablet+:is-huge">
+                            {{ .Name }} {{ if .SecondaryName }}
+                            <span class="ts-text is-secondary mobile:u-hidden">（{{ .SecondaryName }}）</span>
+                            {{ end }}
+                        </div>
+                        {{ if .SecondaryName }}
+                        <div class="ts-text is-secondary tablet+:u-hidden">{{ .SecondaryName }}</div>
+                        {{ end }}
+                        <!-- / 組織名稱 -->
+
+                        <div class="ts-meta is-secondary">
+                            <!-- 持有者 -->
+                            <span class="item">{{ .OwnerStr }}</span>
+                            <!-- / 持有者 -->
+
+                            <!-- 侵略警告標語 -->
+                            {{ if eq .Invasion "indirect" }}
+                            <span class="item">間接協助中國侵略、統一</span>
+                            {{ end }} {{ if eq .Invasion "support" }}
+                            <span class="item">支持中國侵略、統一</span>
+                            {{ end }}
+                            <!-- / 侵略警告標語 -->
+                        </div>
+                    </div>
+                    <!-- / 資訊欄位 -->
+                </div>
+            </div>
+        </div>
+        <!-- / 矚目看板 -->
+
+        <div class="ts-divider"></div>
+
+        <!-- 主要內容 -->
+        <div class="ts-container mobile:is-fitted tablet-:u-vertically-padded-large desktop+:u-vertically-padded-big">
+            <!-- 指標概要：平板 -->
+            <div class="ts-grid is-3-columns is-relaxed is-stretched u-bottom-spaced-large mobile:u-hidden desktop+:u-hidden">
+                <!-- 資金來源 -->
+                <div class="column">
+                    <div class="ts-box b-wiki-indicator {{ if .Income | isDangerousIncome }}b-wiki-indicator-danger{{ end }}">
+                        <div class="ts-content">
+                            <div class="ts-text is-description">主要資金來源</div>
+                            <div class="ts-header is-large {{ if .Income | isDangerousIncome }}is-heavy{{else}}is-secondary{{end}}">{{ .IncomeStr }}</div>
+                        </div>
+                        <div class="symbol">
+                            <span class="ts-icon"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- / 資金來源 -->
+
+                <!-- 營運方針 -->
+                <div class="column">
+                    <div class="ts-box b-wiki-indicator {{ if .Direction | isDangerousDirection }}b-wiki-indicator-danger{{ end }}">
+                        <div class="ts-content">
+                            <div class="ts-text is-description">營運方針</div>
+                            <div class="ts-header is-large {{ if .Direction | isDangerousDirection }}is-heavy{{else}}is-secondary{{end}}">{{ .DirectionStr }}</div>
+                        </div>
+                        <div class="symbol">
+                            <span class="ts-icon"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- / 營運方針 -->
+
+                <!-- 中國侵略 -->
+                <div class="column">
+                    <div class="ts-box b-wiki-indicator {{ if .Invasion | isDangerousInvasion }}b-wiki-indicator-danger{{ end }}">
+                        <div class="ts-content">
+                            <div class="ts-text is-description">對於中國侵略、統一</div>
+                            <div class="ts-header is-large {{ if .Invasion | isDangerousInvasion }}is-heavy{{else}}is-secondary{{end}}">{{ .InvasionStr }}</div>
+                        </div>
+                        <div class="symbol">
+                            <span class="ts-icon"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- / 中國侵略 -->
+            </div>
+            <!-- / 指標概要：平板 -->
+
+            <div class="ts-grid is-relaxed mobile:is-stacked">
+                <!-- 左側 -->
+                <div class="column tablet:is-11-wide desktop+:is-12-wide">
+                    {{ if eq .Removal "image" }}
+                    <div class="ts-notice is-outlined is-negative u-bottom-spaced-large">
+                        <div class="title">協助希望</div>
+                        <div class="content">
+                            此{{ .TypeStr }}的圖片已經被原著作者要求移除，你可以至 <a href="#!" class="ts-text is-link is-external-link">GitHub</a> 提供其他圖片。
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    <!-- 指標概要 -->
+                    <div class="ts-grid is-3-columns is-relaxed is-stretched tablet-:u-hidden">
+                        <!-- 資金來源 -->
+                        <div class="column">
+                            <div class="ts-box b-wiki-indicator {{ if .Income | isDangerousIncome }}b-wiki-indicator-danger{{ end }}">
+                                <div class="ts-content">
+                                    <div class="ts-text is-description">主要資金來源</div>
+                                    <div class="ts-header is-large {{ if .Income | isDangerousIncome }}is-heavy{{else}}is-secondary{{end}}">{{ .IncomeStr }}</div>
+                                </div>
+                                <div class="symbol">
+                                    <span class="ts-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / 資金來源 -->
+
+                        <!-- 營運方針 -->
+                        <div class="column">
+                            <div class="ts-box b-wiki-indicator {{ if .Direction | isDangerousDirection }}b-wiki-indicator-danger{{ end }}">
+                                <div class="ts-content">
+                                    <div class="ts-text is-description">營運方針</div>
+                                    <div class="ts-header is-large {{ if .Direction | isDangerousDirection }}is-heavy{{else}}is-secondary{{end}}">{{ .DirectionStr }}</div>
+                                </div>
+                                <div class="symbol">
+                                    <span class="ts-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / 營運方針 -->
+
+                        <!-- 中國侵略 -->
+                        <div class="column">
+                            <div class="ts-box b-wiki-indicator {{ if .Invasion | isDangerousInvasion }}b-wiki-indicator-danger{{ end }}">
+                                <div class="ts-content">
+                                    <div class="ts-text is-description">對於中國侵略、統一</div>
+                                    <div class="ts-header is-large {{ if .Invasion | isDangerousInvasion }}is-heavy{{else}}is-secondary{{end}}">{{ .InvasionStr }}</div>
+                                </div>
+                                <div class="symbol">
+                                    <span class="ts-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / 中國侵略 -->
+                    </div>
+                    <!-- / 指標概要 -->
+
+                    <!-- 指標概要：手機 -->
+                    <div class="tablet+:u-hidden">
+                        <div class="ts-text is-bold is-large u-horizontally-padded"><span class="ts-icon is-gauge-icon is-end-spaced b-title-icon"></span>主要指標</div>
+                        <div class="ts-box u-top-spaced u-edged">
+                            <table class="ts-table is-dense is-celled b-wiki-table">
+                                <tbody>
+                                    <tr>
+                                        <td class="is-collapsed">
+                                            <div class="ts-text">
+                                                <span
+                                                    class="ts-icon {{ if .Income | isDangerousIncome }}is-triangle-exclamation-icon{{ else }}is-circle-question-icon{{ end }} is-large is-end-spaced b-wiki-mobicon"
+                                                ></span>
+                                                主要資金來源
+                                            </div>
+                                        </td>
+                                        <td><div class="ts-text is-bold">{{ .IncomeStr }}</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="is-collapsed">
+                                            <div class="ts-text">
+                                                <span
+                                                    class="ts-icon {{ if .Direction | isDangerousDirection }}is-triangle-exclamation-icon{{ else }}is-circle-question-icon{{ end }} is-large is-end-spaced b-wiki-mobicon"
+                                                ></span>
+                                                營運方針
+                                            </div>
+                                        </td>
+                                        <td><div class="ts-text is-bold">{{ .DirectionStr }}</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="is-collapsed">
+                                            <span class="ts-text">
+                                                <span
+                                                    class="ts-icon {{ if .Invasion | isDangerousInvasion }}is-triangle-exclamation-icon{{ else }}is-circle-question-icon{{ end }} is-large is-end-spaced b-wiki-mobicon"
+                                                ></span>
+                                                對於中國侵略、統一
+                                            </span>
+                                        </td>
+                                        <td><div class="ts-text is-bold">{{ .InvasionStr }}</div></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- / 指標概要：手機 -->
+
+                    <!-- 這些指標代表什麼意思？ -->
+                    <!--<div class="ts-wrap is-end-aligned u-top-spaced-small">
+                        <a class="ts-text is-description is-undecorated" href="./indicators.html">
+                            <span class="ts-icon is-circle-question-icon is-end-spaced"></span> 這些指標代表什麼意思？
+                        </a>
+                    </div>-->
+                    <!-- / 這些指標代表什麼意思？ -->
+
+                    <!-- 基本資料 -->
+                    <div class="ts-text is-bold is-large mobile:u-top-spaced-big desktop+:u-top-spaced-big mobile:u-horizontally-padded">
+                        <span class="ts-icon is-border-all-icon is-end-spaced b-title-icon"></span>基本資料
+                    </div>
+                    <div class="ts-box mobile:u-edged u-top-spaced">
+                        <div class="ts-content tablet+:is-padded mobile:is-vertically-padded">
+                            <!-- 簡介 -->
+                            <div class="ts-text is-secondary is-small">簡介</div>
+                            <div class="b-wiki-article">{{ .Description | html }}</div>
+                            <!-- / 簡介 -->
+
+                            <div class="ts-grid mobile:is-1-columns tablet+:is-relaxed tablet+:is-3-columns u-top-spaced-large">
+                                <!-- 其他稱呼 -->
+                                {{ if .Subnames }}
+                                <div class="column">
+                                    <div class="ts-text is-secondary is-small">其他稱呼</div>
+                                    {{ .SubnameStr }}
+                                </div>
+                                {{ end }}
+                                <!-- / 其他稱呼 -->
+
+                                <!-- 官方網站 -->
+                                {{ if .Website }}
+                                <div class="column">
+                                    <div class="ts-text is-small is-secondary">官方網站</div>
+                                    <a href="{{ .Website }}" class="ts-text is-small is-external-link is-link" rel="noreferrer" style="word-break: break-all">{{ .Website }}</a>
+                                </div>
+                                {{ end }}
+                                <!-- / 官方網站 -->
+
+                                <!-- 分類 -->
+                                {{ if .CategoryCodes }}
+                                <div class="column">
+                                    <div class="ts-text is-secondary is-small">分類</div>
+                                    <div class="ts-wrap is-compact" style="margin-top: 0.25rem">
+                                        {{ range .Categories }}
+                                        <a href="./../search?c={{ .Code }}" class="ts-badge is-secondary">{{ .Text }}</a>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                                {{ end }}
+                                <!-- / 分類 -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / 基本資料 -->
+
+                    <!-- 相關資訊 -->
+                    <div class="ts-text is-bold is-large u-top-spaced-big mobile:u-horizontally-padded">
+                        <span class="ts-icon is-circle-info-icon is-end-spaced b-title-icon"></span> 相關資訊
+                    </div>
+                    {{ if .Informations }}
+                    <div class="ts-box mobile:u-edged u-top-spaced">
+                        {{ range .Informations }}
+                        <div class="ts-content tablet+:is-padded mobile:is-vertically-padded">
+                            <div class="ts-grid tablet-:is-stacked tablet-:is-compact desktop+:is-relaxed">
+                                <!-- 日期欄位 -->
+                                <div class="column b-wiki-date">
+                                    <div class="ts-text is-secondary desktop+:is-end-aligned">{{ .YearStr }}</div>
+                                </div>
+                                <!-- / 日期欄位 -->
+
+                                <!-- 主要內容欄位 -->
+                                <div class="column is-fluid">
+                                    <!-- 說明 -->
+                                    <div class="ts-text b-wiki-article">{{ .Description | html }}</div>
+                                    <!-- / 說明 -->
+
+                                    <!-- 更改概要 -->
+                                    {{ if .Messages }}
+                                    <div class="ts-content is-rounded is-secondary u-top-spaced">
+                                        <div class="ts-checklist b-wiki-checklist">
+                                            {{ range .Messages }}
+                                            <div class="item is-{{ .Type }}">{{ .Text }}</div>
+                                            {{ end }}
+                                        </div>
+                                    </div>
+                                    {{ end }}
+                                    <!-- / 更改概要 -->
+                                </div>
+                                <!-- / 主要內容欄位 -->
+                            </div>
+                        </div>
+                        <div class="ts-divider b-divider"></div>
+                        {{ end }}
+                    </div>
+                    {{ else }}
+                    <div class="ts-content is-tertiary is-rounded is-fitted u-top-spaced">
+                        <div class="ts-blankslate is-secondary">
+                            <div class="header">沒有相關資訊</div>
+                        </div>
+                    </div>
+                    {{ end }}
+                    <!-- / 相關資訊 -->
+
+                    <!-- 關聯人物、組織 -->
+                    <div class="ts-text is-bold is-large u-top-spaced-big mobile:u-horizontally-padded">
+                        <span class="ts-icon is-timeline-icon is-end-spaced b-title-icon"></span>關聯人物、組織
+                    </div>
+
+                    {{ if .RelatedBrands }}
+                    <div class="ts-box mobile:u-edged u-top-spaced">
+                        {{ range $k, $v := .RelatedBrands }} {{ if le $k 5 }}
+                        <a href="./../{{ .Code }}" class="ts-content tablet+:is-horizontally-padded">
+                            <div class="ts-grid is-middle-aligned">
+                                <!-- Logo 欄位-->
+                                <div class="column">
+                                    <div class="ts-image b-related-logo">
+                                        <img src="./../{{ .Code }}/{{ .Code }}.jpg" alt="{{ .Name }}的商標圖片" />
+                                    </div>
+                                </div>
+                                <!-- / Logo 欄位-->
+
+                                <!-- 資訊欄位 -->
+                                <div class="column is-fluid">
+                                    <!-- 組織名稱 -->
+                                    <div class="ts-text is-large is-bold is-1-lines">
+                                        {{ .Name }}{{ if .SecondaryName }}
+                                        <span class="ts-text is-secondary is-small mobile:u-hidden">（{{ .SecondaryName }}）</span>
+                                        {{ end }}
+                                    </div>
+                                    <!-- / 組織名稱 -->
+
+                                    <div class="ts-meta is-secondary">
+                                        <!-- 持有者 -->
+                                        <span class="item">{{ .OwnerStr }}</span>
+                                        <!-- / 持有者 -->
+                                    </div>
+                                </div>
+                                <!-- / 資訊欄位 -->
+
+                                <div class="column">
+                                    <span class="ts-icon is-chevron-right-icon is-large is-secondary u-end-spaced"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="ts-divider b-divider"></div>
+                        {{ end }}{{ end }} {{ if gt (len .RelatedBrands) 6 }}
+                        <a href="./../search?r={{ .Code }}" class="ts-text is-link is-undecorated">
+                            <div class="ts-content is-secondary is-dense is-center-aligned">還有其他 {{ minus (len .RelatedBrands) 6 }} 個項目…</div>
+                        </a>
+                        {{ end }}
+                    </div>
+                    {{ end }} {{ if not (len .RelatedBrands) }}
+                    <div class="ts-content is-tertiary is-rounded is-fitted u-top-spaced mobile:u-edged">
+                        <div class="ts-blankslate is-secondary">
+                            <div class="header">沒有關聯組織</div>
+                        </div>
+                    </div>
+                    {{ end }}
+                    <!-- / 關聯人物、組織 -->
+
+                    <!-- 關聯服務 -->
+                    <div class="ts-text is-bold is-large u-top-spaced-big mobile:u-horizontally-padded">
+                        <span class="ts-icon is-boxes-stacked-icon is-end-spaced b-title-icon"></span>關聯服務
+                    </div>
+
+                    {{ if .RelatedThings }}
+                    <div class="ts-box mobile:u-edged u-top-spaced">
+                        {{ range $k, $v := .RelatedThings }} {{ if le $k 5 }}
+                        <a href="./../{{ .Code }}" class="ts-content tablet+:is-horizontally-padded">
+                            <div class="ts-grid is-middle-aligned">
+                                <!-- Logo 欄位-->
+                                <div class="column">
+                                    <div class="ts-image b-related-logo">
+                                        <img src="./../{{ .Code }}/{{ .Code }}.jpg" alt="{{ .Name }}的商標圖片" />
+                                    </div>
+                                </div>
+                                <!-- / Logo 欄位-->
+
+                                <!-- 資訊欄位 -->
+                                <div class="column is-fluid">
+                                    <!-- 組織名稱 -->
+                                    <div class="ts-text is-large is-bold is-1-lines">
+                                        {{ .Name }}{{ if .SecondaryName }}
+                                        <span class="ts-text is-secondary is-small mobile:u-hidden">（{{ .SecondaryName }}）</span>
+                                        {{ end }}
+                                    </div>
+                                    <!-- / 組織名稱 -->
+
+                                    <div class="ts-meta is-secondary">
+                                        <!-- 持有者 -->
+                                        <span class="item">{{ .OwnerStr }}</span>
+                                        <!-- / 持有者 -->
+                                    </div>
+                                </div>
+                                <!-- / 資訊欄位 -->
+
+                                <div class="column">
+                                    <span class="ts-icon is-chevron-right-icon is-large is-secondary u-end-spaced"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="ts-divider b-divider"></div>
+                        {{ end }} {{ end }} {{ if gt (len .RelatedThings) 6 }}
+                        <a href="./../search?r={{ .Code }}" class="ts-text is-link is-undecorated">
+                            <div class="ts-content is-secondary is-dense is-center-aligned">還有其他 {{ minus (len .RelatedThings) 6 }} 個項目…</div>
+                        </a>
+                        {{ end }}
+                    </div>
+                    {{ end }} {{ if not (len .RelatedThings) }}
+                    <div class="ts-content is-tertiary is-rounded is-fitted u-top-spaced mobile:u-edged">
+                        <div class="ts-blankslate is-secondary">
+                            <div class="header">沒有關聯服務</div>
+                        </div>
+                    </div>
+                    {{ end }}
+                    <!-- / 關聯服務 -->
+
+                    <!-- 你也可以看看這些 -->
+                    <div x-data="random_store">
+                        <!-- 品牌推薦 -->
+                        <div class="ts-grid is-bottom-aligned u-top-spaced-big mobile:u-horizontally-padded">
+                            <div class="column is-fluid">
+                                <div class="ts-text is-bold is-large"><span class="ts-icon is-eye-icon is-end-spaced b-title-icon"></span>看看這些品牌</div>
+                            </div>
+                            <div class="column">
+                                <a href="./../search?r={{ .Code }}" class="ts-button is-outlined">檢視更多</a>
+                            </div>
+                        </div>
+
+                        <div class="ts-grid mobile:is-2-columns tablet:is-3-columns desktop+:is-5-columns mobile:u-horizontally-padded u-top-spaced">
+                            <template x-for="object of suggested_objects">
+                                <div class="column">
+                                    <a class="ts-box" x-bind:href="`./../${object.code}`">
+                                        <div class="ts-content is-center-aligned">
+                                            <!-- Logo 欄位-->
+                                            <div class="ts-image b-wiki-suggested-logo">
+                                                <img x-bind:src="`./../${object.code}/${object.code}.jpg`" x-bind:alt="`${object.n}的商標圖片`" />
+                                            </div>
+                                            <!-- / Logo 欄位-->
+
+                                            <!-- 組織名稱 -->
+                                            <div class="ts-text is-bold is-1-line is-center-aligned" x-text="object.n"></div>
+                                            <!-- / 組織名稱 -->
+
+                                            <div class="ts-meta is-secondary">
+                                                <!-- 持有者 -->
+                                                <span class="item">
+                                                    <span class="ts-text" x-text="`${relations.owner_texts[object.o]}${relations.type_texts[object.t]}`"></span>
+                                                </span>
+                                                <!-- / 持有者 -->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </template>
+                        </div>
+                        <!-- / 品牌推薦 -->
+
+                        <!-- 詞彙推薦 -->
+                        <div class="ts-grid is-bottom-aligned u-top-spaced-big mobile:u-horizontally-padded">
+                            <div class="column is-fluid">
+                                <div class="ts-text is-bold is-large"><span class="ts-icon is-eye-icon is-end-spaced b-title-icon"></span>看看這些詞彙</div>
+                            </div>
+                            <div class="column">
+                                <a href="./../dict/search" class="ts-button is-outlined">檢視更多</a>
+                            </div>
+                        </div>
+
+                        <div class="ts-grid mobile:is-2-columns tablet+:is-3-columns mobile:u-horizontally-padded u-top-spaced">
+                            <template x-for="dict of suggested_dicts">
+                                <div class="column">
+                                    <a x-bind:href="`./../dict/${dict.c}`" class="ts-box">
+                                        <div class="ts-content is-horizontally-padded">
+                                            <div class="ts-grid is-middle-aligned">
+                                                <div class="column is-fluid">
+                                                    <div class="ts-text is-large is-heavy is-1-lines" x-text="dict.n || dict.c"></div>
+                                                    <div class="ts-text is-secondary is-1-lines" x-text="dict.e"></div>
+                                                </div>
+                                                <div class="column">
+                                                    <span class="ts-icon is-chevron-right-icon is-end-spaced"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </template>
+                        </div>
+                        <!-- / 詞彙推薦 -->
+                    </div>
+                    <!-- / 你也可以看看這些 -->
+
+                    <!-- 使用聲明 -->
+                    {{ template "disclaimer" }}
+                    <!-- / 使用聲明 -->
+                </div>
+                <!-- / 左側 -->
+
+                <!-- 右側 -->
+                <div class="column tablet:is-5-wide desktop+:is-4-wide">
+                    <!-- 封面圖片 -->
+                    <div class="ts-box mobile:u-edged">
+                        <div class="ts-content is-secondary mobile:is-vertically-padded">
+                            <a target="_blank" href="./{{ .Code }}_cover.png" class="ts-image is-bordered is-rounded">
+                                <img src="./{{ .Code }}_cover.png" alt="{{ .Name }}的封面圖片" />
+                            </a>
+                            <div class="ts-text is-description u-top-spaced">{{ .Summary }}</div>
+                            <a href="./{{ .Code }}_cover.png" download class="ts-button is-fluid is-end-labeled-icon is-outlined u-top-spaced">
+                                下載封面圖片
+                                <span class="ts-icon is-download-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- / 封面圖片 -->
+
+                    <!-- 補充資料 -->
+                    <div class="ts-box u-top-spaced-large mobile:u-edged">
+                        <div class="ts-content is-secondary mobile:is-vertically-padded">
+                            <div class="ts-header">想要補充資料嗎？</div>
+                            <div class="ts-text is-description u-top-spaced-small">這些資料都公開在 GitHub 上，隨時都能與其他人一起完善這些資料。</div>
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://github.com/caris-events/baka-invade"
+                                class="ts-button is-fluid is-end-labeled-icon is-outlined u-top-spaced"
+                            >
+                                前往 GitHub <span class="ts-icon is-arrow-up-right-from-square-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- / 補充資料 -->
+
+                    <!-- 匿名補充 -->
+                    <div class="ts-box u-top-spaced-large mobile:u-edged">
+                        <div class="ts-content is-secondary mobile:is-vertically-padded">
+                            <div class="ts-header">透過匿名方式提供內容</div>
+                            <div class="ts-text is-description u-top-spaced-small">若你無法使用 GitHub 或是希望保持匿名性來協助新增、編輯條目，請透過此 Google 表單填寫資料。</div>
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://forms.gle/YoymRXnZYk4VVWrn9"
+                                class="ts-button is-fluid is-end-labeled-icon is-outlined u-top-spaced"
+                            >
+                                撰寫 Google 表單 <span class="ts-icon is-arrow-up-right-from-square-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- / 匿名補充 -->
+                </div>
+                <!-- / 右側 -->
+            </div>
+        </div>
+        <!-- / 主要內容 -->
+    </body>
+</html>

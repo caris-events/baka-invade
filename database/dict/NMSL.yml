@@ -1,0 +1,25 @@
+#
+word      : NMSL
+bopomofo  :
+
+#
+description: |
+    指「你媽死了」，通常用於辱罵對方。為了規避中共的言論審查而使用中國拼音簡寫。
+
+#
+examples:
+    - words      : [幹你娘]
+      description: |
+          辱罵對方的母親，是洩憤時的辱罵詞彙。
+      correct    : |
+          {{幹你娘}}，遊戲這麼簡單都不會玩？
+      incorrect  : |
+          {{NMSL}}，這都不會玩？
+
+    - words      : [你媽死了]
+      description: |
+          對方的母親真的過世了。
+      correct    : |
+          兄弟，{{你媽死了}}。
+      incorrect  : |
+          兄弟，{{NMSL}}。

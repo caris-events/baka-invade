@@ -1,0 +1,15 @@
+#
+word      : 運行
+bopomofo  : ㄩㄣˋ ㄒㄧㄥˊ
+
+#
+description: |
+    執行程式或是讓啟動某些手續。
+
+#
+examples:
+    - words      : [執行]
+      correct    : |
+          下載軟體之後再{{執行}}它就可以解決了。
+      incorrect  : |
+          下載[[軟件]]之後再{{運行}}它就可以解決了。
