@@ -160,7 +160,12 @@
                     <div class="ts-box b-wiki-filtermob tablet+:u-hidden mobile:u-edged">
                         <div class="ts-content">
                             <details class="ts-accordion">
-                                <summary>篩選條件</summary>
+                                <summary>
+                                    篩選條件
+                                    <template x-if="selected_categories.length !== 0">
+                                        <span>（已選擇）</span>
+                                    </template>
+                                </summary>
                                 <div class="ts-grid is-middle-aligned">
                                     <div class="column is-fluid">
                                         <div class="ts-header">篩選分類</div>
