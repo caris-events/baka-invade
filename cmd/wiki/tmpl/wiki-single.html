@@ -545,7 +545,7 @@
                             </div>
                         </div>
 
-                        <div class="ts-grid mobile:is-2-columns tablet:is-3-columns desktop+:is-5-columns mobile:u-horizontally-padded u-top-spaced">
+                        <div class="ts-grid mobile:is-2-columns tablet:is-3-columns desktop+:is-5-columns mobile:u-horizontally-padded tablet-:b-6-items desktop+:b-10-items u-top-spaced">
                             <template x-for="object of suggested_objects">
                                 <div class="column">
                                     <a class="ts-box" x-bind:href="`./../${object.code}`">
@@ -584,7 +584,7 @@
                             </div>
                         </div>
 
-                        <div class="ts-grid mobile:is-2-columns tablet+:is-3-columns mobile:u-horizontally-padded u-top-spaced">
+                        <div class="ts-grid mobile:is-2-columns tablet+:is-3-columns mobile:u-horizontally-padded mobile:b-8-items tablet+:b-9-items u-top-spaced">
                             <template x-for="dict of suggested_dicts">
                                 <div class="column">
                                     <a x-bind:href="`./../dict/${dict.c}`" class="ts-box">

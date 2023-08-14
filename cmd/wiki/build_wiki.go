@@ -58,7 +58,7 @@ func PrepareObjects(objects []*Object) {
 
 			v.Informations = append(v.Informations, &ObjectInformation{
 				YearStr:     "—",
-				Description: ParseContent(objects, fmt.Sprintf("[[%s]] 為 [[%s]] 的旗下%s。", prev.Code, this.Code, TypeStr(prev))),
+				Description: ParseContent(objects, fmt.Sprintf("[[%s]] 是 [[%s]] 的旗下%s。", prev.Code, this.Code, TypeStr(prev))),
 			})
 			v.Informations = append(v.Informations, this.Informations...)
 
@@ -142,25 +142,27 @@ func SimpleObjects(codes []string, objects []*Object) (simps []*SimpleObject) {
 	return
 }
 
-// GrandCodes
-func GrandCodes(v *Object) []string {
-	if v == nil {
-		return nil
-	}
-	grands := []string{v.Code}
-	if v.GrandObject != nil {
-		grands = append(grands, GrandCodes(v.GrandObject)...)
-	}
-	return grands
-}
+func RelatedObjects(objects []*Object, object *Object) (relates []*Object) {
+	grands := []string{object.Code}
 
-// RelatedObjects
-func RelatedObjects(objects []*Object, object *Object) []*Object {
-	grands := GrandCodes(object)
+	for this := object; this.GrandObject != nil; this = this.GrandObject {
+		grands = append(grands, this.GrandObject.Code)
+	}
+	for _, v := range objects {
+		if lo.Contains(grands, v.Code) {
+			relates = append(relates, v)
+		}
+		for this := v; this.GrandObject != nil; this = this.GrandObject {
+			if lo.Contains(grands, this.GrandObject.Code) {
+				relates = append(relates, v)
+				break
+			}
+		}
+	}
 
-	return lo.Filter(objects, func(v *Object, _ int) bool {
-		return (lo.Contains(grands, v.GrandCode) || lo.Contains(grands, v.Code)) && v.Code != object.Code
-	})
+	return lo.Uniq(lo.Filter(relates, func(v *Object, _ int) bool {
+		return v.Code != object.Code
+	}))
 }
 
 // OwnerStr

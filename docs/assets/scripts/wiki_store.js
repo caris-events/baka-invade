@@ -122,15 +122,50 @@ var search_store = {
             })
         }
 
-        if (this.selected_related_code !== '') {
-            var code_id = object_codes.indexOf(this.selected_related_code) // if -1
+       /* if (this.selected_related_code !== '') {
+            var code_id   = object_codes.indexOf(this.selected_related_code)  // if -1
             var grand_ids = this.getGrandCodeIDs(code_id)
 
             this.filtered_results = this.filtered_results.filter(obj => {
                 // g = Grand Code ID, c = Code ID
                 return (grand_ids.includes(obj.g) || grand_ids.includes(obj.c)) && obj.c !== code_id
             })
+        }*/
+
+
+
+        if (this.selected_related_code !== '') {
+            var code_index   = this.object_codes.indexOf(this.selected_related_code)  // TODO: alert if -1
+            var grand_indexes  = [code_index]
+            var relate_indexes = []
+
+            for (let that = this.objects[code_index]; that.g !== -1; that = this.objects[that.g]) {
+                grand_indexes = [...grand_indexes, that.g]
+            }
+
+            this.filtered_results.forEach((obj) => {
+                if (grand_indexes.includes(obj.c)) {
+                    relate_indexes = [...relate_indexes, obj.c]
+                }
+                for (let that = obj; that.g !== -1; that = this.objects[that.g]) {
+                    if (grand_indexes.includes(that.g)) {
+                        relate_indexes = [...relate_indexes, obj.c]
+                    }
+                }
+            })
+
+            relate_indexes = [...new Set(relate_indexes.filter((v) => v.c !== code_index))]
+
+            console.log(relate_indexes)
+
+            this.filtered_results = this.filtered_results.filter(obj => {
+                return relate_indexes.includes(obj.c)
+            })
+
         }
+
+
+
 
         relations.categories.forEach((v, k) => {
             this.filtered_categories_count[k] = this.filtered_results.filter(v => v.r.includes(k)).length

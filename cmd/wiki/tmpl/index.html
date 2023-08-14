@@ -167,8 +167,8 @@
                 <div class="column">
                     <div class="ts-header is-heavy mobile:is-large mobile:u-horizontally-padded tablet:is-huge desktop+:is-big">嗨！看看這些條目吧 🎉</div>
 
-                    <div class="ts-box u-top-spaced-large mobile:u-edged b-index-items">
-                        <template x-for="(object, index) of random_objects">
+                    <div class="ts-box u-top-spaced-large mobile:u-edged b-7-items">
+                        <template x-for="(object, index) of suggested_objects">
                             <div>
                                 <a x-bind:href="`./${object.code}`" class="ts-content tablet+:is-horizontally-padded">
                                     <div class="ts-grid is-middle-aligned">
@@ -224,7 +224,7 @@
                 </div>
             </div>
 
-            <div class="ts-grid tablet+:is-4-columns mobile:is-2-columns mobile:u-horizontally-padded u-top-spaced-large">
+            <div class="ts-grid tablet+:is-4-columns mobile:is-2-columns mobile:u-horizontally-padded tablet+:b-12-items mobile:b-10-items u-top-spaced-large">
                 <template x-for="dict of suggested_dicts">
                     <div class="column">
                         <a x-bind:href="`./dict/${dict.c}`" class="ts-box">

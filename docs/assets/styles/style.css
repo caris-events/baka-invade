@@ -29,6 +29,28 @@
     justify-content: center;
 }
 
+.b-5-items > div:nth-child(1n + 7) {
+    display: none;
+}
+.b-6-items > div:nth-child(1n + 8) {
+    display: none;
+}
+.b-7-items > div:nth-child(1n + 9) {
+    display: none;
+}
+.b-8-items > div:nth-child(1n + 10) {
+    display: none;
+}
+.b-9-items > div:nth-child(1n + 11) {
+    display: none;
+}
+.b-10-items > div:nth-child(1n + 12) {
+    display: none;
+}
+.b-12-items > div:nth-child(1n + 14) {
+    display: none;
+}
+
 @media (prefers-color-scheme: dark) {
     .b-related-logo {
         background: white;

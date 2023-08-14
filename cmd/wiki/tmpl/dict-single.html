@@ -223,7 +223,7 @@
                             </div>
                         </div>
 
-                        <div class="ts-grid mobile:is-2-columns tablet+:is-3-columns mobile:u-horizontally-padded u-top-spaced">
+                        <div class="ts-grid mobile:is-2-columns tablet+:is-3-columns mobile:u-horizontally-padded mobile:b-8-items tablet+:b-9-items u-top-spaced">
                             <template x-for="dict of suggested_dicts">
                                 <div class="column">
                                     <a x-bind:href="`./../${dict.c}`" class="ts-box">
@@ -254,7 +254,9 @@
                             </div>
                         </div>
 
-                        <div class="ts-grid mobile:is-2-columns tablet:is-3-columns desktop+:is-5-columns mobile:u-horizontally-padded u-top-spaced">
+                        <div
+                            class="ts-grid mobile:is-2-columns tablet:is-3-columns desktop+:is-5-columns mobile:u-horizontally-padded tablet-:b-6-items desktop+:b-10-items u-top-spaced"
+                        >
                             <template x-for="object of suggested_objects">
                                 <div class="column">
                                     <a class="ts-box" x-bind:href="`./../../${object.code}`">
@@ -295,7 +297,7 @@
                     <!-- 侵略性詞彙是什麼？ -->
                     <div class="ts-text is-bold is-large">侵略性詞彙是什麼？</div>
                     <div class="ts-text is-secondary u-top-spaced">
-                        <p>經過中國的言論審查、共產思想而產生的詞彙，例如：中國常以「領導」代稱台灣總統；稱呼「台灣地區」來暗喻台灣不是國家。</p>
+                        <p>經過中國的言論審查、共產思想而產生的詞彙，例如：中國常以「領導」代稱台灣總統；或以「台灣地區」來暗喻台灣不是國家。</p>
                         <p>語言代表一個國家的文化與思想，若長時間誤用這些詞彙，可能會在無形之中影響自己的思考方式。</p>
                     </div>
                     <!-- / 侵略性詞彙是什麼？ -->

@@ -1,0 +1,31 @@
+#
+code      : yidianzx
+grand_code:
+
+#
+fullname_zh: 一點資訊
+fullname_en:
+subnames   : [北京一點數娛科技有限公司]
+
+#
+categories: [IT]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.yidianzixun.com/
+description: |
+    [[yidianzx]] 是中國的手機遊戲與應用程式開發公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[yidianzx]] 的主要創辦人是中國商人《任旭陽》，其他股東包含中資如：[[xiaomi]] 與 [[oppo]]。
+
+    - date       : 2015
+      description: |
+          [[yidianzx]] 與 [[ifeng]] 合作推出新聞資訊軟體，且會出廠預裝在 [[xiaomi]]、[[oppo]]、[[huawei]] 的手機上。
+

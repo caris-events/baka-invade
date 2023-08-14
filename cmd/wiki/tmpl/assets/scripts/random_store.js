@@ -10,8 +10,8 @@ var random_store = {
      */
 
     init() {
-        this.suggested_dicts = this.random(9, random_dicts)
-        this.suggested_objects = this.random(6, random_objects)
+        this.suggested_dicts = this.random(12, random_dicts)
+        this.suggested_objects = this.random(10, random_objects)
         this.keyword_dicts = this.random(5, random_dicts)
         this.keyword_objects = this.random(5, random_objects)
     },
