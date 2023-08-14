@@ -1,0 +1,25 @@
+#
+code      : mahjong_meta
+grand_code: rolling_dice_labs
+
+#
+fullname_zh:
+fullname_en: Mahjong Meta
+subnames   :
+
+#
+categories: [GA]
+type      : game
+owner     : foreign_fake
+
+#
+website    : https://mjmeta.io/zh-cht/index
+description: |
+    [[mahjong_meta]] 是一款區塊鏈麻將遊戲。
+
+#
+informations:
+    - date       : 2023-08-14
+      invasion   : support
+      description: |
+          [[mahjong_meta]] 的角色命名有言論審查系統（如：不能提及「獨立」）且遊戲的地區表示「中國台灣」。
