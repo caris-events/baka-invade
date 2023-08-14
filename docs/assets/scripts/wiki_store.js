@@ -122,20 +122,8 @@ var search_store = {
             })
         }
 
-       /* if (this.selected_related_code !== '') {
-            var code_id   = object_codes.indexOf(this.selected_related_code)  // if -1
-            var grand_ids = this.getGrandCodeIDs(code_id)
-
-            this.filtered_results = this.filtered_results.filter(obj => {
-                // g = Grand Code ID, c = Code ID
-                return (grand_ids.includes(obj.g) || grand_ids.includes(obj.c)) && obj.c !== code_id
-            })
-        }*/
-
-
-
         if (this.selected_related_code !== '') {
-            var code_index   = this.object_codes.indexOf(this.selected_related_code)  // TODO: alert if -1
+            var code_index     = this.object_codes.indexOf(this.selected_related_code)  // TODO: alert if -1
             var grand_indexes  = [code_index]
             var relate_indexes = []
 
@@ -156,16 +144,10 @@ var search_store = {
 
             relate_indexes = [...new Set(relate_indexes.filter((v) => v.c !== code_index))]
 
-            console.log(relate_indexes)
-
             this.filtered_results = this.filtered_results.filter(obj => {
                 return relate_indexes.includes(obj.c)
             })
-
         }
-
-
-
 
         relations.categories.forEach((v, k) => {
             this.filtered_categories_count[k] = this.filtered_results.filter(v => v.r.includes(k)).length
