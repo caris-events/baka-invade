@@ -10723,6 +10723,7 @@ button {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    word-break: break-all;
 }
 
 .ts-text.is-1-lines {
