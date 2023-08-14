@@ -26,7 +26,7 @@ informations:
     - date       : 2020-09-24
       invasion   : support
       description: |
-          [[bilibili]] 永久封鎖 cover_hololive 旗下藝人《桐生ココ》的相關頻道，因為該藝人於 YouTube 直播時將台灣視為國家。
+          [[bilibili]] 永久封鎖 [[cover_hololive]] 旗下藝人《桐生ココ》的相關頻道，因為該藝人於 YouTube 直播時將台灣視為國家。
 
     - date       : 2022-12-01
       direction  : chinese_gov

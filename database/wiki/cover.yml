@@ -1,0 +1,34 @@
+#
+code      : cover
+grand_code:
+
+#
+fullname_zh: Cover 株式會社
+fullname_en: Cover Corporation
+subnames   :
+
+#
+categories: [IT]
+type      : company
+owner     : foreign
+
+#
+website    : https://cover-corp.com/
+description: |
+    [[cover]] 是一間主攻 AR、VR 技術的日本科技公司。
+
+#
+informations:
+    - date       : 2020-11-12
+      income     : untracked
+      invasion   : untracked
+      direction  : neutral
+      description: |
+          因受中國政治影響，[[cover]] 解散了 [[cover_hololive]] 在中國市場的虛擬實況主團體《Hololive CN》，並讓旗下其他藝人不再接觸中國遊戲。
+
+    - date: 2021-10-04
+      income     : untracked
+      description: |
+          [[cover]] 旗下的 [[cover_hololive]] 與台灣遊戲《小魔女諾貝塔》聯手合作，旗下藝人《尾丸ポルカ》、《白上フブキ》與《白銀ノエル》擔任遊戲主要配音並釋出相關週邊。
+
+

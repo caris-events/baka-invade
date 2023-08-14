@@ -174,7 +174,7 @@
                     <div class="ts-box b-wiki-indicator {{ if .Income | isDangerousIncome }}b-wiki-indicator-danger{{ end }}">
                         <div class="ts-content">
                             <div class="ts-text is-description">主要資金來源</div>
-                            <div class="ts-header is-large {{ if .Income | isDangerousIncome }}is-heavy{{else}}is-secondary{{end}}">{{ .IncomeStr }}</div>
+                            <div class="ts-header is-large {{ if .Income | isDangerousIncome }}is-heavy{{ else if eq .IncomeStr "—" }}is-secondary{{end}}">{{ .IncomeStr }}</div>
                         </div>
                         <div class="symbol">
                             <span class="ts-icon"></span>
@@ -188,7 +188,7 @@
                     <div class="ts-box b-wiki-indicator {{ if .Direction | isDangerousDirection }}b-wiki-indicator-danger{{ end }}">
                         <div class="ts-content">
                             <div class="ts-text is-description">營運方針</div>
-                            <div class="ts-header is-large {{ if .Direction | isDangerousDirection }}is-heavy{{else}}is-secondary{{end}}">{{ .DirectionStr }}</div>
+                            <div class="ts-header is-large {{ if .Direction | isDangerousDirection }}is-heavy{{ else if eq .DirectionStr "—" }}is-secondary{{end}}">{{ .DirectionStr }}</div>
                         </div>
                         <div class="symbol">
                             <span class="ts-icon"></span>
@@ -202,7 +202,7 @@
                     <div class="ts-box b-wiki-indicator {{ if .Invasion | isDangerousInvasion }}b-wiki-indicator-danger{{ end }}">
                         <div class="ts-content">
                             <div class="ts-text is-description">對於中國侵略、統一</div>
-                            <div class="ts-header is-large {{ if .Invasion | isDangerousInvasion }}is-heavy{{else}}is-secondary{{end}}">{{ .InvasionStr }}</div>
+                            <div class="ts-header is-large {{ if .Invasion | isDangerousInvasion }}is-heavy{{ else if eq .InvasionStr "—" }}is-secondary{{end}}">{{ .InvasionStr }}</div>
                         </div>
                         <div class="symbol">
                             <span class="ts-icon"></span>
@@ -232,7 +232,7 @@
                             <div class="ts-box b-wiki-indicator {{ if .Income | isDangerousIncome }}b-wiki-indicator-danger{{ end }}">
                                 <div class="ts-content">
                                     <div class="ts-text is-description">主要資金來源</div>
-                                    <div class="ts-header is-large {{ if .Income | isDangerousIncome }}is-heavy{{else}}is-secondary{{end}}">{{ .IncomeStr }}</div>
+                                    <div class="ts-header is-large {{ if .Income | isDangerousIncome }}is-heavy{{ else if eq .IncomeStr "—" }}is-secondary{{end}}">{{ .IncomeStr }}</div>
                                 </div>
                                 <div class="symbol">
                                     <span class="ts-icon"></span>
@@ -246,7 +246,7 @@
                             <div class="ts-box b-wiki-indicator {{ if .Direction | isDangerousDirection }}b-wiki-indicator-danger{{ end }}">
                                 <div class="ts-content">
                                     <div class="ts-text is-description">營運方針</div>
-                                    <div class="ts-header is-large {{ if .Direction | isDangerousDirection }}is-heavy{{else}}is-secondary{{end}}">{{ .DirectionStr }}</div>
+                                    <div class="ts-header is-large {{ if .Direction | isDangerousDirection }}is-heavy{{ else if eq .DirectionStr "—" }}is-secondary{{end}}">{{ .DirectionStr }}</div>
                                 </div>
                                 <div class="symbol">
                                     <span class="ts-icon"></span>
@@ -260,7 +260,7 @@
                             <div class="ts-box b-wiki-indicator {{ if .Invasion | isDangerousInvasion }}b-wiki-indicator-danger{{ end }}">
                                 <div class="ts-content">
                                     <div class="ts-text is-description">對於中國侵略、統一</div>
-                                    <div class="ts-header is-large {{ if .Invasion | isDangerousInvasion }}is-heavy{{else}}is-secondary{{end}}">{{ .InvasionStr }}</div>
+                                    <div class="ts-header is-large {{ if .Invasion | isDangerousInvasion }}is-heavy{{ else if eq .InvasionStr "—" }}is-secondary{{end}}">{{ .InvasionStr }}</div>
                                 </div>
                                 <div class="symbol">
                                     <span class="ts-icon"></span>
@@ -557,7 +557,7 @@
                                             <!-- / Logo 欄位-->
 
                                             <!-- 組織名稱 -->
-                                            <div class="ts-text is-bold is-1-line is-center-aligned" x-text="object.n"></div>
+                                            <div class="ts-text is-bold is-1-lines is-center-aligned" x-text="object.n"></div>
                                             <!-- / 組織名稱 -->
 
                                             <div class="ts-meta is-secondary">

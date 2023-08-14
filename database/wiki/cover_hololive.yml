@@ -1,0 +1,26 @@
+#
+code      : cover_hololive
+grand_code: cover
+
+#
+fullname_zh:
+fullname_en: Hololive Production
+subnames   : ["Hololive", "Holo", "Yagoo"]
+
+#
+categories: [EN]
+type      : brand
+owner     : foreign
+
+#
+website    : https://www.hololive.tv/
+description: |
+    [[cover_hololive]] 是日本虛擬實況主團體。
+
+#
+informations:
+    - date       : 2020-09-24
+      direction  : chinese
+      invasion   : support
+      description: |
+          [[cover_hololive]] 旗下藝人《赤井はあと》、《桐生ココ》在展示 YouTube 營收數據時，報表將台灣視為國家而令中國人十分憤怒。接獲大量投訴後 [[cover]] 便暫停兩人的實況並在微博表示支持一個中國。
