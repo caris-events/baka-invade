@@ -167,7 +167,7 @@ func DrawDictCover(v *Dict) error {
 	canvas.SetFontFace(descFace)
 	canvas.SetRGB(0.2, 0.2, 0.2)
 
-	canvas.DrawStringWrapped(fmt.Sprintf("《%s》是經過中國言論審查、共產思想而產生的侵略性詞彙，誤用這個詞彙會傳達不正確的訊息或侵害本土文化且會在無形之中影響自己的思考方式。", v.Word), 90, 220, 0, 0, 700, 1.4, gg.AlignLeft)
+	canvas.DrawStringWrapped(fmt.Sprintf("誤用《%s》詞彙可能會傳達不正確的訊息。長期使用經過中國言論審查、共產思想而產生的侵略性詞彙，可能會在無形之中影響自己的思考方式。", v.Word), 90, 220, 0, 0, 700, 1.4, gg.AlignLeft)
 
 	return canvas.SavePNG(fmt.Sprintf("./../../docs/dict/%s/%s_cover.png", v.Code, v.Code))
 }
