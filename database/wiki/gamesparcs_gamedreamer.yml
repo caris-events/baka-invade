@@ -1,0 +1,23 @@
+#
+code      : gamesparcs_gamedreamer
+grand_code: gamesparcs
+
+#
+fullname_zh: 晶綺科技
+fullname_en: Game Dreamer
+subnames   :
+
+#
+categories: [GA]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.gamedreamer.com.tw/
+description: |
+    [[gamesparcs_gamedreamer]] 主要開發、代理與中國的相關手機遊戲。
+
+#
+informations:
+    - description: |
+          [[gamesparcs_gamedreamer]] 研發據點分佈於杭州、西安、廣州及香港。

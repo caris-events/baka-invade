@@ -1,0 +1,21 @@
+#
+code      : boton_efun
+grand_code: boton
+
+#
+fullname_zh: 易幻網絡
+fullname_en: Efun
+subnames   : [廣州易幻網絡科技]
+
+#
+categories: [GA]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.efun.com/
+description: |
+    [[boton_efun]] 主要開發、代理海外手機遊戲的中國公司。
+
+#
+informations:

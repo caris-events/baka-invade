@@ -1,0 +1,21 @@
+#
+code      : tencent_movergames
+grand_code: tencent
+
+#
+fullname_zh: 魔塊遊戲
+fullname_en: Mover Games
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.movergames.com/
+description: |
+    [[tencent_movergames]] 主要致力於中國手機遊戲營運發行事業，網站的營運平台前身是 [[boton_efuntw]]。
+
+#
+informations:

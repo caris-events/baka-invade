@@ -1,0 +1,26 @@
+#
+code      : tencent
+grand_code:
+
+#
+fullname_zh: 騰訊
+fullname_en: Tencent
+subnames   :
+
+#
+categories: [IT, EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.tencent.com/
+description: |
+    [[tencent]] 是中國一家跨國企業控股公司，為中國大陸規模最大的網際網路公司。擅長收購外國遊戲公司成為中資。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[tencent]] 的主要股東包括中國商人《馬化騰》，其中員工有至少 20% 是黨支部黨員。

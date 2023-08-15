@@ -1,0 +1,24 @@
+#
+code      : gamesparcs
+grand_code:
+
+#
+fullname_zh: 隆中網絡
+fullname_en: Game Sparcs
+subnames   :
+
+#
+categories: [GA]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.gamesparcs.com/
+description: |
+    [[gamesparcs]] 是在台上櫃的公司（股票代號：6542），主要開發、代理與中國的相關手機遊戲。
+
+#
+informations:
+    - date       : 2017-02-26
+      description: |
+          [[gamesparcs]] 的前員工在《求職天眼通》表示是台皮陸骨的公司。

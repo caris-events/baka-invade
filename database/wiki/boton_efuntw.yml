@@ -1,0 +1,28 @@
+#
+code      : boton_efuntw
+grand_code: boton_inch
+
+#
+fullname_zh: Efun遊戲平台
+fullname_en: efuntw
+subnames   :
+
+#
+categories: [EN]
+type      : software
+owner     : taiwanese_fake
+
+#
+website    : https://www.efuntw.com/
+description: |
+    [[boton_efuntw]] 是中國 [[boton_efun]] 在台灣營運的中國手機遊戲平台網站。
+
+#
+informations:
+    - date       : 2018-06-28
+      description: |
+          [[boton_efuntw]] 未知原因凍結多名玩家帳號，且領取維修獎勵時會發生「網路異常」而無法領取。
+
+    - date       : 2021-09-01
+      description: |
+          [[boton_efuntw]] 的營運權限從原先的 [[boton_inch]] 轉交給 [[tencent_movergames]]，其平台外觀與內容完全相同。
