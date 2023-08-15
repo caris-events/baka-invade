@@ -349,7 +349,8 @@
                                 {{ if .Website }}
                                 <div class="column">
                                     <div class="ts-text is-small is-secondary">官方網站</div>
-                                    <a href="{{ .Website }}" class="ts-text is-small is-external-link is-link" rel="noreferrer" style="word-break: break-all">{{ .Website }}</a>
+                                    <a href="{{ .Website }}" target="_blank"
+                                    rel="noopener noreferrer" class="ts-text is-small is-external-link is-link" rel="noreferrer" style="word-break: break-all">{{ .Website }}</a>
                                 </div>
                                 {{ end }}
                                 <!-- / 官方網站 -->
