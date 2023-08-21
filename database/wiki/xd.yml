@@ -19,5 +19,8 @@ description: |
 
 #
 informations:
-    - description: |
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
           [[xd]] 的主要股東是中國商人《黃一孟》，其餘股東皆為中資。
