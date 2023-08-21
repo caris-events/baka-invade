@@ -8,7 +8,7 @@ fullname_en: Tencent
 subnames   :
 
 #
-categories: [IT, EN]
+categories: [IT, EN, GP]
 type      : company
 owner     : chinese
 
@@ -23,4 +23,4 @@ informations:
       direction  : chinese_gov
       invasion   : support
       description: |
-          [[tencent]] 的主要股東包括中國商人《馬化騰》，其中員工有至少 20% 是黨支部黨員。
+          [[tencent]] 的主要股東包括中國商人《馬化騰》，其中員工有至少 20% 是中國共產黨的黨支部黨員。

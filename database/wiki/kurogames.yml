@@ -1,0 +1,26 @@
+#
+code      : kurogames
+grand_code:
+
+#
+fullname_zh: 庫洛遊戲
+fullname_en: Kuro Games
+subnames   : [庫洛科技]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://kurogame.com/
+description: |
+    [[kurogames]] 是中國廣州的一家手機遊戲開發商，同時也擁有自己的動畫系列與漫畫。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[kurogames]] 的主要股東是 [[tencent]] 與 [[herogames]]。

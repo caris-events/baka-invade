@@ -1,0 +1,21 @@
+#
+code      : seagroup_garena
+grand_code: seagroup
+
+#
+fullname_zh: 競舞娛樂
+fullname_en: Garena
+subnames   :
+
+#
+categories: [GP]
+type      : company
+owner     : foreign
+
+#
+website    : https://www.garena.tw/
+description: |
+    [[seagroup_garena]] 是新加坡的一間線上遊戲開發與代理商，代理的遊戲多數來自中國或中資（如：[[tencent]]）。
+
+#
+informations:

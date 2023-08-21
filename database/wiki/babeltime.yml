@@ -1,0 +1,26 @@
+#
+code      : babeltime
+grand_code:
+
+#
+fullname_zh: 巴別時代
+fullname_en: Babel Time
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.babeltime.com/
+description: |
+    [[babeltime]] 是中國的一間遊戲開發、發行商。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[babeltime]] 大股東為《中國河南兆建實業》，其他股東全部為中國公司。

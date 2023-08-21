@@ -1,0 +1,26 @@
+#
+code      : netease
+grand_code:
+
+#
+fullname_zh: 網易
+fullname_en: Netease
+subnames   : [163]
+
+#
+categories: [IT, GP]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.163.com/
+description: |
+    [[netease]] 是中國最大的網路科技公司之一，主要網站是類似 [[yahoo]] 的新聞資訊網。除了網路科技外，主要業務還有遊戲開發。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[netease]] 的主要股東是中國商人《丁磊》。

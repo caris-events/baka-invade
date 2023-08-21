@@ -1,0 +1,26 @@
+#
+code      : gaea
+grand_code:
+
+#
+fullname_zh: 蓋婭互娛
+fullname_en: GAEA
+subnames   : [蓋婭網路]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.gaeabi.com/
+description: |
+    [[gaea]] 是中國的一間遊戲開發、發行商。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[gaea]] 是一間中國公司且自己持有多數股份，其餘股東皆為中資或中國商人。

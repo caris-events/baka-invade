@@ -1,0 +1,21 @@
+#
+code      : tencent_supercell
+grand_code: tencent
+
+#
+fullname_zh: 超級細胞
+fullname_en: Supercell Oy
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : foreign
+
+#
+website    : https://supercell.com/en/
+description: |
+    [[tencent_supercell]] 是芬蘭的一間手機遊戲開發、發行商，開發的遊戲大多都是免費但有內購的手機遊戲。
+
+#
+informations:

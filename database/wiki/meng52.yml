@@ -1,0 +1,26 @@
+#
+code      : meng52
+grand_code:
+
+#
+fullname_zh: 萌我愛網路
+fullname_en: Meng52
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.meng52.net/
+description: |
+    [[meng52]] 是中國北京的一家手機遊戲開發公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[meng52]] 的創辦人是中國商人《任宇翔》，曾是 [[kingdowin]] 的營運長。[[meng52]] 穫得 [[sanqi]]、[[qihoo360]]、[[newmargin]] 的投資，其他股東亦為中國商人或中資。

@@ -1,0 +1,21 @@
+#
+code      : cncas
+grand_code: govcn
+
+#
+fullname_zh: 中國科學院
+fullname_en: Chinese Academy Of Sciences
+subnames   : [CAS]
+
+#
+categories: [IT]
+type      : group
+owner     : chinese
+
+#
+website    : https://www.cas.cn/
+description: |
+    [[cncas]] 是中國科學技術方面最高的學術機構。
+
+#
+informations:

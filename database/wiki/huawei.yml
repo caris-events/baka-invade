@@ -1,0 +1,26 @@
+#
+code      : huawei
+grand_code:
+
+#
+fullname_zh: 華為
+fullname_en: Huawei
+subnames   :
+
+#
+categories: [IT, AP, MP, PC, EA, EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.mobvista.com/
+description: |
+    [[huawei]] 是中國最大的電信裝置製造商之一，其手機業務曾成為世界第一。後續轉型自研國產晶片、系統與人工智慧和家電與自動駕駛技術。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[huawei]] 的創辦人是中國商人《任正非》，主要股東由 [[huawei]] 自己控股。

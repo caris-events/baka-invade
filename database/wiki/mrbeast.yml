@@ -1,0 +1,26 @@
+#
+code      : mrbeast
+grand_code:
+
+#
+fullname_zh:
+fullname_en: MrBeast
+subnames   : [Jimmy Donaldson]
+
+#
+categories: [EN]
+type      : person
+owner     : foreign
+
+#
+website    : https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA
+description: |
+    [[mrbeast]] 是 [[youtube]] 最多人訂閱的 YouTuber 之一，影片內容以公益與娛樂為主。
+
+#
+informations:
+    - date       : 2023-08-20
+      direction  : chinese
+      invasion   : support
+      description: |
+          [[mrbeast]] 的影片《Every Country On Earth Fights For $250,000!》邀請來自每個國家的參賽者進行競賽，其中台灣被視為中國的一部分。

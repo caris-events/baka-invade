@@ -1,0 +1,26 @@
+#
+code      : govcn
+grand_code:
+
+#
+fullname_zh: 中國共產黨
+fullname_en: CCP
+subnames   : [黨中央, 中央委員會, Central Committee of the Chinese Communist Party]
+
+#
+categories: [PL]
+type      : group
+owner     : chinese_gov
+
+#
+website    : https://www.gov.cn/
+description: |
+    [[govcn]] 是中國最大的權利機關，類似於台灣的總統府機構。
+
+#
+informations:
+    - income     : chinese_gov
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[govcn]] 的總書記與主要領導人是《習近平》。

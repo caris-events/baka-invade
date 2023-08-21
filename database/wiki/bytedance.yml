@@ -1,0 +1,26 @@
+#
+code      : bytedance
+grand_code:
+
+#
+fullname_zh: 字節跳動
+fullname_en: ByteDance
+subnames   : []
+
+#
+categories: [EN, IT, ME]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.bytedance.com/
+description: |
+    [[bytedance]] 是中國北京的一家跨國網路技術公司，主要致力於大數據分析與人工智慧、多媒體社交平台。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[bytedance]] 的創辦人是中國商人《張一鳴》，且公司內部已成立黨支部。

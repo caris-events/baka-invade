@@ -1,0 +1,26 @@
+#
+code      : jd
+grand_code:
+
+#
+fullname_zh: 京東
+fullname_en: JD.com
+subnames   : [360buy]
+
+#
+categories: [IT, SP, GP]
+type      : company
+owner     : chinese
+
+#
+website    : https://jd.com/
+description: |
+    [[jd]] 是中國最大的網路銷售平台之一，除了電子業務外亦有物流與醫療大數據分析。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[jd]] 的主要股東是中國商人《劉強東》，其餘多數為中資，而 [[tencent]] 也是其股東之一。

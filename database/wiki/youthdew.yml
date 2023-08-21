@@ -1,0 +1,26 @@
+#
+code      : youthdew
+grand_code:
+
+#
+fullname_zh: 朝露工作室
+fullname_en: Youth Dew Games
+subnames   : [Zhao Lu Game]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.zhaolugame.com/
+description: |
+    [[youthdew]] 是中國的手機遊戲開發與發行商。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[youthdew]] 的主要股東是中國商人《丁馳》，其餘股東也有 [[tencent]]。

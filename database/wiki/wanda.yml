@@ -1,0 +1,26 @@
+#
+code      : wanda
+grand_code:
+
+#
+fullname_zh: 萬達集團
+fullname_en: Wanda Group
+subnames   :
+
+#
+categories: [EN, GP]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.wanda.cn/
+description: |
+    [[wanda]] 是中國北京的一家跨國企業集團，業務涉及商管、文化、地產、投資等領域。2017 年位列《財富》世界 500 強企業第 380 名。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[wanda]] 的主要股東為中國商人《王健林》，而 [[tencent]]、[[alibaba]] 和 [[jd]] 都是其股東之一。

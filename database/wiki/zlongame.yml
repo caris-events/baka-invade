@@ -1,0 +1,26 @@
+#
+code      : zlongame
+grand_code:
+
+#
+fullname_zh: 紫龍遊戲
+fullname_en: Zlon Game
+subnames   : [Zilong, Zlong Games]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.zlongame.com/
+description: |
+    [[zlongame]] 是中國北京的一家手機遊戲開發商。[[zlongame]] 的前身是 [[changyou]]。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[zlongame]] 的主要創辦人是中國商人《王一》，其同時擔任 [[tangren]] 的總裁。

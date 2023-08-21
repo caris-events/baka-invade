@@ -1,0 +1,21 @@
+#
+code      : babeltime_gamepanda
+grand_code: babeltime
+
+#
+fullname_zh: 熊貓遊戲
+fullname_en: Game Panda
+subnames   : [香港商熊貓遊戲]
+
+#
+categories: [EN]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.gamepanda.tw/
+description: |
+    [[babeltime_gamepanda]] 是在台灣註冊的公司，主要代理中國遊戲。
+
+#
+informations:

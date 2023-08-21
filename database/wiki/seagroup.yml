@@ -1,0 +1,26 @@
+#
+code      : seagroup
+grand_code:
+
+#
+fullname_zh: 冬海集團
+fullname_en: Sea Limited
+subnames   :
+
+#
+categories: [GP]
+type      : company
+owner     : foreign
+
+#
+website    : https://www.sea.com/
+description: |
+    [[seagroup]] 是新加坡的一間大型控股公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[seagroup]] 的主要股東與創辦人是中國商人《李小冬》，大股東是 [[tencent]]，其他股東多為中資。

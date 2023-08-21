@@ -1,0 +1,26 @@
+#
+code      : eskyfun
+grand_code:
+
+#
+fullname_zh: 天游網路
+fullname_en: Eskyfun
+subnames   : [廣州天游]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.eskyfun.cn/
+description: |
+    [[eskyfun]] 是中國廣州的一家遊戲開發、代理商。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[eskyfun]] 的主要股東是中國商人《王永康》、《夏恒》與《嚴金龍》，其中《王永康》還曾任職於 [[4399]] 和 [[mobvista]]。

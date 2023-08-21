@@ -1,0 +1,21 @@
+#
+code      : wanda_games
+grand_code: wanda
+
+#
+fullname_zh: 萬達院線遊戲
+fullname_en: Wanda Cinemas Games
+subnames   : [互愛互動]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.wdyxgames.com/
+description: |
+    [[wanda_games]] 是中國的手機遊戲發行商。
+
+#
+informations:

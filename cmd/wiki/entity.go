@@ -154,14 +154,14 @@ var relations = &Relations{
 	OwnerTexts: []string{
 		"台灣國有",
 		"台灣",
-		"中國在台",
+		"借殼在台",
 		"香港",
-		"中國",
+		"借殼香港",
 		"中共國有",
 		"中國",
 		"外國國有",
 		"外國",
-		"中國在外",
+		"借殼海外",
 	},
 	Types: []ObjectType{
 		ObjectTypePerson,
@@ -169,6 +169,7 @@ var relations = &Relations{
 		ObjectTypeCompany,
 		ObjectTypeSoftware,
 		ObjectTypeGame,
+		ObjectTypeGroup,
 	},
 	TypeTexts: []string{
 		"人物",
@@ -176,6 +177,7 @@ var relations = &Relations{
 		"公司",
 		"服務",
 		"遊戲",
+		"組織",
 	},
 	Invasions: []ObjectInvasion{
 		ObjectInvasionSupport,

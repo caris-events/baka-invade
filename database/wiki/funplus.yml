@@ -1,0 +1,26 @@
+#
+code      : funplus
+grand_code:
+
+#
+fullname_zh: 趣加科技
+fullname_en: FunPlus
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://funplus.com/
+description: |
+    [[funplus]] 是中國北京的一間遊戲開發商，同時也在電子競技產業有投資。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[funplus]] 的主要股東是中國商人《吳佳》。

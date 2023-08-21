@@ -33,8 +33,11 @@ func PrepareObjects(objects []*Object) {
 				return code == c.Code
 			})
 		})
+		v.ChildObjects = lo.Filter(objects, func(j *Object, _ int) bool {
+			return j.GrandCode == v.Code
+		})
 		v.RelatedBrands = lo.Filter(v.RelatedObjects, func(v *Object, _ int) bool {
-			return v.Type == ObjectTypeBrand || v.Type == ObjectTypePerson || v.Type == ObjectTypeCompany
+			return v.Type == ObjectTypeBrand || v.Type == ObjectTypePerson || v.Type == ObjectTypeCompany || v.Type == ObjectTypeGroup
 		})
 		v.RelatedThings = lo.Filter(v.RelatedObjects, func(v *Object, _ int) bool {
 			return v.Type == ObjectTypeSoftware || v.Type == ObjectTypeGame
@@ -42,7 +45,7 @@ func PrepareObjects(objects []*Object) {
 		v.Name = Name(v)
 		v.SecondaryName = SecondaryName(v)
 		v.OwnerStr = OwnerStr(v)
-		v.Description = ParseContent(objects, v.Description)
+		v.Description = ChildContent(ParseContent(objects, v.Description), v.ChildObjects)
 		v.SubnameStr = strings.Join(v.Subnames, "、")
 		v.TypeStr = TypeStr(v)
 
@@ -175,7 +178,7 @@ func OwnerStr(v *Object) string {
 	case ObjectOwnerTaiwanese:
 		return "台灣" + t
 	case ObjectOwnerTaiwaneseFake:
-		return "中國在台" + t
+		return "借殼在台" + t
 	case ObjectOwnerChineseGov:
 		return "中共國有" + t
 	case ObjectOwnerChinese:
@@ -183,13 +186,13 @@ func OwnerStr(v *Object) string {
 	case ObjectOwnerHongKongese:
 		return "香港" + t
 	case ObjectOwnerHongKongeseFake:
-		return "中國" + t
+		return "借殼香港" + t
 	case ObjectOwnerForeignGov:
 		return "外國國有" + t
 	case ObjectOwnerForeign:
 		return "外國" + t
 	case ObjectOwnerForeignFake:
-		return "中國在外" + t
+		return "借殼海外" + t
 	default:
 		return t
 	}
@@ -276,6 +279,8 @@ func TypeStr(v *Object) string {
 		return "服務"
 	case ObjectTypeGame:
 		return "遊戲"
+	case ObjectTypeGroup:
+		return "組織"
 	}
 	log.Fatalf("object has unknown type: %s\n", v.Code)
 	return ""
@@ -341,7 +346,7 @@ func Name(v *Object) string {
 // SelfStr
 func SelfStr(v *Object) (output string) {
 	switch v.Type {
-	case ObjectTypeBrand, ObjectTypePerson, ObjectTypeSoftware, ObjectTypeGame:
+	case ObjectTypeBrand, ObjectTypePerson, ObjectTypeSoftware, ObjectTypeGame, ObjectTypeGroup:
 		output += "這個" + TypeStr(v)
 	case ObjectTypeCompany:
 		output += "這間" + TypeStr(v)
@@ -370,6 +375,31 @@ func ParseContent(objects []*Object, v string) string {
 	return v
 }
 
+// ChildContent
+func ChildContent(desc string, children []*Object) string {
+	if len(children) == 0 {
+		return desc
+	}
+
+	output := "旗下有"
+	for k, v := range children {
+		if k > 1 {
+			break
+		}
+		output += fmt.Sprintf(`《<a class="ts-text is-link" href="./../%s">%s</a>》、`, v.Code, Name(v))
+	}
+	output = strings.TrimSuffix(string(output), "、")
+
+	if len(children) > 2 {
+		output += "等"
+	}
+
+	desc = strings.TrimSuffix(desc, "。</p>\n")
+	desc += "，" + output + "。</p>"
+
+	return desc
+}
+
 // buildObjectMessage
 func buildObjectMessage(objects []*Object, v *Object) {
 	for _, info := range v.Informations {
@@ -382,7 +412,7 @@ func buildObjectMessage(objects []*Object, v *Object) {
 			info.Messages = append(info.Messages, &ObjectInformationMessage{
 				IsIncome: true,
 				Type:     "warning",
-				Text:     SelfStr(v) + "已經被中國政府接管。",
+				Text:     SelfStr(v) + "隸屬於中國政府。",
 			})
 		case ObjectIncomeChineseShareholder:
 			info.Messages = append(info.Messages, &ObjectInformationMessage{

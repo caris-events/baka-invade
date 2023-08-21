@@ -1,0 +1,21 @@
+#
+code      : shenqu_mobimon
+grand_code: shenqu
+
+#
+fullname_zh: 移動怪獸
+fullname_en: MobiMon
+subnames   : [Gamon]
+
+#
+categories: [EN]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://secure.gamon.net/
+description: |
+    [[shenqu_mobimon]] 是在台灣註冊的公司，主要代理中國手機遊戲。
+
+#
+informations:

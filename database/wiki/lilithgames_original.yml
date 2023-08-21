@@ -1,0 +1,21 @@
+#
+code      : lilithgames_original
+grand_code: lilithgames
+
+#
+fullname_zh: 奧瑞吉
+fullname_en: Original Games
+subnames   : [Ori]
+
+#
+categories: [EN]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.ori.tw/
+description: |
+    [[lilithgames_original]] 是在台灣註冊的公司，主要代理中國遊戲。
+
+#
+informations:

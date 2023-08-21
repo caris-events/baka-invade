@@ -10,6 +10,7 @@ const (
 	ObjectTypeCompany  ObjectType = "company"
 	ObjectTypeSoftware ObjectType = "software"
 	ObjectTypeGame     ObjectType = "game"
+	ObjectTypeGroup    ObjectType = "group"
 )
 
 // ObjectOwner
@@ -93,6 +94,7 @@ type Object struct {
 
 	Categories     []*Category `yaml:"-"`
 	GrandObject    *Object     `yaml:"-"`
+	ChildObjects   []*Object   `yaml:"-"`
 	RelatedObjects []*Object   `yaml:"-"`
 	RelatedBrands  []*Object   `yaml:"-"`
 	RelatedThings  []*Object   `yaml:"-"`

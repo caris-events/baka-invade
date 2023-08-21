@@ -1,0 +1,23 @@
+#
+code      : peiyu
+grand_code:
+
+#
+fullname_zh: 沛羽數位
+fullname_en: Peiyu Digital
+subnames   : [沛羽數位娛樂]
+
+#
+categories: [EN]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.pde.tw/
+description: |
+    [[peiyu]] 是在台灣註冊的公司，主要代理中國遊戲。
+
+#
+informations:
+    - description: |
+          [[peiyu]] 的創辦人是《郭天貴》，與 [[longcheng]] 為同一人物。

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>笨他侵略</title>
+        <title>中國侵略資料庫 - 笨他侵略</title>
         <!-- Tocas UI -->
         <link rel="stylesheet" href="./assets/tocas/tocas.min.css" />
         <script src="./assets/tocas/tocas.min.js"></script>
@@ -185,15 +185,24 @@
                                             <!-- 組織名稱 -->
                                             <div class="ts-text is-bold is-large is-1-lines">
                                                 <span x-text="object.n"></span>
-                                                <template x-if="object.s"><span class="ts-text is-secondary is-small mobile:u-hidden" x-text="`（${object.s}）`"></span></template>
                                             </div>
                                             <!-- / 組織名稱 -->
 
-                                            <div class="ts-meta is-secondary">
-                                                <!-- 持有者 -->
-                                                <span class="item" x-text="`${relations.owner_texts[object.o]}${relations.type_texts[object.t]}`"></span>
-                                                <!-- / 持有者 -->
+                                            <!-- 組織持有者 -->
+                                            <div class="ts-meta is-secondary mobile:u-hidden">
+                                                <template x-if="object.s">
+                                                    <span class="item" x-text="object.s"></span>
+                                                </template>
+                                                <span class="item" x-text="`${relations.owner_texts[object.o]}${relations.type_texts[object.t]}`"> </span>
                                             </div>
+                                            <!-- / 組織持有者 -->
+
+                                            <!-- 手機：次要名稱 -->
+                                            <div
+                                                class="ts-text is-secondary is-1-lines tablet+:u-hidden"
+                                                x-text="object.s !== '' ? object.s : `${relations.owner_texts[object.o]}${relations.type_texts[object.t]}`"
+                                            ></div>
+                                            <!-- / 手機：次要名稱 -->
                                         </div>
                                         <!-- / 資訊欄位 -->
 

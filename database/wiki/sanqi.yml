@@ -1,0 +1,26 @@
+#
+code      : sanqi
+grand_code:
+
+#
+fullname_zh: 三七互娛
+fullname_en: 37 Games
+subnames   : [Sanqi, 37 Interactive Entertainment]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.37wan.net/
+description: |
+    [[sanqi]] 是中國廣州的一間遊戲開發公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[sanqi]] 的主要股東是中國商人《李逸飛》、《曾開天》、《胡宇航》，其餘皆為中資。

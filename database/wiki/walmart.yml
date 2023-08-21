@@ -1,0 +1,21 @@
+#
+code      : walmart
+grand_code:
+
+#
+fullname_zh: 沃爾瑪
+fullname_en: Walmart
+subnames   :
+
+#
+categories: [GP, SP]
+type      : company
+owner     : foreign
+
+#
+website    : https://jd.com/
+description: |
+    [[walmart]] 是美國的跨國零售企業，也是世界上最大的零售商。
+
+#
+informations:

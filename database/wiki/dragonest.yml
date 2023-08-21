@@ -1,0 +1,26 @@
+#
+code      : dragonest
+grand_code:
+
+#
+fullname_zh: 龍淵網路
+fullname_en: Dragonest
+subnames   : [成都龍淵]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.dragonest.com/
+description: |
+    [[dragonest]] 是中國成都的一家手機遊戲代理與開發商。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[dragonest]] 的主要股東皆為中資，而 [[tencent]] 是第二大股東。

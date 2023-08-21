@@ -1,0 +1,21 @@
+#
+code      : iqiyi_skymoons
+grand_code: iqiyi
+
+#
+fullname_zh: 天象互動
+fullname_en: Skymoons
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.skymoons.com/
+description: |
+    [[iqiyi_skymoons]] 是中國成都的一間手機遊戲開發、代理公司。
+
+#
+informations:

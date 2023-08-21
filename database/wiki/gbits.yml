@@ -1,0 +1,26 @@
+#
+code      : gbits
+grand_code:
+
+#
+fullname_zh: 吉比特
+fullname_en: G-bits
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.g-bits.com/zh/
+description: |
+    [[qingci]] 是中國廈門的一家遊戲開發、發行商，曾入選中國 500 強民營企業之一。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[gbits]] 的主要股東是《盧竑岩》，曾為 [[zte]] 的軟體開發工程師。[[gbits]] 的其他股東都是中國商人或中資。

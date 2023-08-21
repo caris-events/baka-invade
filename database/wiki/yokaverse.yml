@@ -1,0 +1,26 @@
+#
+code      : yokaverse
+grand_code:
+
+#
+fullname_zh: 游卡網路
+fullname_en: Yokaverse
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.yokaverse.com/
+description: |
+    [[yokaverse]] 是中國杭州的一家遊戲開發商，起初以桌遊為主。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[yokaverse]] 的主要股東是中國商人《潘恩林》、《杜彬》與《劉雪斐》。

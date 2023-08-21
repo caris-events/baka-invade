@@ -1,0 +1,21 @@
+#
+code      : tencent_timi
+grand_code: tencent
+
+#
+fullname_zh: 天美工作室
+fullname_en: TiMi Studio Group
+subnames   : [TiMi, 天美藝遊]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://timi.qq.com/
+description: |
+    [[tencent_timi]] 是中國上海的一間手機遊戲開發工作室，由 [[tencent]] 旗下的多個工作室拆散重組而成。
+
+#
+informations:

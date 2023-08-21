@@ -1,0 +1,26 @@
+#
+code      : bytedance_tiktok
+grand_code: bytedance
+
+#
+fullname_zh: 抖音
+fullname_en: TikTok
+subnames   : []
+
+#
+categories: [EN, ME]
+type      : software
+owner     : chinese
+
+#
+website    : https://www.douyin.com/
+description: |
+    [[bytedance_tiktok]] 是中國知名的短影音平台之一，其原始設計抄襲 [[twitter_vine]]。
+
+#
+informations:
+    - income     : chinese_gov
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[bytedance_tiktok]] 的創辦人是中國商人《張一鳴》，最大股東是《廈門星辰啟點科技有限公司》，疑中國政府持有的空殼公司。

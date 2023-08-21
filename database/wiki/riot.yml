@@ -1,0 +1,21 @@
+#
+code      : riot
+grand_code: tencent
+
+#
+fullname_zh: 拳頭遊戲
+fullname_en: Riot Games
+subnames   : [銳玩遊戲]
+
+#
+categories: [EN]
+type      : company
+owner     : foreign
+
+#
+website    : https://www.riotgames.com/
+description: |
+    [[riot]] 是一家大型遊戲開發與發行商，主要開發電腦競技類遊戲。
+
+#
+informations:

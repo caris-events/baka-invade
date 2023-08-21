@@ -1,0 +1,26 @@
+#
+code      : gaijin
+grand_code: gaea
+
+#
+fullname_zh:
+fullname_en: Gaijin Entertainment
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : foreign
+
+#
+website    : https://gaijin.net/tw
+description: |
+    [[gaijin]] 是俄羅斯的一間電腦遊戲開發、發行商。
+
+#
+informations:
+    - date       : 2019-09-04
+      direction  : chinese
+      invasion   : support
+      description: |
+          [[gaijin]] 為了符合中國要求而忽略歷史背景，移除旗下遊戲 [[war_thunder]] 裡的《中華民國》國旗，並將原先屬於《中華民國》陸軍的載具改為《中國》五星旗所有。

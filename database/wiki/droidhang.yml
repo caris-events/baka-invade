@@ -1,0 +1,26 @@
+#
+code      : droidhang
+grand_code:
+
+#
+fullname_zh: 卓杭科技
+fullname_en: Droid Hang
+subnames   : [DH Games]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.droidhang.com/
+description: |
+    [[droidhang]] 是中國成都的一家手機遊戲開發公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[droidhang]] 的主要股東是中國商人《王偉》與 [[lilithgames]]，其他股東亦為中國商人或中資。

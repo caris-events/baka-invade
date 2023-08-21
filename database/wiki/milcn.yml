@@ -1,0 +1,21 @@
+#
+code      : milcn
+grand_code: govcn
+
+#
+fullname_zh: 中央軍事委員會
+fullname_en: CMC
+subnames   : [中國共產黨中央軍事委員會, Central Military Commission]
+
+#
+categories: [PL]
+type      : group
+owner     : chinese_gov
+
+#
+website    : http://www.mod.gov.cn/
+description: |
+    [[milcn]] 是中國的最高級軍事機構，類似於台灣的國防部。
+
+#
+informations:

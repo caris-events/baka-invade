@@ -1,0 +1,26 @@
+#
+code      : alibaba
+grand_code:
+
+#
+fullname_zh: 阿里巴巴
+fullname_en: Alibaba Group
+subnames   :
+
+#
+categories: [IT, SP, GP]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.alibabagroup.com/zh-HK/
+description: |
+    [[alibaba]] 是中國最大的科技公司之一，服務範圍有線上購物、第三方支付與雲端計算。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[alibaba]] 的主要股東有中國商人《馬雲》，其餘多數為中資，而 [[tencent]] 也是其股東之一。

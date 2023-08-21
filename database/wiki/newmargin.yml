@@ -1,0 +1,26 @@
+#
+code      : newmargin
+grand_code:
+
+#
+fullname_zh: 聯創永宣
+fullname_en: New Margin
+subnames   :
+
+#
+categories: [GP, FI]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.newmargin.cn/
+description: |
+    [[newmargin]] 是中國的一家風險投資機構，是中國最早成的風險投資事業之一。
+
+#
+informations:
+    - income     : chinese_gov
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[newmargin]] 由中國上海市政府、[[cncas]] 成立。

@@ -1,0 +1,21 @@
+#
+code      : shenqu
+grand_code: sjhuatong
+
+#
+fullname_zh: 盛趣遊戲
+fullname_en: Shenqu Games
+subnames   : [盛大網路, Shenqu Technology]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.shengqugames.com/cn/index
+description: |
+    [[shenqu]] 是中國上海的一間遊戲公司。
+
+#
+informations:

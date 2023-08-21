@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{{ .Name }} - 笨他侵略</title>
+        <title>{{ .Name }} | 笨他侵略 - 中國侵略資料庫</title>
         <!-- Tocas UI -->
         <link rel="stylesheet" href="./../assets/tocas/tocas.min.css" />
         <script src="./../assets/tocas/tocas.min.js"></script>
@@ -134,27 +134,37 @@
                     <div class="column is-fluid">
                         <!-- 組織名稱 -->
                         <div class="ts-text is-heavy mobile:is-large tablet+:is-huge">
-                            {{ .Name }} {{ if .SecondaryName }}
-                            <span class="ts-text is-secondary mobile:u-hidden">（{{ .SecondaryName }}）</span>
-                            {{ end }}
+                            {{ .Name }}
                         </div>
                         {{ if .SecondaryName }}
                         <div class="ts-text is-secondary tablet+:u-hidden">{{ .SecondaryName }}</div>
                         {{ end }}
                         <!-- / 組織名稱 -->
 
-                        <div class="ts-meta is-secondary">
+                        <div class="ts-meta is-secondary tablet+:b-wiki-namemeta">
+                            <!-- 次要名稱 -->
+                            {{ if .SecondaryName }}
+                            <span class="item mobile:u-hidden">
+                                {{ .SecondaryName }}
+                            </span>
+                            {{ end }}
+                            <!-- 次要名稱 -->
+
                             <!-- 持有者 -->
-                            <span class="item">{{ .OwnerStr }}</span>
+                            <span class="item">{{ .OwnerStr }}
+                                {{ if or (eq .Owner "taiwanese_fake") (eq .Owner "hongkongese_fake") (eq .Owner "foreign_fake") }}
+                                <span class="ts-icon is-circle-question-icon b-wiki-shellhelper" data-tooltip="通常指這個{{.TypeStr}}的主要經營內容只與中國有關，或是核心技術主要來自中國，卻偽裝成當地的{{.TypeStr}}。"></span>
+                                {{ end }}
+                            </span>
                             <!-- / 持有者 -->
 
-                            <!-- 侵略警告標語 -->
+                            <!-- 侵略警告標語
                             {{ if eq .Invasion "indirect" }}
                             <span class="item">間接協助中國侵略、統一</span>
                             {{ end }} {{ if eq .Invasion "support" }}
                             <span class="item">支持中國侵略、統一</span>
                             {{ end }}
-                            <!-- / 侵略警告標語 -->
+                            / 侵略警告標語 -->
                         </div>
                     </div>
                     <!-- / 資訊欄位 -->
@@ -442,17 +452,29 @@
                                 <div class="column is-fluid">
                                     <!-- 組織名稱 -->
                                     <div class="ts-text is-large is-bold is-1-lines">
-                                        {{ .Name }}{{ if .SecondaryName }}
-                                        <span class="ts-text is-secondary is-small mobile:u-hidden">（{{ .SecondaryName }}）</span>
-                                        {{ end }}
+                                        {{ .Name }}
                                     </div>
                                     <!-- / 組織名稱 -->
 
-                                    <div class="ts-meta is-secondary">
+                                    <!-- 次要資訊 -->
+                                    <div class="ts-meta is-secondary mobile:u-hidden">
+                                        <!-- 次要名稱 -->
+                                        {{ if .SecondaryName }}
+                                        <span class="item">{{ .SecondaryName }}</span>
+                                        {{ end }}
+                                        <!-- / 次要名稱 -->
+
                                         <!-- 持有者 -->
                                         <span class="item">{{ .OwnerStr }}</span>
                                         <!-- / 持有者 -->
                                     </div>
+                                    <!-- 次要資訊 -->
+
+                                    <!-- 手機：次要資訊 -->
+                                    <div class="ts-text is-secondary is-1-lines tablet+:u-hidden">
+                                        {{ if .SecondaryName }}{{ .SecondaryName }}{{ else }}{{ .OwnerStr }}{{ end }}
+                                    </div>
+                                    <!-- / 手機：次要資訊 -->
                                 </div>
                                 <!-- / 資訊欄位 -->
 
@@ -499,17 +521,29 @@
                                 <div class="column is-fluid">
                                     <!-- 組織名稱 -->
                                     <div class="ts-text is-large is-bold is-1-lines">
-                                        {{ .Name }}{{ if .SecondaryName }}
-                                        <span class="ts-text is-secondary is-small mobile:u-hidden">（{{ .SecondaryName }}）</span>
-                                        {{ end }}
+                                        {{ .Name }}
                                     </div>
                                     <!-- / 組織名稱 -->
 
-                                    <div class="ts-meta is-secondary">
+                                    <!-- 次要資訊 -->
+                                    <div class="ts-meta is-secondary mobile:u-hidden">
+                                        <!-- 次要名稱 -->
+                                        {{ if .SecondaryName }}
+                                        <span class="item">{{ .SecondaryName }}</span>
+                                        {{ end }}
+                                        <!-- / 次要名稱 -->
+
                                         <!-- 持有者 -->
                                         <span class="item">{{ .OwnerStr }}</span>
                                         <!-- / 持有者 -->
                                     </div>
+                                    <!-- 次要資訊 -->
+
+                                    <!-- 手機：次要資訊 -->
+                                    <div class="ts-text is-secondary is-1-lines tablet+:u-hidden">
+                                        {{ if .SecondaryName }}{{ .SecondaryName }}{{ else }}{{ .OwnerStr }}{{ end }}
+                                    </div>
+                                    <!-- / 手機：次要資訊 -->
                                 </div>
                                 <!-- / 資訊欄位 -->
 
@@ -564,7 +598,12 @@
                                             <div class="ts-meta is-secondary">
                                                 <!-- 持有者 -->
                                                 <span class="item">
-                                                    <span class="ts-text" x-text="`${relations.owner_texts[object.o]}${relations.type_texts[object.t]}`"></span>
+                                                    <template x-if="object.s !== ''">
+                                                        <span class="ts-text is-1-lines" x-text="object.s"></span>
+                                                    </template>
+                                                    <template x-if="object.s === ''">
+                                                        <span class="ts-text is-1-lines" x-text="`${relations.owner_texts[object.o]}${relations.type_texts[object.t]}`"></span>
+                                                    </template>
                                                 </span>
                                                 <!-- / 持有者 -->
                                             </div>
@@ -630,6 +669,15 @@
                         </div>
                     </div>
                     <!-- / 封面圖片 -->
+
+                    <!-- 提防中國遊戲
+                    <div class="ts-box u-top-spaced-large mobile:u-edged">
+                        <div class="ts-content is-secondary mobile:is-vertically-padded">
+                            <div class="ts-header">提防中國遊戲的惡意倒閉</div>
+                            <div class="ts-text is-description u-top-spaced-small">根據《笨他侵略》的統計，多數中國遊戲營運不到一年若沒有達到營收目標就會惡意倒閉。由於中國遊戲通常採用空殼公司，任何消費都將無法獲得保障與退款，亦無法與政府申訴。</div>
+                        </div>
+                    </div>
+                    / 提防中國遊戲 -->
 
                     <!-- 補充資料 -->
                     <div class="ts-box u-top-spaced-large mobile:u-edged">

@@ -1,0 +1,21 @@
+#
+code      : gamesparcs_poseidon
+grand_code: gamesparcs
+
+#
+fullname_zh: 海淯遊戲
+fullname_en: Poseidon Games
+subnames   : [波賽頓遊戲]
+
+#
+categories: [EN]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.poseidongame.com/
+description: |
+    [[gamesparcs_poseidon]] 是一間台灣公司，主要代理中國的手機遊戲。
+
+#
+informations:

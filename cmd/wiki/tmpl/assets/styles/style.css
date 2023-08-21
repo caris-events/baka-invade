@@ -163,6 +163,21 @@
     line-height: 2;
 }
 
+.b-wiki-namemeta {
+    font-size: var(--ts-font-size-16px);
+}
+
+.b-wiki-shellhelper {
+    cursor: pointer;
+    margin-left: 0.25rem;
+}
+
+@media (pointer: coarse) {
+    .b-wiki-shellhelper {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 0px) and (max-width: 767px) {
     .b-wiki-slate {
         min-height: 100px;

@@ -1,0 +1,21 @@
+#
+code      : educn_nudt
+grand_code: milcn
+
+#
+fullname_zh: 國防科技大學
+fullname_en: NUDT
+subnames   : [National University of Defense Technology]
+
+#
+categories: [BK]
+type      : group
+owner     : chinese_gov
+
+#
+website    : https://www.nudt.edu.cn/
+description: |
+    [[educn_nudt]] 是中國頂尖高校之一。
+
+#
+informations:

@@ -4,8 +4,8 @@ grand_code: boton_efun
 
 #
 fullname_zh: 英旗互動娛樂
-fullname_en: Inch Interactive Entertainment
-subnames   :
+fullname_en: Inch
+subnames   : [Inch Interactive Entertainment]
 
 #
 categories: [EN]
@@ -15,7 +15,7 @@ owner     : taiwanese_fake
 #
 website    : https://www.efuntw.com/
 description: |
-    [[boton_inch]] 是 [[boton_efun]] 在台灣的公司，主要代理中國手機遊戲。
+    [[boton_inch]] 是代理中國手機遊戲的公司。
 
 #
 informations:

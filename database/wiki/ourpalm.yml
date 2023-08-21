@@ -1,0 +1,26 @@
+#
+code      : ourpalm
+grand_code:
+
+#
+fullname_zh: 掌趣科技
+fullname_en: Ourpalm
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.ourpalm.com/
+description: |
+    [[ourpalm]] 是中國的手機遊戲開發商。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[ourpalm]] 的主要股東是中國商人《劉惠城》。

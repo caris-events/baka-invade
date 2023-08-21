@@ -1,0 +1,26 @@
+#
+code      : papestudio
+grand_code:
+
+#
+fullname_zh: 疊紙遊戲
+fullname_en: Paper Games
+subnames   : [Pape Studio, Nikki Games]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.papegames.com/
+description: |
+    [[papestudio]] 是中國蘇州的一家女性向遊戲開發廠商。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[yokaverse]] 的主要股東是中國商人《潘恩林》、《杜彬》與《劉雪斐》。

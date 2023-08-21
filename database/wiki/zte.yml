@@ -1,0 +1,26 @@
+#
+code      : zte
+grand_code:
+
+#
+fullname_zh: 中興通訊
+fullname_en: ZTE
+subnames   :
+
+#
+categories: [IT, MP]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.zte.com.cn/china/
+description: |
+    [[zte]] 是中國深圳的一家無線通訊開發公司，亦是中國五大手機製造商之一。主要開發自己的品牌與代工生產。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[zte]] 的創辦人是中國商人《侯為貴》，公司股東亦為中國商人或中資。

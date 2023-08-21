@@ -1,0 +1,26 @@
+#
+code      : shimmergames
+grand_code:
+
+#
+fullname_zh: 微光互動
+fullname_en: Shimmer Games
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://shimmergames.com/
+description: |
+    [[shimmergames]] 是中國成都的一家遊戲開發商。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[droidhang]] 的主要股東是中國商人《劉祺》。

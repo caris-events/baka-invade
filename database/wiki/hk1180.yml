@@ -1,0 +1,27 @@
+#
+code      : hk1180
+grand_code:
+
+#
+fullname_zh: 匯彩控股
+fullname_en: Paradise Entertainment
+subnames   : [生命科技集團]
+
+#
+categories: [EN]
+type      : company
+owner     : hongkongese
+
+#
+website    : https://www.hk1180.com/
+description: |
+    [[hk1180]] 是香港的一間博奕遊戲與機台開發公司（HKEX：1180），主要娛樂場包括金碧滙彩娛樂場。
+
+#
+informations:
+    - income     : chinese
+      description: |
+          [[hk1180]] 開發的大多數博奕遊戲與機台都是簡體字內容。
+
+    - description: |
+          [[hk1180]] 的主要股東是《August Profit Investments Limited》。

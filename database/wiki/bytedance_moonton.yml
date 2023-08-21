@@ -1,0 +1,21 @@
+#
+code      : bytedance_moonton
+grand_code: bytedance
+
+#
+fullname_zh: 沐瞳科技
+fullname_en: Moonton
+subnames   : []
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://en.moonton.com/
+description: |
+    [[bytedance_moonton]] 是中國上海的一個遊戲開發、發行商。
+
+#
+informations:

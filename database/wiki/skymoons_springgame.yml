@@ -1,0 +1,21 @@
+#
+code      : skymoons_springgame
+grand_code: iqiyi_skymoons
+
+#
+fullname_zh: 成都露珠
+fullname_en: Spring Game
+subnames   : [SPGame]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.sp-games.com/
+description: |
+    [[skymoons_springgame]] 是中國成都的一家遊戲開發商。
+
+#
+informations:

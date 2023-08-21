@@ -1,0 +1,21 @@
+#
+code      : bilibili_komoe
+grand_code: bilibili
+
+#
+fullname_zh: 小萌科技
+fullname_en: Komoe Game
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.komoejoy.com/tw/
+description: |
+    [[bilibili_komoe]] 是在台灣註冊的公司，主要代理中國的手機遊戲。
+
+#
+informations:

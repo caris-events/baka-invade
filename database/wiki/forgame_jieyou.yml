@@ -1,0 +1,21 @@
+#
+code      : forgame_jieyou
+grand_code: forgame
+
+#
+fullname_zh: 捷遊軟件
+fullname_en: Jieyou
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.jieyou.com/
+description: |
+    [[forgame_jieyou]] 是中國廣州的一間網頁遊戲開發公司。
+
+#
+informations:

@@ -1,0 +1,28 @@
+#
+code      : zlongame_gamebeans
+grand_code: zlongame
+
+#
+fullname_zh: 遊戲種子
+fullname_en: Game Beans
+subnames   : []
+
+#
+categories: [EN]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.game-beans.com/
+description: |
+    [[zlongame_gamebeans]] 是一間中國手機遊戲代理廠商。
+
+#
+informations:
+    - date       : 2019-09-14
+      income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      source     : https://forum.gamer.com.tw/C.php?bsn=35627&snA=1508
+      description: |
+          香港玩家自創的遊戲公會《Liberty》遭中國網友惡意檢舉「港獨」後，[[zlongame_gamebeans]] 強制凍結其帳號並踢出所有公會成員。

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{{ .Word }} - 笨他侵略</title>
+        <title>{{ .Word }} | 笨他侵略 - 中國侵略性詞彙</title>
         <!-- Tocas UI -->
         <link rel="stylesheet" href="./../../assets/tocas/tocas.min.css" />
         <script src="./../../assets/tocas/tocas.min.js"></script>
@@ -274,7 +274,12 @@
                                             <div class="ts-meta is-secondary">
                                                 <!-- 持有者 -->
                                                 <span class="item">
-                                                    <span class="ts-text" x-text="`${relations.owner_texts[object.o]}${relations.type_texts[object.t]}`"></span>
+                                                    <template x-if="object.s !== ''">
+                                                        <span class="ts-text is-1-lines" x-text="object.s"></span>
+                                                    </template>
+                                                    <template x-if="object.s === ''">
+                                                        <span class="ts-text is-1-lines" x-text="`${relations.owner_texts[object.o]}${relations.type_texts[object.t]}`"></span>
+                                                    </template>
                                                 </span>
                                                 <!-- / 持有者 -->
                                             </div>

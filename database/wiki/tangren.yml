@@ -1,0 +1,26 @@
+#
+code      : tangren
+grand_code:
+
+#
+fullname_zh: 唐人影視
+fullname_en: Tangren Media
+subnames   : [Chinese Entertainment Tianjin Limited]
+
+#
+categories: [EN, ME]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.tangrenmedia.com
+description: |
+    [[tangren]] 是中國天津的一家影音文化製作公司，主要受眾戶是 15 至 35 歲的年輕人群，播送管道是電視、網際網路，同時也有藝人經紀業務。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[tangren]] 的主要營運者是中國商人《蔡藝儂》，其同時是 [[zlongame]] 營運者的老婆。

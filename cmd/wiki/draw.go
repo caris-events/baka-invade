@@ -121,11 +121,11 @@ func DrawObjectCover(v *Object) error {
 	origW := logo.Bounds().Dx()
 	origH := logo.Bounds().Dy()
 	aspect := float64(origW) / float64(origH)
-	w := 200
+	w := 180
 	h := int(float64(w) / aspect)
 
 	logoScaled := image.NewRGBA(image.Rect(0, 0, w, h))
-	draw.NearestNeighbor.Scale(logoScaled, logoScaled.Rect, logo, logo.Bounds(), draw.Over, nil)
+	draw.BiLinear.Scale(logoScaled, logoScaled.Rect, logo, logo.Bounds(), draw.Over, nil)
 	canvas.DrawImageAnchored(logoScaled, 1000, 125, 0.5, 0.5)
 
 	// URL

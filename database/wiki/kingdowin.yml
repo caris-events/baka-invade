@@ -1,0 +1,26 @@
+#
+code      : kingdowin
+grand_code:
+
+#
+fullname_zh: 筋斗雲遊戲
+fullname_en:
+subnames   :
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.kingdowin.com/
+description: |
+    [[kingdowin]] 是中國北京的一家遊戲開發公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[kingdowin]] 的創辦人是中國商人《段彬》、《任宇翔》，但《任宇翔》已離職並成立 [[meng52]]。

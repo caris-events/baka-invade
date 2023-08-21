@@ -1,0 +1,26 @@
+#
+code      : 4399
+grand_code:
+
+#
+fullname_zh: 四三九九網路
+fullname_en: 4399
+subnames   : [游家網路]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.4399.com/
+description: |
+    [[4399]] 是中國廈門的一間網頁小遊戲公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[4399]] 的主要股東與創辦人皆為中國商人《駱海堅》、《李興平》與《蔡文勝》，其中《李興平》還是 [[baidu_hao123]] 的創辦人。

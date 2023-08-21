@@ -1,0 +1,21 @@
+#
+code      : baidu_hao123
+grand_code: baidu
+
+#
+fullname_zh:
+fullname_en: hao123
+subnames   : [網址之家]
+
+#
+categories: [IT, ME, AP]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.hao123.com/
+description: |
+    [[baidu_hao123]] 是中國的資訊與連結彙整網站，類似早期 [[yahoo]] 的經營模式。由於 [[baidu_hao123]] 經常綁架瀏覽器的首頁而被唾棄。
+
+#
+informations:

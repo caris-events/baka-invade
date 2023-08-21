@@ -1,0 +1,26 @@
+#
+code      : cheetah_mobile
+grand_code: kingsoft
+
+#
+fullname_zh: 獵豹移動
+fullname_en: Cheetah Mobile
+subnames   : [金山網路]
+
+#
+categories: [IT]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.cmcm.com/
+description: |
+    [[cheetah_mobile]] 是中國的手機應用程式開發商，由《金山安全》和《可牛影像》兩間公司合併而成，原為《金山網路》。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[cheetah_mobile]] 的主要股東是中國商人《傅盛》，曾來台演講並認為「台灣不夠開放」。

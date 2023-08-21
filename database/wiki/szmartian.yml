@@ -1,0 +1,26 @@
+#
+code      : szmartian
+grand_code:
+
+#
+fullname_zh: 火星人互動娛樂
+fullname_en: Martian Game
+subnames   : [6363game]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.6263game.com/index
+description: |
+    [[szmartian]] 是中國深圳的一間手機遊戲開發公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[szmartian]] 的主要股東是中國商人《朱瓊》。

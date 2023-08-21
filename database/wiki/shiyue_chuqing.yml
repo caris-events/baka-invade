@@ -1,0 +1,21 @@
+#
+code      : shiyue_chuqing
+grand_code: shiyue
+
+#
+fullname_zh: 海南初晴
+fullname_en: Hainan Chuqing
+subnames   : [7566]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : http://chuqinggames.com/
+description: |
+    [[shiyue_chuqing]] 是中國海南的一間手機遊戲開發公司，同個公司有另一個名為 7566 的網站。
+
+#
+informations:

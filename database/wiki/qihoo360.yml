@@ -1,0 +1,26 @@
+#
+code      : qihoo360
+grand_code:
+
+#
+fullname_zh: 奇虎360
+fullname_en: Qihoo 360
+subnames   :
+
+#
+categories: [IT]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.360.cn/
+description: |
+    [[qihoo360]] 是中國的一家電腦資訊安全研究公司，亦開發電腦、手機的生態軟體（如：瀏覽器）。由於常出廠預載在中國電腦且移除手續繁雜而被稱為流氓軟體。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[qihoo360]] 的主要股東與創辦人是中國商人《周鴻禕》、《齊向東》，其他股東亦為中國商人或中資。

@@ -1,0 +1,26 @@
+#
+code      : shiyue
+grand_code: sanqi
+
+#
+fullname_zh: 詩悅網路
+fullname_en: ShiYue Joy
+subnames   : [詩悅遊戲]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.shiyue.com/
+description: |
+    [[shiyue]] 是中國廣州的一間手機遊戲開發公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[shiyue]] 的主要股東是中國商人《林金城》，曾擔任過 [[forgame_jieyou]] 遊戲製作人。由於公司成長性飛快且無融資紀錄，被懷疑是 [[sanqi]] 的子公司。
