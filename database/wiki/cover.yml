@@ -19,16 +19,20 @@ description: |
 
 #
 informations:
-    - date       : 2020-11-12
-      income     : untracked
-      invasion   : untracked
-      direction  : neutral
+    - date       : 2020-09-24
+      direction  : chinese
+      invasion   : support
       description: |
-          因受中國政治影響，[[cover]] 解散了 [[cover_hololive]] 在中國市場的虛擬實況主團體《Hololive CN》，並讓旗下其他藝人不再接觸中國遊戲。
+          [[cover]] 旗下的 [[cover_hololive]] 藝人《赤井はあと》、《桐生ココ》在展示 YouTube 營收數據時，報表將台灣視為國家而令中國人十分憤怒。
 
-    - date: 2021-10-04
-      income     : untracked
+          [[cover]] 決定懲處兩人，並在微博表示支持《一個中國》政策，此次事件稱為《龍心事件》。
+
+    - date       : 2020-11-12
       description: |
-          [[cover]] 旗下的 [[cover_hololive]] 與台灣遊戲《小魔女諾貝塔》聯手合作，旗下藝人《尾丸ポルカ》、《白上フブキ》與《白銀ノエル》擔任遊戲主要配音並釋出相關週邊。
+          [[cover]] 因受中國政治影響，而解散了旗下 [[cover_hololive]] 在中國市場的虛擬實況主團體《Hololive CN》。
+
+    - date       : 2023-08-21
+      description: |
+          [[cover]] 在經歷《龍心事件》後於中國停止活動近三年，近期重新回歸 [[bilibili]] 並開始上傳影片。
 
 
