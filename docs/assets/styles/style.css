@@ -244,6 +244,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
+    html {
+        --ts-link-700: #3ccdff !important;
+    }
     .b-wiki-logo {
         background: white;
         border-radius: 0.8rem;
