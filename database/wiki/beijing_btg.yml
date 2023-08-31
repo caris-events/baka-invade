@@ -1,0 +1,26 @@
+#
+code      : beijing_btg
+grand_code: govcn
+
+#
+fullname_zh: 首旅集團
+fullname_en: Beijing Tourism Group
+subnames   : [北京首旅]
+
+#
+categories: [GP, TL]
+type      : group
+owner     : chinese_gov
+
+#
+website    : https://www.btg.com.cn/
+description: |
+    [[beijing_btg]] 是中國北京政府持有的旅遊集團，是中國最大的旅遊企業之一。
+
+#
+informations:
+    - income     : chinese_gov
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[beijing_btg]] 是中國政府機構《北京市國資委》監管的企業。

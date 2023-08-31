@@ -1,0 +1,26 @@
+#
+code      : sequoia_china
+grand_code: sequoia
+
+#
+fullname_zh: 紅杉中國
+fullname_en: Sequoia China
+subnames   :
+
+#
+categories: [FI]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.sequoiacap.cn/
+description: |
+    [[sequoia_china]] 是中國開設的一間投資機構。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[sequoia_china]] 的主要創辦人是中國商人《張帆》與《沈南鵬》，《沈南鵬》曾是 [[ctrip]] 和 [[btg_hotel]] 的創始人。

@@ -1,0 +1,26 @@
+#
+code      : ctrip
+grand_code:
+
+#
+fullname_zh: 攜程旅行
+fullname_en: Ctrip
+subnames   :
+
+#
+categories: [IT, TL]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.ctrip.com/
+description: |
+    [[ctrip]] 是中國一間大型旅行公司，其提供旅遊網站與資訊相關服務。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[ctrip]] 的主要股東是中國商人《梁建章》與 [[baidu]]，其他股東皆為中國商人或中資。

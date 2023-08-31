@@ -1,0 +1,26 @@
+#
+code      : nanshan_capital
+grand_code:
+
+#
+fullname_zh: 南山資本
+fullname_en: Nanshan Capital
+subnames   : [南山資產, Nanshan Asset]
+
+#
+categories: [FI]
+type      : company
+owner     : chinese
+
+#
+website    : http://nanshancap.com/
+description: |
+    [[nanshan_capital]] 是中國天津的一間投資機構。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[nanshan_capital]] 的主要股東是中國商人《何佳》，其他管理職員亦為中國人。

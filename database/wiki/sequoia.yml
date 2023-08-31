@@ -1,0 +1,23 @@
+#
+code      : sequoia
+grand_code:
+
+#
+fullname_zh: 紅杉資本
+fullname_en: Sequoia
+subnames   :
+
+#
+categories: [FI]
+type      : company
+owner     : foreign
+
+#
+website    : https://www.sequoiacap.com/
+description: |
+    [[sequoia]] 是美國的一間投資機構。
+
+#
+informations:
+    - description: |
+          [[sequoia]] 的創辦人是美國人《Don Valentine》。

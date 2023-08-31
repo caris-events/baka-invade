@@ -1,0 +1,24 @@
+#
+code      : ctrip_trip
+grand_code: ctrip
+
+#
+fullname_zh:
+fullname_en: Trip.com
+subnames   :
+
+#
+categories: [TL]
+type      : company
+owner     : chinese
+
+#
+website    : https://trip.com/
+description: |
+    [[ctrip_trip]] 是中國上海的一間旅遊訂票網站。
+
+#
+informations:
+    - direction  : chinese
+      description: |
+          [[ctrip_trip]] 網站的語系設定裡，台灣國旗被拿掉並改為「繁」字。

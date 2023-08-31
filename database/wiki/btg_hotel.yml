@@ -1,0 +1,26 @@
+#
+code      : btg_hotel
+grand_code: beijing_btg
+
+#
+fullname_zh: 首旅如家
+fullname_en: BTG Home Inns
+subnames   : [如家酒店]
+
+#
+categories: [GP, TL]
+type      : company
+owner     : chinese_gov
+
+#
+website    : https://www.bthhotels.com/
+description: |
+    [[btg_hotel]] 是中國上海的一間酒店集團，其提供酒店預約網站與服務。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[btg_hotel]] 的主要股東是 [[beijing_btg]] 和 [[ctrip]]。
