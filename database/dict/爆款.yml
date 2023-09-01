@@ -1,0 +1,15 @@
+#
+word      : 爆款
+bopomofo  : ㄅㄠˋ ㄎㄨㄢˇ
+
+#
+description: |
+    十分熱銷的內容或是物品。
+
+#
+examples:
+    - words      : [人氣, 熱銷]
+      correct    : |
+          年度{{人氣}}商品，正在降價大特賣！
+      incorrect  : |
+          年度{{爆款}}商品，正在降價大特賣！

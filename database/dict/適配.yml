@@ -1,0 +1,15 @@
+#
+word      : 適配
+bopomofo  : ㄕˋ ㄆㄟˋ
+
+#
+description: |
+    與某個東西互相對應並適用。
+
+#
+examples:
+    - words      : [符合, 相符]
+      correct    : |
+          這個轉接線跟我手機的充電孔不{{相符}}。
+      incorrect  : |
+          這個轉接線跟我手機的充電孔不{{適配}}。
