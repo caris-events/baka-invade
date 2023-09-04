@@ -3,18 +3,18 @@ word      : 貓膩
 bopomofo  : ㄇㄠ ㄋㄧˋ
 
 #
+description: |
+    指事情的背後有不單純的動機或暗藏的玄機。
+
+#
 examples:
     - words      : [內幕, 不單純]
-      description: |
-          指事情的有不單純的動機。
       correct    : |
           這個東西竟然不用錢，背後的{{內幕}}肯定{{不單純}}。
       incorrect  : |
           這個東西竟然不用錢，肯定有{{貓膩}}。
 
     - words      : [隱情]
-      description: |
-          某個案發背後有不能說出的事情。
       correct    : |
           他為人謙和有禮卻做出這樣的事情，一定有什麼{{隱情}}。
       incorrect  : |

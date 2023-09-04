@@ -9,8 +9,6 @@ description: |
 #
 examples:
     - words      : [影片]
-      description: |
-          會動且帶有聲音的多媒體影像。
       correct    : |
           YouTube 有許多搞笑的{{影片}}。
       incorrect  : |
