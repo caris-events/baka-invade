@@ -1,0 +1,21 @@
+#
+code      : dpstorm_mamba
+grand_code: dpstorm
+
+#
+fullname_zh: 曼巴互娛
+fullname_en: Mamba Interactive
+subnames   : [香港商曼巴互動娛樂]
+
+#
+categories: [EN]
+type      : company
+owner     : taiwanese_fake
+
+#
+website    : https://www.onmyojigame.com/zh/
+description: |
+    [[dpstorm_mamba]] 是台灣的中國遊戲代理商，後期亦與 [[netease]] 合作代理。
+
+#
+informations:

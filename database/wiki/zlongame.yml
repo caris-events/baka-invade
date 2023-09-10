@@ -15,7 +15,7 @@ owner     : chinese
 #
 website    : https://www.zlongame.com/
 description: |
-    [[zlongame]] 是中國北京的一家手機遊戲開發商。[[zlongame]] 的前身是 [[changyou]]。
+    [[zlongame]] 是中國北京的一家手機遊戲開發商。
 
 #
 informations:
@@ -23,4 +23,4 @@ informations:
       direction  : chinese_gov
       invasion   : support
       description: |
-          [[zlongame]] 的主要創辦人是中國商人《王一》，其同時擔任 [[tangren]] 的總裁。
+          [[zlongame]] 的主要創辦人是中國商人《王一》，其同時為 [[tangren]] 的總裁，亦曾擔任過 [[sohu_changyou]] 的總裁。

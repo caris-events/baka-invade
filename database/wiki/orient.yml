@@ -1,0 +1,26 @@
+#
+code      : orient
+grand_code: govcn
+
+#
+fullname_zh: 東方國際
+fullname_en: Orient International
+subnames   : [東方集團]
+
+#
+categories: [GP]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.oih.com.cn/
+description: |
+    [[orient]] 是中國最大的進出口商之一，為跨國貿易集團。
+
+#
+informations:
+    - income     : chinese_gov
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[orient]] 是中國政府機構《上海市國資委》監管的企業。

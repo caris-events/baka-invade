@@ -23,16 +23,14 @@ informations:
       direction  : chinese
       invasion   : support
       description: |
-          [[cover]] 旗下的 [[cover_hololive]] 藝人《赤井はあと》、《桐生ココ》在展示 YouTube 營收數據時，報表將台灣視為國家而令中國人十分憤怒。
-
-          [[cover]] 決定懲處兩人並在微博表示支持《一個中國》政策，此次事件稱為《龍心事件》。
+          [[cover]] 旗下的 [[cover_hololive]] 藝人《赤井はあと》、《桐生ココ》在展示 YouTube 營收數據時，由於報表將台灣視為國家，[[cover]] 決定懲處兩人並在微博聲明支持《一個中國》政策。
 
     - date       : 2020-11-12
       description: |
-          [[cover]] 因受中國政治影響，而解散了旗下 [[cover_hololive]] 在中國市場的虛擬實況主團體《Hololive CN》。
+          [[cover]] 受中國政治影響，解散了旗下 [[cover_hololive]] 在中國市場的虛擬實況主團體《Hololive CN》。
 
     - date       : 2023-08-21
       description: |
-          [[cover]] 在經歷《龍心事件》後於中國停止活動近三年，近期重新回歸 [[bilibili]] 並開始上傳影片。
+          [[cover]] 在中國停止活動近三年後，重新回歸 [[bilibili]] 並開始上傳影片。
 
 

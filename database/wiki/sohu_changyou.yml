@@ -1,0 +1,21 @@
+#
+code      : sohu_changyou
+grand_code: sohu
+
+#
+fullname_zh: 暢遊時代
+fullname_en: Changyou
+subnames   : [北京暢遊, 暢遊時代數碼技術]
+
+#
+categories: [EN]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.changyou.com/
+description: |
+    [[sohu_changyou]] 是中國北京的一家遊戲開發商，前身為《搜狐遊戲事業部》，後期主要核心人員轉移至 [[zlongame]]。
+
+#
+informations:

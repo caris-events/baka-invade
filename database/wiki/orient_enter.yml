@@ -1,0 +1,21 @@
+#
+code      : orient_enter
+grand_code: orient
+
+#
+fullname_zh: 東方創業
+fullname_en: Orient Enterprise
+subnames   :
+
+#
+categories: [GP, FI]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.oie.com.cn/
+description: |
+    [[orient_enter]] 是中國的創業投資集團。
+
+#
+informations:

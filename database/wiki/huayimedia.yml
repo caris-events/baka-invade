@@ -1,0 +1,26 @@
+#
+code      : huayimedia
+grand_code:
+
+#
+fullname_zh: 華誼兄弟
+fullname_en: Huayi Brothers Media
+subnames   :
+
+#
+categories: [EN, ME]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.huayimedia.com/
+description: |
+    [[huayimedia]] 是中國的一家知名影音傳播集團。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[huayimedia]] 的主要股東是中國商人《王忠軍》與 [[tencent]]、[[alibaba]]、《馬雲》。

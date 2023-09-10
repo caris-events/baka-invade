@@ -1,0 +1,26 @@
+#
+code      : sohu
+grand_code:
+
+#
+fullname_zh: 搜狐
+fullname_en: Sohu
+subnames   :
+
+#
+categories: [IT, ME]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.sohu.com/
+description: |
+    [[sohu]] 是中國最大的網路入口之一，主要作為新聞資訊的傳播網站。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[sohu]] 的主要股東是 [[orient]]、[[roshow]] 與中國商人《魯小均》。
