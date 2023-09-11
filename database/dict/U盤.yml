@@ -1,0 +1,15 @@
+#
+word      : U盤
+bopomofo  : ㄆㄢˊ
+
+#
+description: |
+    指 USB 隨身碟，U 取自開頭的英文，而中國常以「盤」來統稱硬碟類的儲存裝置。
+
+#
+examples:
+    - words      : [USB 隨身碟]
+      correct    : |
+          {{USB 隨身碟}}可以儲存檔案並隨時帶著走。
+      incorrect  : |
+          {{U盤}}可以儲存[[文件]]並隨時帶著走。

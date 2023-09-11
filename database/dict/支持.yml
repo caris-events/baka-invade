@@ -1,0 +1,19 @@
+#
+word      : 支持
+bopomofo  : ㄓ ㄔˊ
+
+#
+description: |
+    有能力足以使用某個功能。
+
+#
+distinguish: |
+    精神層面上的支持
+
+#
+examples:
+    - words      : [支援]
+      correct    : |
+          這個社群網站{{支援}}多種語言，使它成為跨文化交流的理想工具。
+      incorrect  : |
+          這個社群網站{{支持}}多種語言，使它成為跨文化交流的理想工具。

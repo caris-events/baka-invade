@@ -1,0 +1,15 @@
+#
+word      : 音頻
+bopomofo  : ㄧㄣ ㄆㄧㄣˊ
+
+#
+description: |
+    指帶有聲音的訊息資訊。
+
+#
+examples:
+    - words      : [音訊]
+      correct    : |
+          電腦的錄音機軟體可以錄製{{音訊}}檔案。
+      incorrect  : |
+          電腦的錄音機[[軟件]]可以錄製{{音訊}}[[文件]]。

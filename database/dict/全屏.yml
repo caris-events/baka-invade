@@ -1,0 +1,15 @@
+#
+word      : 全屏
+bopomofo  : ㄑㄩㄢˊ ㄆㄧㄥˊ
+
+#
+description: |
+    指全螢幕播放、展示某些東西。
+
+#
+examples:
+    - words      : [全螢幕]
+      correct    : |
+          我看影片都習慣{{全螢幕}}播放。
+      incorrect  : |
+          我看[[視頻]]都習慣{{全屏}}播放。

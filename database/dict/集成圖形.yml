@@ -1,0 +1,15 @@
+#
+word      : 集成圖形
+bopomofo  : ㄐㄧˊ ㄔㄥˊ ㄊㄨˊ ㄒㄧㄥˊ
+
+#
+description: |
+    指 CPU 內建的整合圖形顯示卡。
+
+#
+examples:
+    - words      : [整合圖形]
+      correct    : |
+          Intel 與 AMD 的 CPU 都有內建{{整合圖形}}顯示卡，所以不需要額外安裝獨立顯示卡也能使用。
+      incorrect  : |
+          Intel 與 AMD 的 CPU 都有內建{{集成圖形}}顯示卡，所以不需要額外安裝獨立顯示卡也能使用。

@@ -1,0 +1,15 @@
+#
+word      : 記憶棒
+bopomofo  : ㄐㄧˋ ㄧˋ ㄅㄤˋ
+
+#
+description: |
+    是 SONY 早期推出的儲存記憶卡，全名為 Memory Stick，曾用於 PSP 遊戲主機中，後期被 SD 卡取代。
+
+#
+examples:
+    - words      : [MS 記憶卡, 記憶卡]
+      correct    : |
+          我已經把遊戲載到{{MS 記憶卡}}了，等一下給你玩。
+      incorrect  : |
+          我已經把遊戲載到{{記憶棒}}了，等一下給你玩。
