@@ -57,14 +57,14 @@
                             <a href="./../" class="ts-image b-headerbasic-logo">
                                 <img src="./../assets/images/logo-text.svg" alt="笨他侵略的商標圖片" />
                             </a>
-                            <a href="./../search" class="ts-button is-short is-ghost">列表</a>
+                            <a href="./../search/" class="ts-button is-short is-ghost">列表</a>
                         </div>
                     </div>
                     <!-- / Logo -->
 
                     <!-- 搜尋欄位 -->
                     <div class="column tablet:is-fluid desktop+:is-6-wide">
-                        <form action="./../search" method="GET">
+                        <form action="./../search/" method="GET">
                             <div class="ts-input is-solid is-start-icon">
                                 <span class="ts-icon is-magnifying-glass-icon"></span>
                                 <input type="search" name="q" placeholder="搜尋組織、產品…" />
@@ -76,7 +76,7 @@
                     <!-- 附屬功能 -->
                     <div class="column desktop+:is-5-wide">
                         <div class="ts-wrap is-end-aligned">
-                            <a href="./../dict/search" class="ts-button is-short is-ghost">字典</a>
+                            <a href="./../dict/search/" class="ts-button is-short is-ghost">字典</a>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/caris-events/baka-invade" class="ts-button is-outlined">
                                 <span class="ts-icon is-brand is-github-icon is-large is-end-spaced"></span>GitHub
                             </a>
@@ -94,8 +94,8 @@
                             <a href="./../" class="ts-image b-headermob-logo">
                                 <img src="./../assets/images/logo-text.svg" alt="笨他侵略的商標圖片" />
                             </a>
-                            <a class="ts-text is-undecorated" href="./../search">列表</a>
-                            <a class="ts-text is-undecorated" href="./../dict/search">字典</a>
+                            <a class="ts-text is-undecorated" href="./../search/">列表</a>
+                            <a class="ts-text is-undecorated" href="./../dict/search/">字典</a>
                         </div>
                     </div>
                     <!-- / 左側 -->
@@ -230,7 +230,7 @@
                     <div class="ts-notice is-outlined is-negative u-bottom-spaced-large">
                         <div class="title">協助希望</div>
                         <div class="content">
-                            此{{ .TypeStr }}的圖片已經被原著作者要求移除，你可以至 <a href="#!" class="ts-text is-link is-external-link">GitHub</a> 提供其他圖片。
+                            此{{ .TypeStr }}的圖片已經被原著作者要求移除，你可以至 <a target="_blank" rel="noopener noreferrer" href="https://github.com/caris-events/baka-invade" class="ts-text is-link is-external-link">GitHub</a> 提供其他圖片。
                         </div>
                     </div>
                     {{ end }}
@@ -371,7 +371,7 @@
                                     <div class="ts-text is-secondary is-small">分類</div>
                                     <div class="ts-wrap is-compact" style="margin-top: 0.25rem">
                                         {{ range .Categories }}
-                                        <a href="./../search?c={{ .Code }}" class="ts-badge is-secondary">{{ .Text }}</a>
+                                        <a href="./../search/?c={{ .Code }}" class="ts-badge is-secondary">{{ .Text }}</a>
                                         {{ end }}
                                     </div>
                                 </div>
@@ -438,7 +438,7 @@
                     {{ if .RelatedBrands }}
                     <div class="ts-box mobile:u-edged u-top-spaced">
                         {{ range $k, $v := .RelatedBrands }} {{ if le $k 5 }}
-                        <a href="./../{{ .Code }}" class="ts-content tablet+:is-horizontally-padded">
+                        <a href="./../{{ .Code }}/" class="ts-content tablet+:is-horizontally-padded">
                             <div class="ts-grid is-middle-aligned">
                                 <!-- Logo 欄位-->
                                 <div class="column">
@@ -485,7 +485,7 @@
                         </a>
                         <div class="ts-divider b-divider"></div>
                         {{ end }}{{ end }} {{ if gt (len .RelatedBrands) 6 }}
-                        <a href="./../search?r={{ .Code }}" class="ts-text is-link is-undecorated">
+                        <a href="./../search/?r={{ .Code }}" class="ts-text is-link is-undecorated">
                             <div class="ts-content is-secondary is-dense is-center-aligned">還有其他 {{ minus (len .RelatedBrands) 6 }} 個項目…</div>
                         </a>
                         {{ end }}
@@ -507,7 +507,7 @@
                     {{ if .RelatedThings }}
                     <div class="ts-box mobile:u-edged u-top-spaced">
                         {{ range $k, $v := .RelatedThings }} {{ if le $k 5 }}
-                        <a href="./../{{ .Code }}" class="ts-content tablet+:is-horizontally-padded">
+                        <a href="./../{{ .Code }}/" class="ts-content tablet+:is-horizontally-padded">
                             <div class="ts-grid is-middle-aligned">
                                 <!-- Logo 欄位-->
                                 <div class="column">
@@ -554,7 +554,7 @@
                         </a>
                         <div class="ts-divider b-divider"></div>
                         {{ end }} {{ end }} {{ if gt (len .RelatedThings) 6 }}
-                        <a href="./../search?r={{ .Code }}" class="ts-text is-link is-undecorated">
+                        <a href="./../search/?r={{ .Code }}" class="ts-text is-link is-undecorated">
                             <div class="ts-content is-secondary is-dense is-center-aligned">還有其他 {{ minus (len .RelatedThings) 6 }} 個項目…</div>
                         </a>
                         {{ end }}
@@ -576,14 +576,14 @@
                                 <div class="ts-text is-bold is-large"><span class="ts-icon is-eye-icon is-end-spaced b-title-icon"></span>看看這些品牌</div>
                             </div>
                             <div class="column">
-                                <a href="./../search" class="ts-button is-outlined">檢視更多</a>
+                                <a href="./../search/" class="ts-button is-outlined">檢視更多</a>
                             </div>
                         </div>
 
                         <div class="ts-grid mobile:is-2-columns tablet:is-3-columns desktop+:is-5-columns mobile:u-horizontally-padded tablet-:b-6-items desktop+:b-10-items u-top-spaced">
                             <template x-for="object of suggested_objects">
                                 <div class="column">
-                                    <a class="ts-box" x-bind:href="`./../${object.code}`">
+                                    <a class="ts-box" x-bind:href="`./../${object.code}/`">
                                         <div class="ts-content is-center-aligned">
                                             <!-- Logo 欄位-->
                                             <div class="ts-image b-wiki-suggested-logo">
@@ -620,14 +620,14 @@
                                 <div class="ts-text is-bold is-large"><span class="ts-icon is-eye-icon is-end-spaced b-title-icon"></span>看看這些詞彙</div>
                             </div>
                             <div class="column">
-                                <a href="./../dict/search" class="ts-button is-outlined">檢視更多</a>
+                                <a href="./../dict/search/" class="ts-button is-outlined">檢視更多</a>
                             </div>
                         </div>
 
                         <div class="ts-grid mobile:is-2-columns tablet+:is-3-columns mobile:u-horizontally-padded mobile:b-8-items tablet+:b-9-items u-top-spaced">
                             <template x-for="dict of suggested_dicts">
                                 <div class="column">
-                                    <a x-bind:href="`./../dict/${dict.c}`" class="ts-box">
+                                    <a x-bind:href="`./../dict/${dict.c}/`" class="ts-box">
                                         <div class="ts-content is-horizontally-padded">
                                             <div class="ts-grid is-middle-aligned">
                                                 <div class="column is-fluid">

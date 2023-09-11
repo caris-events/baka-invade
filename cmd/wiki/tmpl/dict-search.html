@@ -63,7 +63,7 @@
                             </div>
                             <span class="ts-badge mobile:u-hidden [1077px]+:u-hidden">字典</span>
                             <a class="ts-text is-undecorated mobile:u-hidden" href="./../../">返回本站</a>
-                            <a class="ts-text is-undecorated mobile:u-hidden" href="./../../about">關於</a>
+                            <a class="ts-text is-undecorated mobile:u-hidden" href="./../../about/">關於</a>
                             <a class="ts-text is-undecorated tablet+:u-hidden" href="./../../">返回本站</a>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                         <div class="ts-wrap u-top-spaced tablet-:u-hidden" x-data="random_store">
                             <span>隨機條目：</span>
                             <template x-for="dict of keyword_dicts">
-                                <a class="ts-text is-undecorated" x-bind:href="`./../${dict.c}`" x-text="dict.n || dict.c"></a>
+                                <a class="ts-text is-undecorated" x-bind:href="`./../${dict.c}/`" x-text="dict.n || dict.c"></a>
                             </template>
                         </div>
                         <!-- / 隨機條目 -->
@@ -137,7 +137,7 @@
                     <!-- 每筆資料 -->
                     <template x-for="result in showing_results">
                         <div class="column">
-                            <a x-bind:href="`./../${result.c}`" class="ts-box">
+                            <a x-bind:href="`./../${result.c}/`" class="ts-box">
                                 <div class="ts-content is-horizontally-padded">
                                     <div class="ts-grid is-middle-aligned">
                                         <div class="column is-fluid">

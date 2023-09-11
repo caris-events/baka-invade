@@ -125,26 +125,26 @@ func CompileSitemap(objects []*Object, dicts []*Dict) error {
 	sitemap.SetLastMod(&now)
 
 	sitemap.Add(&smg.SitemapLoc{
-		Loc: "about",
+		Loc: "about/",
 	})
 	sitemap.Add(&smg.SitemapLoc{
 		Loc: "index",
 	})
 	sitemap.Add(&smg.SitemapLoc{
-		Loc: "search",
+		Loc: "search/",
 	})
 	sitemap.Add(&smg.SitemapLoc{
-		Loc: "dict/search",
+		Loc: "dict/search/",
 	})
 
 	for _, v := range objects {
 		sitemap.Add(&smg.SitemapLoc{
-			Loc: v.Code,
+			Loc: fmt.Sprintf("%s/", v.Code),
 		})
 	}
 	for _, v := range dicts {
 		sitemap.Add(&smg.SitemapLoc{
-			Loc: fmt.Sprintf("dict/%s", v.Code),
+			Loc: fmt.Sprintf("dict/%s/", v.Code),
 		})
 	}
 

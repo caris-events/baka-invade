@@ -70,8 +70,8 @@
                                 <img src="./../assets/images/logo-text.svg" alt="笨他侵略的商標圖片" />
                             </a>
                             <a class="ts-text is-undecorated mobile:u-hidden" href="./../">首頁</a>
-                            <a class="ts-text is-undecorated" href="./../about">關於</a>
-                            <a class="ts-text is-undecorated" href="./../dict/search">字典</a>
+                            <a class="ts-text is-undecorated" href="./../about/">關於</a>
+                            <a class="ts-text is-undecorated" href="./../dict/search/">字典</a>
                         </div>
                     </div>
                     <!-- / 左側 -->
@@ -110,7 +110,7 @@
                         <div class="ts-wrap u-top-spaced tablet-:u-hidden" x-data="random_store">
                             <span>隨機條目：</span>
                             <template x-for="object of keyword_objects">
-                                <a class="ts-text is-undecorated" x-bind:href="`./../${object.code}`" x-text="object.n"></a>
+                                <a class="ts-text is-undecorated" x-bind:href="`./../${object.code}/`" x-text="object.n"></a>
                             </template>
                         </div>
                         <!-- / 隨機條目 -->
@@ -226,7 +226,7 @@
                             <!-- 每筆資料 -->
                             <template x-for="(result, index) in showing_results">
                                 <div>
-                                    <a x-bind:href="`./../${object_codes[result.c]}`" class="ts-content tablet+:is-horizontally-padded">
+                                    <a x-bind:href="`./../${object_codes[result.c]}/`" class="ts-content tablet+:is-horizontally-padded">
                                         <div class="ts-grid is-middle-aligned">
                                             <!-- Logo 欄位-->
                                             <div class="column">

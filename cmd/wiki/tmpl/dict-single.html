@@ -54,18 +54,18 @@
                     <!-- Logo -->
                     <div class="column desktop+:is-5-wide">
                         <div class="ts-wrap is-middle-aligned">
-                            <a href="./../search" class="ts-image b-headerbasic-logo">
+                            <a href="./../search/" class="ts-image b-headerbasic-logo">
                                 <img src="./../../assets/images/logo-text.svg" alt="笨他侵略的商標圖片" />
                             </a>
                             <span class="ts-badge">字典</span>
-                            <a href="./../search" class="ts-button is-short is-ghost">列表</a>
+                            <a href="./../search/" class="ts-button is-short is-ghost">列表</a>
                         </div>
                     </div>
                     <!-- / Logo -->
 
                     <!-- 搜尋欄位 -->
                     <div class="column tablet:is-fluid desktop+:is-6-wide">
-                        <form action="./../search" method="GET">
+                        <form action="./../search/" method="GET">
                             <div class="ts-input is-solid is-start-icon">
                                 <span class="ts-icon is-magnifying-glass-icon"></span>
                                 <input type="text" name="q" placeholder="搜尋侵略性詞彙…" />
@@ -92,10 +92,10 @@
                     <!-- 左側 -->
                     <div class="column is-fluid">
                         <div class="ts-wrap is-relaxed is-middle-aligned">
-                            <a href="./../search" class="ts-image b-headermob-logo">
+                            <a href="./../search/" class="ts-image b-headermob-logo">
                                 <img src="./../../assets/images/logo-text.svg" alt="笨他侵略的商標圖片" />
                             </a>
-                            <a class="ts-text is-undecorated" href="./../search">列表</a>
+                            <a class="ts-text is-undecorated" href="./../search/">列表</a>
                             <a class="ts-text is-undecorated" href="./../../">返回本站</a>
                         </div>
                     </div>
@@ -219,14 +219,14 @@
                                 <div class="ts-text is-bold is-large"><span class="ts-icon is-eye-icon is-end-spaced b-title-icon"></span>看看這些詞彙</div>
                             </div>
                             <div class="column">
-                                <a href="./../search" class="ts-button is-outlined">檢視更多</a>
+                                <a href="./../search/" class="ts-button is-outlined">檢視更多</a>
                             </div>
                         </div>
 
                         <div class="ts-grid mobile:is-2-columns tablet+:is-3-columns mobile:u-horizontally-padded mobile:b-8-items tablet+:b-9-items u-top-spaced">
                             <template x-for="dict of suggested_dicts">
                                 <div class="column">
-                                    <a x-bind:href="`./../${dict.c}`" class="ts-box">
+                                    <a x-bind:href="`./../${dict.c}/`" class="ts-box">
                                         <div class="ts-content is-horizontally-padded">
                                             <div class="ts-grid is-middle-aligned">
                                                 <div class="column is-fluid">
@@ -250,7 +250,7 @@
                                 <div class="ts-text is-bold is-large"><span class="ts-icon is-eye-icon is-end-spaced b-title-icon"></span>看看這些品牌</div>
                             </div>
                             <div class="column">
-                                <a href="./../../search" class="ts-button is-outlined">檢視更多</a>
+                                <a href="./../../search/" class="ts-button is-outlined">檢視更多</a>
                             </div>
                         </div>
 
@@ -259,7 +259,7 @@
                         >
                             <template x-for="object of suggested_objects">
                                 <div class="column">
-                                    <a class="ts-box" x-bind:href="`./../../${object.code}`">
+                                    <a class="ts-box" x-bind:href="`./../../${object.code}/`">
                                         <div class="ts-content is-center-aligned">
                                             <!-- Logo 欄位-->
                                             <div class="ts-image b-wiki-suggested-logo">

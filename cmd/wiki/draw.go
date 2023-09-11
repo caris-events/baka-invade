@@ -131,7 +131,7 @@ func DrawObjectCover(v *Object) error {
 	// URL
 	canvas.SetFontFace(urlFace)
 	canvas.SetRGB(0.4, 0.4, 0.4)
-	canvas.DrawStringAnchored(fmt.Sprintf("https://baka-invade.org/%s", v.Code), 90, 510, 0, 0)
+	canvas.DrawStringAnchored(fmt.Sprintf("https://baka-invade.org/%s/", v.Code), 90, 510, 0, 0)
 
 	// Description
 	canvas.SetFontFace(descFace)
@@ -161,7 +161,7 @@ func DrawDictCover(v *Dict) error {
 	// URL
 	canvas.SetFontFace(urlFace)
 	canvas.SetRGB(0.4, 0.4, 0.4)
-	canvas.DrawStringAnchored(fmt.Sprintf("https://baka-invade.org/dict/%s", v.Code), 90, 510, 0, 0)
+	canvas.DrawStringAnchored(fmt.Sprintf("https://baka-invade.org/dict/%s/", v.Code), 90, 510, 0, 0)
 
 	// Description
 	canvas.SetFontFace(descFace)

@@ -77,7 +77,7 @@
                 </div>
                 <!-- / 頂部列 -->
 
-                <form action="./search" method="GET">
+                <form action="./search/" method="GET">
                     <div class="ts-grid tablet+:is-relaxed mobile:u-top-spaced tablet+:u-top-spaced-big">
                         <!-- Logo -->
                         <div class="column is-4-wide mobile:u-hidden">
@@ -99,7 +99,7 @@
                             <div class="ts-wrap u-top-spaced tablet-:u-hidden">
                                 <span>隨機條目：</span>
                                 <template x-for="object of keyword_objects">
-                                    <a class="ts-text is-undecorated" x-bind:href="`./${object.code}`" x-text="object.n"></a>
+                                    <a class="ts-text is-undecorated" x-bind:href="`./${object.code}/`" x-text="object.n"></a>
                                 </template>
                             </div>
                             <!-- / 隨機條目 -->
@@ -133,8 +133,8 @@
                         <p>這個網路資料庫記載了目前與中共政府有關的企業、團體與服務還有它們的侵略性行為（例如：言論審查、侵害人權），我們仍在盡可能地完善這些資料。</p>
                     </div>
                     <div class="ts-wrap u-top-spaced-large">
-                        <a href="./search" class="ts-button is-circular is-end-icon tablet+:is-large">檢視列表<span class="ts-icon is-circle-arrow-right-icon"></span></a>
-                        <a href="./about" class="ts-button is-outlined is-circular tablet+:is-large">這是什麼？</a>
+                        <a href="./search/" class="ts-button is-circular is-end-icon tablet+:is-large">檢視列表<span class="ts-icon is-circle-arrow-right-icon"></span></a>
+                        <a href="./about/" class="ts-button is-outlined is-circular tablet+:is-large">這是什麼？</a>
                     </div>
                     <!-- / 歡迎 -->
 
@@ -170,7 +170,7 @@
                     <div class="ts-box u-top-spaced-large mobile:u-edged b-7-items">
                         <template x-for="(object, index) of suggested_objects">
                             <div>
-                                <a x-bind:href="`./${object.code}`" class="ts-content tablet+:is-horizontally-padded">
+                                <a x-bind:href="`./${object.code}/`" class="ts-content tablet+:is-horizontally-padded">
                                     <div class="ts-grid is-middle-aligned">
                                         <!-- Logo 欄位-->
                                         <div class="column">
@@ -236,7 +236,7 @@
             <div class="ts-grid tablet+:is-4-columns mobile:is-2-columns mobile:u-horizontally-padded tablet+:b-12-items mobile:b-10-items u-top-spaced-large">
                 <template x-for="dict of suggested_dicts">
                     <div class="column">
-                        <a x-bind:href="`./dict/${dict.c}`" class="ts-box">
+                        <a x-bind:href="`./dict/${dict.c}/`" class="ts-box">
                             <div class="ts-content is-horizontally-padded">
                                 <div class="ts-grid is-middle-aligned">
                                     <div class="column is-fluid">
@@ -253,7 +253,7 @@
                 </template>
             </div>
             <div class="ts-wrap is-center-aligned u-top-spaced-large">
-                <a href="./dict/search" class="ts-button is-circular is-end-icon tablet+:is-large">檢視字典<span class="ts-icon is-circle-arrow-right-icon"></span></a>
+                <a href="./dict/search/" class="ts-button is-circular is-end-icon tablet+:is-large">檢視字典<span class="ts-icon is-circle-arrow-right-icon"></span></a>
             </div>
             <!-- / 歡迎 -->
 
