@@ -370,7 +370,7 @@ func ParseContent(objects []*Object, v string) string {
 			// log.Fatalf("object not found: %s\n", groups[1])
 			return fmt.Sprintf(`《%s》`, groups[1])
 		}
-		return fmt.Sprintf(`《<a class="ts-text is-link" href="./../%s">%s</a>》`, object.Code, Name(object))
+		return fmt.Sprintf(`《<a class="ts-text is-link" href="./../%s/">%s</a>》`, object.Code, Name(object))
 	})
 	return v
 }
@@ -386,7 +386,7 @@ func ChildContent(desc string, children []*Object) string {
 		if k > 1 {
 			break
 		}
-		output += fmt.Sprintf(`《<a class="ts-text is-link" href="./../%s">%s</a>》、`, v.Code, Name(v))
+		output += fmt.Sprintf(`《<a class="ts-text is-link" href="./../%s/">%s</a>》、`, v.Code, Name(v))
 	}
 	output = strings.TrimSuffix(string(output), "、")
 

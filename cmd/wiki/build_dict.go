@@ -52,7 +52,7 @@ func ParseDictContent(dicts []*Dict, v string) string {
 		if len(groups) == 0 {
 			return ""
 		}
-		return fmt.Sprintf(`<a class="b-dict-word" href="./../%s">%s</a>`, groups[1], groups[1])
+		return fmt.Sprintf(`<a class="b-dict-word" href="./../%s/">%s</a>`, groups[1], groups[1])
 	})
 
 	// {{word}} -> .b-dict-mark
