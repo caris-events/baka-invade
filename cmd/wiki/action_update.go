@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/sabloger/sitemap-generator/smg"
+	"github.com/caris-events/sitemap-generator/smg"
 	"github.com/samber/lo"
 	"github.com/urfave/cli/v2"
 )
