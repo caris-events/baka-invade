@@ -183,6 +183,7 @@ var search_store = {
             } else {
                 var fuse = new Fuse(this.filtered_results, {
                     keys: ['n', 's'], // n = Name, s = Secondary Name
+                    threshold: 0.4,
                 })
                 this.unshowing_results = fuse.search(this.keyword.trim()).map(v => v.item)
             }

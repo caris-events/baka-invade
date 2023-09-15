@@ -68,6 +68,7 @@ var search_store = {
             } else {
                 var fuse = new Fuse(this.filtered_results, {
                     keys: ['c', 'e'], // c = Word, e = Examples
+                    threshold: 0.4,
                 })
                 this.unshowing_results = fuse.search(this.keyword.trim()).map(v => v.item)
             }
