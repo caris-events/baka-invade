@@ -1,0 +1,15 @@
+#
+word      : 黃油
+bopomofo  : ㄏㄨㄤˊ ㄧㄡˊ
+
+#
+description: |
+    指食品料理中的黃色方塊狀的奶油。
+
+#
+examples:
+    - words      : [奶油]
+      correct    : |
+          生鮮超市裡有賣料理用的{{奶油}}。
+      incorrect  : |
+          生鮮超市裡有賣料理用的{{黃油}}。

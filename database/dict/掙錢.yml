@@ -1,0 +1,15 @@
+#
+word      : 掙錢
+bopomofo  : ㄓㄥˋ ㄑㄧㄢˊ
+
+#
+description: |
+    低聲下氣且用盡全力爭取錢財，通常指十分狼狽地賺錢。
+
+#
+examples:
+    - words      : [賺錢]
+      correct    : |
+          全家就只剩下父親一個人{{賺錢}}了。
+      incorrect  : |
+          全家就只剩下父親一個人{{掙錢}}了。

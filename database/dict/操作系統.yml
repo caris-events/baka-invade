@@ -1,0 +1,15 @@
+#
+word      : 操作系統
+bopomofo  : ㄘㄠ ㄗㄨㄛˋ ㄒㄧˋ ㄊㄨㄥˇ
+
+#
+description: |
+    負責管理硬體資源以及提供應用程式和用戶界面之間互動的軟體。
+
+#
+examples:
+    - words      : [作業系統]
+      correct    : |
+          目前主流的電腦{{作業系統}}有 Windows、macOS 和 Linux。
+      incorrect  : |
+          目前主流的電腦{{操作系統}}有 Windows、macOS 和 Linux。

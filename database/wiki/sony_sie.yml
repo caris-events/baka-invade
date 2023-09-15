@@ -1,0 +1,21 @@
+#
+code      : sony_sie
+grand_code: sony
+
+#
+fullname_zh: 索尼互動娛樂
+fullname_en: Sony Interactive Entertainment
+subnames   : [SIE]
+
+#
+categories: [EN, GA]
+type      : company
+owner     : foreign
+
+#
+website    : https://www.playstation.com/
+description: |
+    [[sony_sie]] 是日本的電子遊戲製造與發行商。
+
+#
+informations:

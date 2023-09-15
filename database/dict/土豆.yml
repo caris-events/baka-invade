@@ -1,0 +1,15 @@
+#
+word      : 土豆
+bopomofo  : ㄊㄨˇ ㄉㄡˋ
+
+#
+description: |
+    通常指《馬鈴薯》。以閩南語發音時，土豆或塗豆（thôo-tāu）指的是《花生》。
+
+#
+examples:
+    - words      : [馬鈴薯]
+      correct    : |
+          天氣變冷了，我想煮一鍋{{馬鈴薯}}湯。
+      incorrect  : |
+          天氣變冷了，我想煮一鍋{{土豆}}湯。

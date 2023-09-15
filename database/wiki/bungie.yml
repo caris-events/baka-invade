@@ -1,0 +1,30 @@
+#
+code      : bungie
+grand_code: sony_sie
+
+#
+fullname_zh:
+fullname_en: Bungie
+subnames   : [棒雞]
+
+#
+categories: [EN, GA]
+type      : company
+owner     : foreign
+
+#
+website    : https://www.bungie.net/
+description: |
+    [[bungie]] 是美國著名的電子遊戲開發商，以強大的美術聞名，於 2022 年初被 [[sony_sie]] 收購。
+
+#
+informations:
+    - date       : 2023
+      direction  : chinese
+      description: |
+          [[bungie]] 的 [[valve_steam]] 帳號連結表單裡，國家選項只有中國、香港，但沒有台灣。
+
+    - date       : 2023-06-15
+      direction  : chinese
+      description: |
+          [[bungie]] 在《同志驕傲月》發表聲明並感謝許多國家的努力，其中包括台灣。被中國網友發現後，[[bungie]] 從文章中移除了台灣的字樣。

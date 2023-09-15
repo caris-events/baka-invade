@@ -1,0 +1,15 @@
+#
+word      : 舉報
+bopomofo  : ㄐㄩˇ ㄅㄠˋ
+
+#
+description: |
+    像某個機關或人告發事情。
+
+#
+examples:
+    - words      : [檢舉]
+      correct    : |
+          你竟然翻牆出來，我要{{檢舉}}你！
+      incorrect  : |
+          你竟然翻牆出來，我要{{舉報}}你！

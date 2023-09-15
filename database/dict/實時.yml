@@ -1,0 +1,15 @@
+#
+word      : 實時
+bopomofo  : ㄕˊ ㄕˊ
+
+#
+description: |
+    立即性的。
+
+#
+examples:
+    - words      : [即時]
+      correct    : |
+          這些資訊會{{即時}}更新，隨時都能告訴你剛才發生了什麼事。
+      incorrect  : |
+          這些資訊會{{實時}}更新，隨時都能告訴你剛才發生了什麼事。

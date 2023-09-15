@@ -3,10 +3,6 @@ word      : 分辨率
 bopomofo  : ㄈㄣ ㄅㄧㄢˋ ㄌㄩˋ
 
 #
-description: |
-    指聲音或是畫面的解析度、取樣頻率。
-
-#
 examples:
     - words      : [解析度]
       description: |

@@ -1,0 +1,23 @@
+#
+code      : sony
+grand_code:
+
+#
+fullname_zh: 索尼
+fullname_en: Sony
+subnames   : [新力]
+
+#
+categories: [ME, EA, EN, GA, IT, MP, PC]
+type      : company
+owner     : foreign
+
+#
+website    : https://www.sony.com.tw/zh
+description: |
+    [[sony]] 是日本的跨國綜合企業，是世界上最知名的電子產品生產公司之一。
+
+#
+informations:
+    - description: |
+          [[sony]] 的主要股東是《日本 Master Trust 信託》、[[citibank]]，其餘多為外商。
