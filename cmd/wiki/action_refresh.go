@@ -14,6 +14,9 @@ func Refresh(c *cli.Context) error {
 	if err := Copy("./tmpl/assets", "./../../docs/assets"); err != nil {
 		log.Fatalln(err)
 	}
+	if err := os.WriteFile("./../../docs/CNAME", []byte("baka-invade.org"), 0644); err != nil {
+		return err
+	}
 	if err := BuildTmpl("index", "/"); err != nil {
 		return err
 	}
