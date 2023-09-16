@@ -1,0 +1,21 @@
+#
+word      : 帖子
+bopomofo  : ㄊㄧㄝˇ ㄗ˙
+
+#
+description: |
+    指論壇或是社群平台的文章。
+
+#
+examples:
+    - words      : [貼文]
+      correct    : |
+          有人在你的{{貼文}}底下留言。
+      incorrect  : |
+          有人在你的{{帖子}}底下留言。
+
+    - words      : [文章]
+      correct    : |
+          你剛才在論壇寫的那篇{{文章}}獲得了不錯的反響。
+      incorrect  : |
+          你剛才在論壇寫的那篇{{帖子}}獲得了不錯的反響。
