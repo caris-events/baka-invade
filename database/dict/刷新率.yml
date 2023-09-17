@@ -1,0 +1,15 @@
+#
+word      : 刷新率
+bopomofo  : ㄕㄨㄚ ㄒㄧㄣ ㄌㄩˋ
+
+#
+description: |
+    指螢幕或硬體每秒更新的顯示速率。
+
+#
+examples:
+    - words      : [更新率]
+      correct    : |
+          這個電競螢幕的更新率是 144Hz。
+      incorrect  : |
+          這個電競[[屏幕]]的{{刷新率}}是 144Hz。

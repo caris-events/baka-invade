@@ -1,0 +1,15 @@
+#
+word      : 刷新
+bopomofo  : ㄕㄨㄚ ㄒㄧㄣ
+
+#
+description: |
+    重新整理、更新某個畫面或資訊。
+
+#
+examples:
+    - words      : [重新整理]
+      correct    : |
+          網頁的內容卡住不動了，需要{{重新整理}}一下。
+      incorrect  : |
+          網頁的內容卡住不動了，需要{{刷新}}一下。
