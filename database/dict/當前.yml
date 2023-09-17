@@ -1,0 +1,11 @@
+#
+word      : 當前
+bopomofo  : ㄉㄤ ㄑㄧㄢˊ
+
+#
+examples:
+    - words      : [目前]
+      correct    : |
+          你{{目前}}持有 5 瓶恢復藥水。
+      incorrect  : |
+          你{{當前}}持有 5 瓶恢復藥水。
