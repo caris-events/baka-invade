@@ -1,0 +1,21 @@
+#
+word      : 創建
+bopomofo  : ㄔㄨㄤˋ ㄐㄧㄢˋ
+
+#
+description: |
+    新增、建立事物。
+
+#
+examples:
+    - words      : [新增]
+      correct    : |
+          這款遊戲明年會{{新增}}更多的玩法。
+      incorrect  : |
+          這款遊戲明年會{{創建}}更多的玩法。
+
+    - words      : [建立]
+      correct    : |
+          系統裡沒有找到你的資料，我幫你{{建立}}一份。
+      incorrect  : |
+          系統裡沒有找到你的資料，我幫你{{創建}}一份。
