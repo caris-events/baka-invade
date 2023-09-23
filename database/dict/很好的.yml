@@ -1,0 +1,19 @@
+#
+word      : 很好的
+bopomofo  : ㄏㄣˇ ㄏㄠˇ ㄉㄜ˙
+
+#
+description: |
+    通常指十分友善（Friendly）、特別精心設計過的。
+
+#
+distinguish: |
+    某個事物很棒
+
+#
+examples:
+    - words      : [妥善地]
+      correct    : |
+          我們的設計能夠讓兩個系統{{妥善地}}相互溝通。
+      incorrect  : |
+          我們的設計能夠讓兩個系統{{很好的}}相互溝通。

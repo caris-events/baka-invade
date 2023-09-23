@@ -1,0 +1,26 @@
+#
+code      : soundcloud
+grand_code:
+
+#
+fullname_zh:
+fullname_en: SoundCloud
+subnames   :
+
+#
+categories: [ME, AP]
+type      : company
+owner     : foreign
+
+#
+website    : https://soundcloud.com/
+description: |
+    [[soundcloud]] 是德國的線上音樂串流平台，任何人都可以上傳自己創作的音樂供大眾閱聽。
+
+#
+informations:
+    - date       : 2016
+      direction  : chinese
+      invasion   : support
+      description: |
+          [[soundcloud]] 在使用者的「國家欄位」表示台灣是中華人民共和國的一省。

@@ -1,0 +1,15 @@
+#
+word      : 國企
+bopomofo  : ㄍㄨㄛˊ ㄑㄧˇ
+
+#
+description: |
+    國家營運的企業與機構。
+
+#
+examples:
+    - words      : [國營事業]
+      correct    : |
+          台灣電力公司是{{國營事業}}。
+      incorrect  : |
+          台灣電力公司是{{國企}}。

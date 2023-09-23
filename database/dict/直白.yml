@@ -1,0 +1,21 @@
+#
+word      : 直白
+bopomofo  : ㄓˊ ㄅㄞˊ
+
+#
+description: |
+    直接明確使人易懂。
+
+#
+examples:
+    - words      : [直接]
+      correct    : |
+          你可以把話說的更{{直接}}一點嗎？
+      incorrect  : |
+          你可以把話說的更{{直白}}一點嗎？
+
+    - words      : [明確]
+      correct    : |
+          這個故事的設計不夠{{明確}}，沒辦法一目瞭然。
+      incorrect  : |
+          這個故事的設計不夠{{直白}}，沒辦法一目瞭然。

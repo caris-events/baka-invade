@@ -1,0 +1,15 @@
+#
+word      : 手雷
+bopomofo  : ㄕㄡˇ ㄌㄟˊ
+
+#
+description: |
+    在軍火裡可投擲的微型爆裂炸彈，爆炸後的碎片能使敵人損傷。
+
+#
+examples:
+    - words      : [手榴彈]
+      correct    : |
+          小心{{手榴彈}}！
+      incorrect  : |
+          小心{{手雷}}！
