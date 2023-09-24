@@ -1,0 +1,15 @@
+#
+word      : 奇葩
+bopomofo  : ㄑㄧˊ ㄆㄚ
+
+#
+description: |
+    指某個人是異類。
+
+#
+examples:
+    - words      : [怪胎]
+      correct    : |
+          這個人吃水餃總是把皮跟肉分開吃，真是個{{怪胎}}！
+      incorrect  : |
+          這個人吃水餃總是把皮跟肉分開吃，真是個{{奇葩}}！

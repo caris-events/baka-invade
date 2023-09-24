@@ -1,0 +1,15 @@
+#
+word      : 交互
+bopomofo  : ㄐㄧㄠ ㄏㄨˋ
+
+#
+description: |
+    與某個東西互動。
+
+#
+examples:
+    - words      : [互動]
+      correct    : |
+          他是一名介面{{互動}}設計師。
+      incorrect  : |
+          他是一名介面{{交互}}設計師。

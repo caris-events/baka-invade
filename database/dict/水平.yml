@@ -1,0 +1,19 @@
+#
+word      : 水平
+bopomofo  : ㄕㄨㄟˇ ㄆㄧㄥˊ
+
+#
+description: |
+    指某個人的格調、水準。
+
+#
+distinguish: |
+    物理的垂直、水平測量單位
+
+#
+examples:
+    - words      : [水準]
+      correct    : |
+          字句不離髒話，你的{{水準}}還真低。
+      incorrect  : |
+          字句不離髒話，你的{{水平}}還真低。

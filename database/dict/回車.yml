@@ -1,0 +1,15 @@
+#
+word      : 回車
+bopomofo  : ㄏㄨㄟˊ ㄔㄜ
+
+#
+description: |
+    指鍵盤上的 Enter 或是 Return 返回鍵。
+
+#
+examples:
+    - words      : [Enter]
+      correct    : |
+          打完文章段落之後按下 {{Enter}} 就可以換行。
+      incorrect  : |
+          打完文章段落之後按下{{回車}}就可以換行。

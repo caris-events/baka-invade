@@ -1,0 +1,21 @@
+#
+word      : 激活
+bopomofo  : ㄐㄧ ㄏㄨㄛˊ
+
+#
+description: |
+    讓某個項目開始動起來。
+
+#
+examples:
+    - words      : [打開]
+      correct    : |
+          你可以幫我{{打開}}那個開關嗎？
+      incorrect  : |
+          你可以幫我{{激活}}那個開關嗎？
+
+    - words      : [啟用]
+      correct    : |
+          系統過期了，我需要重新{{啟用}}授權。
+      incorrect  : |
+          系統過期了，我需要重新{{激活}}授權。

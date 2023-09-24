@@ -1,0 +1,21 @@
+#
+word      : 實打實
+bopomofo  : ㄕˊ ㄉㄚˇ ㄕˊ
+
+#
+description: |
+    強調非常地穩固且不易動搖。
+
+#
+examples:
+    - words      : [穩紮穩打]
+      correct    : |
+          這個政策非常地{{穩紮穩打}}，可以引領產業發展。
+      incorrect  : |
+          這個政策能引領產業{{實打實}}發展。
+
+    - words      : [實實在在]
+      correct    : |
+          他做人{{實實在在}}，非常可靠。
+      incorrect  : |
+          他做人{{實打實}}，非常可靠。

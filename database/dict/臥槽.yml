@@ -1,0 +1,15 @@
+#
+word      : 臥槽
+bopomofo  : ㄨㄛˋ ㄘㄠˋ
+
+#
+description: |
+    是「我糙」的髒話諧音，中國避免言論審查的詞彙。
+
+#
+examples:
+    - words      : [哇靠]
+      correct    : |
+          {{哇靠}}！他發票中了兩百萬台幣。
+      incorrect  : |
+          {{臥槽}}！他發票中了兩百萬台幣。

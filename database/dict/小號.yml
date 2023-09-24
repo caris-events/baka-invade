@@ -1,0 +1,19 @@
+#
+word      : 小號
+bopomofo  : ㄒㄧㄠˇ ㄏㄠˋ
+
+#
+description: |
+    在網路上額外建立的分身帳號，通常是用來規避別人認出自己。
+
+#
+distinguish: |
+    上廁所的行為或銅管樂器
+
+#
+examples:
+    - words      : [分身帳號]
+      correct    : |
+          這個網站禁止任何人建立{{分身帳號}}。
+      incorrect  : |
+          這個網站禁止任何人建立{{小號}}。

@@ -1,0 +1,29 @@
+#
+word      : 手辦
+bopomofo  : ㄕㄡˇ ㄅㄢˋ
+
+#
+examples:
+    - words      : [模型]
+      description: |
+          配件可以拆裝的塑膠模型。
+      correct    : |
+          我剛才去玩具店買了許多鋼彈{{模型}}。
+      incorrect  : |
+          我剛才去玩具店買了許多鋼彈{{手辦}}。
+
+    - words      : [公仔]
+      description: |
+          常見於動漫文化的人形模型。
+      correct    : |
+          超商集點贈送的{{公仔}}真是可愛。
+      incorrect  : |
+          超商集點贈送的{{手辦}}真是可愛。
+
+    - words      : [黏土人]
+      description: |
+          Q 版人物的模型，配件或臉部表情通常可以更換。
+      correct    : |
+          我在轉蛋裡轉到了一系列的黏土人。
+      incorrect  : |
+          我在轉蛋裡轉到了一系列的{{手辦}}。

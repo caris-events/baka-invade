@@ -1,0 +1,31 @@
+#
+word      : YYDS
+bopomofo  :
+
+#
+description: |
+    中國拼音簡寫，指「永遠的神」，通常表示某個東西讓人敬佩。其他衍生的解釋都是調侃、故意讓人混淆「YYDS」的原意。
+
+#
+examples:
+    - words      : [令人崇拜]
+      correct    : |
+          你的畫圖技巧太厲害了，真是{{令人崇拜}}。
+      incorrect  : |
+          你的畫圖技巧太厲害了，{{YYDS}}。
+
+    - words      : [意淫大師]
+      description: |
+          與「YYDS」是同個拼音簡寫，指某個人十分會幻想。
+      correct    : |
+          原來你的想像能力這麼厲害，真不愧是{{意淫大師}}！
+      incorrect  : |
+          原來你的想像能力這麼厲害，{{YYDS}}！
+
+    - words      : [永遠單身]
+      description: |
+          與「YYDS」是同個拼音簡寫，指某個人憑實力能夠永遠單身。
+      correct    : |
+          你竟然拒絕了她的邀請，我看你就{{永遠單身}}吧。
+      incorrect  : |
+          你竟然拒絕了她的邀請，只能說 {{YYDS}}。

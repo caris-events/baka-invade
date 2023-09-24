@@ -1,0 +1,17 @@
+#
+word      : 立馬
+bopomofo  : ㄌㄧˋ ㄇㄚˇ
+
+#
+examples:
+    - words      : [馬上]
+      correct    : |
+          等我一下，我{{馬上}}就把照片傳送給你。
+      incorrect  : |
+          等我一下，我{{立馬}}把照片傳送給你。
+
+    - words      : [立刻]
+      correct    : |
+          我{{立刻}}就去做。
+      incorrect  : |
+          我{{立馬}}去做。

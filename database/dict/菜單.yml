@@ -1,0 +1,19 @@
+#
+word      : 菜單
+bopomofo  : ㄘㄞˋ ㄉㄢ
+
+#
+description: |
+    含有一系列的功能選單。
+
+#
+distinguish: |
+    點餐時的菜餚選單
+
+#
+examples:
+    - words      : [選單]
+      correct    : |
+          進入設定{{選單}}就可以更改音量大小。
+      incorrect  : |
+          進入設置{{菜單}}就可以更改音量大小。

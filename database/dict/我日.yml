@@ -1,0 +1,15 @@
+#
+word      : 我日
+bopomofo  : ㄨㄛˇ ㄖˋ
+
+#
+description: |
+    是中國四川話「我糙」的髒話諧音。
+
+#
+examples:
+    - words      : [哇靠]
+      correct    : |
+          {{哇靠}}！他發票中了兩百萬台幣。
+      incorrect  : |
+          {{我日}}！他發票中了兩百萬台幣。

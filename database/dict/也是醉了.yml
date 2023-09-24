@@ -1,0 +1,25 @@
+#
+word      : 也是醉了
+bopomofo  : ㄧㄝˇ ㄕˋ ㄗㄨㄟˋ ㄌㄜ˙
+
+#
+distinguish: |
+    因為飲酒而醉倒
+
+#
+examples:
+    - words      : [沒救了]
+      description: |
+          用在自己身上時，表示感到無奈。
+      correct    : |
+          他一直不聽勸還說我在騙他，真的{{沒救了}}。
+      incorrect  : |
+          他一直不聽勸還說我在騙他，我{{也是醉了}}。
+
+    - words      : [無言]
+      description: |
+          因為某件事情太扯而啞口無言。
+      correct    : |
+          他剛才把哈密瓜當作朋友在聊天，有夠{{無言}}。
+      incorrect  : |
+          他剛才把哈密瓜當作朋友在聊天，{{也是醉了}}。
