@@ -1,0 +1,22 @@
+#
+code      : smilegate_stove
+grand_code: smilegate
+
+#
+fullname_zh:
+fullname_en: Stove
+subnames   :
+
+#
+categories: [EN, GA]
+type      : software
+owner     : foreign
+
+#
+website    : https://www.onstove.com/
+description: |
+    [[smilegate_stove]] 是韓國的獨立開發遊戲販售平台。
+
+#
+informations:
+
