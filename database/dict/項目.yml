@@ -1,0 +1,25 @@
+#
+word      : 項目
+bopomofo  : ㄒㄧㄤˋ ㄇㄨˋ
+
+#
+distinguish: |
+    販售的商品、菜單品項
+
+#
+examples:
+    - words      : [專案]
+      description: |
+          公司或是活動的一整個系列程序。
+      correct    : |
+          我們的公司有很多{{專案}}正在進行。
+      incorrect  : |
+          我們的公司有很多{{項目}}正在進行。
+
+    - words      : [選項]
+      description: |
+          可供使用者設定的細項。
+      correct    : |
+          這些系統{{選項}}都可以自行調整。
+      incorrect  : |
+          這些系統{{項目}}都可以自行調整。

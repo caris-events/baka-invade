@@ -1,0 +1,21 @@
+#
+word      : 無節操
+bopomofo  : ㄨˊ ㄐㄧㄝˊ ㄘㄠ
+
+#
+description: |
+    指某個人沒有道德、沒有做人的基本規則。
+
+#
+examples:
+    - words      : [不道德]
+      correct    : |
+          他的那些行為都很{{不道德}}。
+      incorrect  : |
+          他的那些行為都很{{沒節操}}。
+
+    - words      : [不堪入目]
+      correct    : |
+          這個人的行為都很{{不堪入目}}。
+      incorrect  : |
+          這個人的{{節操真的是掉了一地}}。

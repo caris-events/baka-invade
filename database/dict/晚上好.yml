@@ -1,0 +1,15 @@
+#
+word      : 晚上好
+bopomofo  : ㄨㄢˇ ㄕㄤˋ ㄏㄠˇ
+
+#
+description: |
+    在晚上的時候與他人問候、打招呼。
+
+#
+examples:
+    - words      : [晚安]
+      correct    : |
+          {{晚安}}，你是出來倒垃圾的嗎？
+      incorrect  : |
+          {{晚上好}}，你是出來倒垃圾的嗎？

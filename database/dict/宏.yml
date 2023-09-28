@@ -1,0 +1,15 @@
+#
+word      : 宏
+bopomofo  : ㄏㄨㄥˊ
+
+#
+description: |
+    電腦裡能夠批次處理資料的程式碼（Macro）。因為一段指令就可以做很多事，在中國被稱為「宏」，有宏大、很大的意思。
+
+#
+examples:
+    - words      : [巨集]
+      correct    : |
+          Office 辦公軟體裡的{{巨集}}指令可以一次彙總所有資料的總金額。
+      incorrect  : |
+          Office 辦公軟體裡的{{宏}}可以一次彙總所有資料的總金額。

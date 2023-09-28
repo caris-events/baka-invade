@@ -1,0 +1,15 @@
+#
+word      : 早上好
+bopomofo  : ㄗㄠˇ ㄕㄤˋ ㄏㄠˇ
+
+#
+description: |
+    在早上的時候與他人問候、打招呼。
+
+#
+examples:
+    - words      : [早安]
+      correct    : |
+          {{早安}}，今天也要上班嗎？
+      incorrect  : |
+          {{早上好}}，今天也要上班嗎？

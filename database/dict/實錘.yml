@@ -1,0 +1,15 @@
+#
+word      : 實錘
+bopomofo  : ㄕˊ ㄔㄨㄟˊ
+
+#
+description: |
+    某件事情被強而有力的證據說服，一錘定音。
+
+#
+examples:
+    - words      : [證實, 證明]
+      correct    : |
+          我能{{證實}}他有偷竊行為，我親眼看見了！
+      incorrect  : |
+          {{實錘}}他的偷竊行為，都親眼看見了！
