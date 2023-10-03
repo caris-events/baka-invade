@@ -1,0 +1,19 @@
+#
+word      : 佈局
+bopomofo  : ㄅㄨˋ ㄐㄩˊ
+
+#
+description: |
+    形容視覺排版或是建築上的結構設計。
+
+#
+distinguish: |
+    安排行程的「布局」動詞
+
+#
+examples:
+    - words      : [格局]
+      correct    : |
+          這棟建築的室內{{格局}}十分適合全家大小一同生活。
+      incorrect  : |
+          這棟建築的室內{{佈局}}十分適合全家大小一同生活。

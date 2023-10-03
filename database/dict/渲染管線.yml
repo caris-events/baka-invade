@@ -1,0 +1,17 @@
+#
+word      : 渲染管線
+bopomofo  : ㄒㄩㄢˋ ㄖㄢˇ ㄍㄨㄢˇ ㄒㄧㄢˋ
+
+#
+description: |
+    指英文的 Rendering Pipeline，是電腦軟體在繪製圖形時的一種方式、風格。
+
+#
+examples:
+    - words      : [彩現方式]
+      description: |
+          彩現是台灣早期 3D 產業出現時就開始使用的詞彙。
+      correct    : |
+          卡通{{彩現方式}}能夠去複雜化，使角色在遊戲裡看起來更簡單、活潑。
+      incorrect  : |
+          卡通{{渲染管線}}能夠去複雜化，使角色在遊戲裡看起來更簡單、活潑。
