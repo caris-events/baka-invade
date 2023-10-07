@@ -1,0 +1,25 @@
+#
+word      : 默認
+bopomofo  : ㄇㄛˋ ㄖㄣˋ
+
+#
+description: |
+    某個東西最初的模樣。
+
+#
+distinguish: |
+    在精神或心理層面上的認可
+
+#
+examples:
+    - words      : [預設]
+      correct    : |
+          這個瀏覽器{{預設}}的搜尋引擎是 Google。
+      incorrect  : |
+          這個瀏覽器{{默認}}的搜尋引擎是 Google。
+
+    - words      : [原本]
+      correct    : |
+          那個開關{{原本}}就是打開的，可別關掉了。
+      incorrect  : |
+          那個開關{{默認}}就是[[激活]]的，可別關掉了。

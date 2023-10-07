@@ -1,0 +1,21 @@
+#
+word      : 高端
+bopomofo  : ㄍㄠ ㄉㄨㄢ
+
+#
+description: |
+    指高級、上等的事物。
+
+#
+examples:
+    - words      : [高級]
+      correct    : |
+          這間餐廳的菜餚都非常的{{高級}}。
+      incorrect  : |
+          這間餐廳的菜餚都非常的{{高端}}。
+
+    - words      : [高階]
+      correct    : |
+          {{高階}}旗艦手機的效能較高，能夠順暢地遊玩遊戲。
+      incorrect  : |
+          {{高端}}旗艦手機的性能較高，能夠順暢地遊玩遊戲。

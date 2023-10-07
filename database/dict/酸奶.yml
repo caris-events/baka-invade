@@ -1,0 +1,15 @@
+#
+word      : 酸奶
+bopomofo  : ㄙㄨㄢ ㄋㄞˇ
+
+#
+description: |
+    由動物乳汁經乳酸菌發酵而產生。
+
+#
+examples:
+    - words      : [優格]
+      correct    : |
+          超市賣的{{優格}}吃起來酸酸甜甜的。
+      incorrect  : |
+          超市賣的{{酸奶}}吃起來酸酸甜甜的。

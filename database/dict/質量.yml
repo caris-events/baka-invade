@@ -1,0 +1,19 @@
+#
+word      : 質量
+bopomofo  : ㄓˋ ㄌㄧㄤˋ
+
+#
+description: |
+    形容一個東西的內容含量十分充足、高品質。
+
+#
+distinguish: |
+    科學或物理上的密度形容詞
+
+#
+examples:
+    - words      : [品質]
+      correct    : |
+          這個影片的內容{{品質}}非常高，讓我十分有收穫。
+      incorrect  : |
+          這個[[視頻]]的{{質量}}非常高，讓我十分有收穫。
