@@ -1,0 +1,31 @@
+#
+code      : midea_kuka
+grand_code: midea
+
+#
+fullname_zh: 庫卡
+fullname_en: KUKA AG
+subnames   : [KUKA Robotics]
+
+#
+categories: [EA, IT, PP]
+type      : company
+owner     : foreign
+
+#
+website    : https://www.kuka.com/
+description: |
+    [[midea_kuka]] 是德國的自動化生產機器人公司。
+
+#
+informations:
+    - date       : 2016-07-04
+      income     : chinese_shareholder
+      description: |
+          [[midea_kuka]] 被中國 [[midea]] 收購，[[midea_kuka]] 執行長《Till Reuter》表示將儘速打造中國機器人市場龍頭做為企業之首項目標。
+
+    - date       : 2023
+      direction  : chinese
+      invasion   : support
+      description: |
+          [[midea_kuka]] 的官方網站明確表示台灣屬於中國且語系跟地址皆標註為「中國台灣」。

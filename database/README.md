@@ -53,7 +53,7 @@ informations:
 
       # 收入來源變更（可選）：
       # 中國政府：chinese_gov（由中國政府直接營運或管控）
-      # 中國股東：chinese_shareholder（控制公司、組織的股份是中國人，且已經過中國相關法律核准）
+      # 中國股東：chinese_shareholder（控制公司、組織的股份是中國人且已經過中國相關法律核准）
       # 中國市場：chinese（大多數的收入來源在中國、中國被視為不可放棄的市場）
       # 不再追蹤：untracked（收入來源已經不在中國）
       income: chinese_shareholder
