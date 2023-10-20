@@ -4,9 +4,9 @@ go 1.20
 
 require (
 	github.com/caris-events/gg v0.0.0-20230813142135-c8e9c10fd21b
-	github.com/caris-events/sitemap-generator v0.0.0-20230911005038-f163ad2ca121
 	github.com/otiai10/copy v1.12.0
 	github.com/russross/blackfriday/v2 v2.1.0
+	github.com/sabloger/sitemap-generator v1.2.2
 	github.com/samber/lo v1.38.1
 	github.com/tdewolff/minify v2.3.6+incompatible
 	github.com/urfave/cli/v2 v2.25.7
