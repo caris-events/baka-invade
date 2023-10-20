@@ -1,0 +1,37 @@
+#
+code      : mchotdog
+grand_code:
+
+#
+fullname_zh: 熱狗
+fullname_en: MC HotDog
+subnames   : [姚中仁]
+
+#
+categories: [EN]
+type      : person
+owner     : taiwanese
+
+#
+website    : https://www.facebook.com/mchotdogmusic
+description: |
+    [[mchotdog]] 出生於台灣台北，是台灣早期的饒舌歌手之一，曾被譽為「台灣地下饒舌第一人」。
+
+#
+informations:
+    - date       : 2015-08-10
+      description: |
+          《中國文化部》宣佈 [[mchotdog]] 的歌曲《我愛台妹》列入中國音樂黑名單，不得播放。
+
+    - date       : 2017
+      income     : chinese
+      invasion   : indirect
+      description: |
+          [[mchotdog]] 擔任《中國有嘻哈》明星製作人兼評審並正式進軍中國娛樂圈。
+
+    - date       : 2023-03-20
+      income     : chinese
+      direction  : chinese
+      invasion   : indirect
+      description: |
+          [[mchotdog]] 參加《中國說唱巔峰對決 2023》並將歌曲《九局下半》的歌詞從「我也想宣佈獨立」修改為「我也想宣佈勝利」以符合中國政府規定。
