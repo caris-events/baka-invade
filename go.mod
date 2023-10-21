@@ -1,4 +1,4 @@
-module github.com/spring-2024/baka-invade
+module github.com/caris-events/baka-invade
 
 go 1.20
 
