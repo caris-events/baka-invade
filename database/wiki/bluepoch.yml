@@ -1,0 +1,26 @@
+#
+code      : bluepoch
+grand_code:
+
+#
+fullname_zh: 深藍互動
+fullname_en: Bluepoch
+subnames   : [廣州深藍互動網路]
+
+#
+categories: [GA]
+type      : company
+owner     : chinese
+
+#
+website    : https://www.bluepoch.com/
+description: |
+    [[bluepoch]] 是中國廣州的一家遊戲開發公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[bluepoch]] 的創辦人是中國商人《周劍》，原為 [[baitian_koimi]] 的主要負責人；目前公司最大的股東是 [[tencent]]。

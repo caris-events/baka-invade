@@ -1,0 +1,21 @@
+#
+code      : bluepoch_re1999
+grand_code: bluepoch
+
+#
+fullname_zh: 重返未來：1999
+fullname_en: "Reverse: 1999"
+subnames   : [Re 1999]
+
+#
+categories: [GA]
+type      : game
+owner     : chinese
+
+#
+website    : https://re1999.movergames.com/
+description: |
+    [[bluepoch_re1999]] 是 [[bluepoch]] 在 2023 年開發的角色扮演遊戲，也是 [[bluepoch]] 的首款產品。在台灣由 [[tencent_movergames]] 代理。
+
+#
+informations:

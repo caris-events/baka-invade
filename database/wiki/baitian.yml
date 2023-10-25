@@ -1,0 +1,26 @@
+#
+code      : baitian
+grand_code:
+
+#
+fullname_zh: 百奧家庭互動
+fullname_en: Baitian
+subnames   : [廣州百田]
+
+#
+categories: [GA]
+type      : company
+owner     : chinese
+
+#
+website    : http://www.baitianinfo.com/
+description: |
+    [[baitian]] 是中國廣州的一家遊戲開發公司。
+
+#
+informations:
+    - income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[baitian]] 的創辦人是中國商人《戴堅》，公司的最大股東是 [[tencent]]。

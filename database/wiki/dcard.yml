@@ -1,0 +1,32 @@
+#
+code: dcard
+grand_code:
+
+#
+fullname_zh:
+fullname_en: Dcard
+subnames: [狄卡科技, 低能卡]
+
+#
+categories: [AP, ME]
+type: company
+owner: taiwanese
+
+#
+website: https://www.dcard.tw/
+description: |
+    [[dcard]] 是台灣的社群論壇網站，在 2021 年後開放學生以外的所有人註冊。平台的政治立場傾向 [[tpp]] 與 [[kmt]]。
+
+#
+informations:
+    - date       : 2022-07-04
+      description: |
+          [[dcard]] 的《中山醫學大學》學生表示 [[dcard]] 的活躍使用者多來自中國學校（如：《廣州暨南大學》、《中國礦業大學》、《山東師範大學》）且經常發表假中立的造謠、引戰言論，檢舉後卻不被受理。
+
+    - date       : 2023-05-17
+      description: |
+          [[dcard]] 的總統候選人調查中（共 21,450 票），約 79% 的人支持 [[tpp_kowenje]]，另外 13% 選擇了 [[tpp_kowenje]]，剩餘的 8% 則選擇 [[kmt_houyuih]]。
+
+    - date       : 2023-10-25
+      description: |
+          [[dcard]] 的時事 / 社會討論板有超過 80% 的貼文政治立場傾向 [[tpp]]。全平台的「社會議題創作者排行榜」中，超過 70% 的政治立場傾向 [[tpp]] 與 [[kmt]]；發表有關 [[dpp]] 的澄清、正面貼文都會被稱是「側翼網軍」。

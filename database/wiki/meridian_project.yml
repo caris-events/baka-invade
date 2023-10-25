@@ -1,0 +1,25 @@
+#
+code      : meridian_project
+grand_code:
+
+#
+fullname_zh: 子午計畫
+fullname_en: Meridian Project
+subnames   : [子午]
+
+#
+categories: [EN]
+type      : brand
+owner     : taiwanese
+
+#
+website    : https://www.meridianproject.tw/
+description: |
+    [[meridian_project]] 是自 2022 年成立的台灣虛擬實況主工作室。
+
+#
+informations:
+    - date       : 2023-09-22
+      invasion   : indirect
+      description: |
+          [[meridian_project]] 的旗下藝人《汐 Seki》接受 [[tencent_movergames]] 的利益合作，宣傳與直播 [[bluepoch_re1999]]。

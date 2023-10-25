@@ -1,0 +1,27 @@
+#
+code      : baitian_koimi
+grand_code: baitian_172tt
+
+#
+fullname_zh: 箜羽工作室
+fullname_en: Koimi
+subnames   : [光核工作室]
+
+#
+categories: [GA]
+type      : brand
+owner     : chinese
+
+#
+website    : https://weibo.com/u/7754127341
+description: |
+    [[baitian_koimi]] 是中國廣州的一家遊戲開發工作室。
+
+#
+informations:
+    - date       : 2023
+      income     : chinese_shareholder
+      direction  : chinese_gov
+      invasion   : support
+      description: |
+          [[baitian_koimi]] 的主要負責人是中國商人《周劍》，但已離職並自行成立了 [[bluepoch]]。
