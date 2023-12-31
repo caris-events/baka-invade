@@ -1,0 +1,15 @@
+#
+word      : 激活碼
+bopomofo  : ㄐㄧ ㄏㄨㄛˊ ㄇㄚˇ
+
+#
+description: |
+    指啟動某些程序所需要的序號。
+
+#
+examples:
+    - words      : [啟動序號]
+      correct    : |
+          這個程式需要{{啟動序號}}才能使用。
+      incorrect  : |
+          這個[[程序]]需要{{激活碼}}才能使用。

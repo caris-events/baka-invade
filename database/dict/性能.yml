@@ -1,0 +1,17 @@
+#
+word      : 性能
+bopomofo  : ㄒㄧㄥˋ ㄋㄥˊ
+
+#
+distinguish: |
+    汽、機車在動力上的速度與效率
+
+#
+examples:
+    - words      : [效能]
+      description: |
+          電腦硬體速度通常以「效能（Performance）」來形容。
+      correct    : |
+          新款的 CPU 晶片{{效能}}提昇 50%，影片轉檔能有更好的效率。
+      incorrect  : |
+          新款的 CPU [[芯片]]{{性能}}提昇 50%，影片轉檔能有更好的效率。

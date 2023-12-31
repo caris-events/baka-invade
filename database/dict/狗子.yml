@@ -1,0 +1,21 @@
+#
+word      : 狗子
+bopomofo  : ㄍㄡˇ ㄗ˙
+
+#
+description: |
+    指醜小孩或以畜生形容某個生物。
+
+#
+examples:
+    - words      : [狗]
+      correct    : |
+          我家養的{{狗}}很可愛。
+      incorrect  : |
+          我家養的{{狗子}}很可愛。
+
+    - words      : [朋友]
+      correct    : |
+          {{朋友}}，你變了。
+      incorrect  : |
+          {{狗子}}，你變了。

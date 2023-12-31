@@ -1,0 +1,15 @@
+#
+word      : 我司
+bopomofo  : ㄨㄛˇ ㄙ
+
+#
+description: |
+    指「我們公司」，是中國往來時雙方經常使用的詞彙。
+
+#
+examples:
+    - words      : [本公司]
+      correct    : |
+          {{本公司}}將於明年推出新產品。
+      incorrect  : |
+          {{我司}}將於明年推出新產品。

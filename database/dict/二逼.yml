@@ -1,0 +1,15 @@
+#
+word      : 二逼
+bopomofo  : ㄦˋ ㄅㄧ
+
+#
+description: |
+    是中國的低俗詞彙，指一個人很蠢、很傻的樣子，又做：2B。
+
+#
+examples:
+    - words      : [蠢蛋]
+      correct    : |
+          他連茶都不知道怎麼泡，真是個{{蠢蛋}}。
+      incorrect  : |
+          他連茶都不知道怎麼泡，真是個{{二逼}}。

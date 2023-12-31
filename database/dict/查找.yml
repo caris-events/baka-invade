@@ -1,0 +1,21 @@
+#
+word      : 查找
+bopomofo  : ㄔㄚˊ ㄓㄠˇ
+
+#
+description: |
+    搜尋、查詢。
+
+#
+examples:
+    - words      : [搜尋]
+      correct    : |
+          我幫你{{搜尋}}一下相關資料。
+      incorrect  : |
+          我幫你{{查找}}一下相關資料。
+
+    - words      : [尋找]
+      correct    : |
+          使用者可以透過關鍵字{{尋找}}相關資料。
+      incorrect  : |
+          使用者可以透過關鍵字{{查找}}相關資料。

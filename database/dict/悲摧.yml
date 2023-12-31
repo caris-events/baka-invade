@@ -1,0 +1,21 @@
+#
+word      : 悲摧
+bopomofo  : ㄅㄟ ㄘㄨㄟ
+
+#
+description: |
+    形容某個東西過於負面而讓人感傷。
+
+#
+examples:
+    - words      : [催淚]
+      correct    : |
+          這部電影真是太{{催淚}}了。
+      incorrect  : |
+          這部電影真是太{{悲摧}}了。
+
+    - words      : [悲傷, 悲慘]
+      correct    : |
+          他的人生真是太{{悲傷}}了。
+      incorrect  : |
+          他的人生真是太{{悲摧}}了。

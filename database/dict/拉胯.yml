@@ -1,0 +1,21 @@
+#
+word      : 拉胯
+bopomofo  : ㄌㄚ ㄎㄨㄚˇ
+
+#
+description: |
+    形容某個東西被拖累、變得很糟糕。
+
+#
+examples:
+    - words      : [糟糕]
+      correct    : |
+          他遊戲玩的很{{糟糕}}。
+      incorrect  : |
+          他遊戲玩的很{{拉胯}}。
+
+    - words      : [不理想]
+      correct    : |
+          這隻手機什麼都好，就是電池續航力{{不理想}}。
+      incorrect  : |
+          這隻手機什麼都好，就是電池續航力十分{{拉胯}}。

@@ -1,0 +1,21 @@
+#
+word      : 硬傷
+bopomofo  : ㄧㄥˋ ㄕㄤ
+
+#
+description: |
+    指某個事物的先天缺陷或是不可忽視的缺點。
+
+#
+examples:
+    - words      : [致命傷]
+      correct    : |
+          這個相機的{{致命傷}}是電池容量太小。
+      incorrect  : |
+          這個相機的{{硬傷}}是電池容量太小。
+
+    - words      : [痛點]
+      correct    : |
+          這款產品最大的{{痛點}}是價格太高。
+      incorrect  : |
+          這款產品最大的{{硬傷}}是價格太高。

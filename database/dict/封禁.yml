@@ -1,0 +1,15 @@
+#
+word      : 封禁
+bopomofo  : ㄈㄥ ㄐㄧㄣˋ
+
+#
+description: |
+    封鎖、禁止。
+
+#
+examples:
+    - words      : [封鎖]
+      correct    : |
+          我的帳號被{{封鎖}}而無法使用了。
+      incorrect  : |
+          我的帳號被{{封禁}}而無法使用了。

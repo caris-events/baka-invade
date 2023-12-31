@@ -1,0 +1,21 @@
+#
+word      : 自定義
+bopomofo  : ㄗˋ ㄉㄧㄥˋ ㄧˋ
+
+#
+description: |
+    可以供他人自行定義的事物。
+
+#
+examples:
+    - words      : [自訂]
+      correct    : |
+          這個軟體可以{{自訂}}快捷鍵。
+      incorrect  : |
+          這個軟體可以{{自定義}}快捷鍵。
+
+    - words      : [客製化]
+      correct    : |
+          這間工廠可以生產{{客製化}}產品。
+      incorrect  : |
+          這間工廠可以生產{{自定義}}產品。

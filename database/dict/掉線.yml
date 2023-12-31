@@ -1,0 +1,29 @@
+#
+word      : 掉線
+bopomofo  : ㄉㄧㄠˋ ㄒㄧㄢˋ
+
+#
+examples:
+    - words      : [斷線]
+      description: |
+          指網路斷線。
+      correct    : |
+          我打遊戲打到一半突然{{斷線}}了。
+      incorrect  : |
+          我打遊戲打到一半突然{{掉線}}了。
+
+    - words      : [分心, 分神, 神情恍惚]
+      description: |
+          形容某個人因分心而忽略了某件事。
+      correct    : |
+          對不起，我{{分心}}了。你剛剛說了什麼？
+      incorrect  : |
+          對不起，我{{掉線}}了。你剛剛說了什麼？
+
+    - words      : [智商太低]
+      description: |
+          通常表示某個人太笨、智商過低。
+      correct    : |
+          他的{{智商太低}}了才會做出那種事。
+      incorrect  : |
+          他的{{智商掉線}}了才會做出那種事。

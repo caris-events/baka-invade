@@ -1,0 +1,21 @@
+#
+word      : 紋理
+bopomofo  : ㄨㄣˊ ㄌㄧˇ
+
+#
+examples:
+    - words      : [紋路, 紋樣, 花樣]
+      description: |
+          指某個物體的紋路、紋樣。
+      correct    : |
+          這個玻璃的{{紋路}}有許多花朵點綴，十分漂亮。
+      incorrect  : |
+          這個玻璃的{{紋理}}有許多花朵點綴，十分漂亮。
+
+    - words      : [材質]
+      description: |
+          通常指 3D 軟體的 Texture，用來描述物體的材質。
+      correct    : |
+          這個 3D 物件的{{材質}}是會反光的金屬面板。
+      incorrect  : |
+          這個 3D 物件的{{紋理}}是會反光的金屬面板。

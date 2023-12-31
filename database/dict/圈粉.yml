@@ -1,0 +1,15 @@
+#
+word      : 圈粉
+bopomofo  : ㄑㄩㄢ ㄈㄣˇ
+
+#
+description: |
+    指某個知名人士或事物吸引了大量粉絲。
+
+#
+examples:
+    - words      : [粉絲, 支持者]
+      correct    : |
+          他的談吐很有水準，{{粉絲}}也越來越多。
+      incorrect  : |
+          他的談吐很有水準，大家都被他{{圈粉}}。

@@ -1,0 +1,15 @@
+#
+word      : 充值
+bopomofo  : ㄔㄨㄥ ㄓˊ
+
+#
+description: |
+    將錢、點數儲入帳戶供之後使用。
+
+#
+examples:
+    - words      : [儲值]
+      correct    : |
+          乘坐捷運站需要先將現金{{儲值}}到悠遊卡中。
+      incorrect  : |
+          乘坐捷運站需要先將現金{{充值}}到悠遊卡中。
